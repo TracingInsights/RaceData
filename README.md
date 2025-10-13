@@ -12,7 +12,7 @@ This repository automatically downloads and maintains up-to-date Formula 1 race 
 
 **Automated Updates**: within 3 hours of the end of the race via GitHub Actions
 
-
+Latest .zip file at https://github.com/TracingInsights/RaceData/releases/latest/download/data.zip
 
 ## 📦 What's Included
 
