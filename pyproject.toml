@@ -1,0 +1,9 @@
+[project]
+name = "racedata"
+version = "0.1.0"
+description = "This dataset contains data from 1950 all the way through the current season, and consists of tables describing constructors, race drivers, lap times, pit stops and more."
+readme = "README.md"
+requires-python = "==3.11.14"
+dependencies = [
+    "kagglehub==0.3.13",
+]
