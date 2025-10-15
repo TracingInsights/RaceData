@@ -14,6 +14,8 @@ This repository automatically downloads and maintains up-to-date Formula 1 race 
 
 Latest .zip file at https://github.com/TracingInsights/RaceData/releases/latest/download/data.zip
 
+Also available on HuggingFace Datasets at https://huggingface.co/datasets/tracinginsights/RaceData
+
 ## 📦 What's Included
 
 - **data/**: All dataset files from Kaggle
