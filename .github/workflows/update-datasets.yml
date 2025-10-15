@@ -47,6 +47,8 @@ jobs:
       - name: Download datasets and create zip
         run: |
           uv run python download_datasets.py
+        env:
+          COMMIT_DATE: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
       - name: Check for changes
         id: check_changes
@@ -61,6 +63,15 @@ jobs:
             # Also add the zip file if data changed
             git add data.zip
           fi
+
+      - name: Upload to HuggingFace Datasets
+        if: steps.check_changes.outputs.changes == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_REPO_ID: "tracinginsights/test"
+          COMMIT_DATE: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        run: |
+          uv run python upload_to_hf.py
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
@@ -86,7 +97,7 @@ jobs:
           # Generate tag name based on current date
           TAG_NAME="data-$(date -u +%Y-%m-%d)"
           RELEASE_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          
+
           # Create release with the zip file
           gh release create "$TAG_NAME" \
             --title "F1 Dataset - $TAG_NAME" \

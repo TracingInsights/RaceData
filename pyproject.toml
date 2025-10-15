@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = "==3.11.14"
 dependencies = [
     "kagglehub==0.3.13",
+    "huggingface-hub==0.35.3",
 ]
