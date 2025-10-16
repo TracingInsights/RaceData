@@ -1,0 +1,19 @@
+abstract: This dataset contains data from 1950 all the way through the current season,
+  and consists of tables describing constructors, race drivers, lap times, pit stops
+  and more.
+authors:
+- affiliation: TracingInsights
+  family-names: Tracing Insights
+cff-version: 1.2.0
+date-released: '2025-10-16'
+doi: 10.5281/zenodo.17364985
+identifiers:
+- type: swh
+  value: swh:1:dir:2e41a5647d20f090853a11e1fd12a97274f4bb64;origin=https://doi.org/10.5281/zenodo.17364984;visit=swh:1:snp:db2960c24977c40b8d3c692071bee6ffa90befff;anchor=swh:1:rel:3dab8491eed54cdbc105be13d699deb98b2877d4;path=TracingInsights-RaceData-ba16cd2
+license:
+- cc0-1.0
+message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/TracingInsights/RaceData/tree/SINGP
+title: 'TracingInsights/RaceData: 2025 SINGP'
+type: software
+version: SINGP

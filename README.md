@@ -52,7 +52,7 @@
 <a href="https://www.linkedin.com/company/tracinginsights" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn Follow">
 </a>
-<!-- <a href="https://doi.org/10.5281/zenodo.17312802"><img src="https://zenodo.org/badge/927761260.svg" alt="DOI"></a> -->
+<a href="https://doi.org/10.5281/zenodo.17364984"><img src="https://zenodo.org/badge/1075577975.svg" alt="DOI"></a>
 </p>
 
 # Formula 1 Race Data Archive
@@ -404,6 +404,8 @@ If you have any feedback, please reach out to us at [https://tracinginsights.com
 
 ## Credits
 *   [Ergast/Jolpica](https://github.com/jolpica/jolpica-f1)
+*   [jtrotman/formula-1-race-data](https://www.kaggle.com/datasets/jtrotman/formula-1-race-data)
+*   [jtrotman/formula-1-race-events](https://www.kaggle.com/datasets/jtrotman/formula-1-race-events)
 
 ## License
 [CC0 1.0 Universal license](https://github.com/TracingInsights/RaceData/blob/main/LICENSE.md)
