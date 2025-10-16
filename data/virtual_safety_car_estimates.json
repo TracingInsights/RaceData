@@ -1,0 +1,360 @@
+{
+    "2015 Belgian Grand Prix": [
+        20,
+        21
+    ],
+    "2015 British Grand Prix": [
+        32,
+        33,
+        34
+    ],
+    "2015 Hungarian Grand Prix": [
+        41,
+        42
+    ],
+    "2015 Monaco Grand Prix": [
+        62,
+        63,
+        64
+    ],
+    "2015 Singapore Grand Prix": [
+        13,
+        14,
+        36
+    ],
+    "2016 British Grand Prix": [
+        17,
+        18
+    ],
+    "2016 Monaco Grand Prix": [
+        30,
+        31,
+        34,
+        35,
+        49,
+        50,
+        66,
+        67,
+        68
+    ],
+    "2016 United States Grand Prix": [
+        29,
+        30,
+        31
+    ],
+    "2017 Canadian Grand Prix": [
+        10,
+        11,
+        12,
+        13
+    ],
+    "2017 Mexican Grand Prix": [
+        31,
+        32
+    ],
+    "2017 Spanish Grand Prix": [
+        32,
+        33,
+        34,
+        35,
+        36
+    ],
+    "2017 Japanese Grand Prix": [
+        8,
+        9,
+        46,
+        47,
+        48
+    ],
+    "2018 Australian Grand Prix": [
+        24,
+        25,
+        26
+    ],
+    "2018 Austrian Grand Prix": [
+        14,
+        15
+    ],
+    "2018 Bahrain Grand Prix": [
+        2,
+        3
+    ],
+    "2018 French Grand Prix": [
+        50,
+        51
+    ],
+    "2018 Hungarian Grand Prix": [
+        5,
+        6,
+        49,
+        50,
+        51
+    ],
+    "2018 Monaco Grand Prix": [
+        71,
+        72,
+        73
+    ],
+    "2018 Spanish Grand Prix": [
+        39,
+        40,
+        41
+    ],
+    "2019 Azerbaijan Grand Prix": [
+        38,
+        39,
+        40
+    ],
+    "2019 French Grand Prix": [
+        48,
+        49
+    ],
+    "2019 German Grand Prix": [
+        14,
+        15
+    ],
+    "2019 Italian Grand Prix": [
+        27,
+        28,
+        29,
+        30
+    ],
+    "2019 Russian Grand Prix": [
+        26,
+        27
+    ],
+    "2019 Mexican Grand Prix": [
+        1,
+        2
+    ],
+    "2020 Russian Grand Prix": [
+        41,
+        42
+    ],
+    "2020 Sakhir Grand Prix": [
+        53,
+        54,
+        55
+    ],
+    "2020 Turkish Grand Prix": [
+        12,
+        13
+    ],
+    "2021 Abu Dhabi Grand Prix": [
+        34,
+        35,
+        36
+    ],
+    "2021 Saudi Arabian Grand Prix": [
+        22,
+        23,
+        26,
+        27,
+        34,
+        35
+    ],
+    "2016 Malaysian Grand Prix": [
+        8,
+        9,
+        39,
+        40,
+        41
+    ],
+    "2018 Japanese Grand Prix": [
+        39,
+        40
+    ],
+    "2018 United States Grand Prix": [
+        9,
+        10,
+        11
+    ],
+    "2018 Mexican Grand Prix": [
+        29,
+        30,
+        31,
+        59,
+        60,
+        61,
+        62
+    ],
+    "2021 Qatar Grand Prix": [
+        53,
+        54,
+        55
+    ],
+    "2021 United States Grand Prix": [
+        26,
+        27
+    ],
+    "2022 Saudi Arabian Grand Prix": [
+        37,
+        38,
+        39
+    ],
+    "2022 Australian Grand Prix": [
+        22,
+        38,
+        39
+    ],
+    "2022 Miami Grand Prix": [
+        39
+    ],
+    "2022 Monaco Grand Prix": [
+        25
+    ],
+    "2022 Azerbaijan Grand Prix": [
+        8,
+        9,
+        32,
+        33,
+        34
+    ],
+    "2022 Canadian Grand Prix": [
+        8,
+        9,
+        18,
+        19
+    ],
+    "2022 Austrian Grand Prix": [
+        56,
+        57,
+        58
+    ],
+    "2022 French Grand Prix": [
+        48,
+        49
+    ],
+    "2022 Hungarian Grand Prix": [
+        0,
+        1,
+        66,
+        67,
+        68
+    ],
+    "2022 Dutch Grand Prix": [
+        46,
+        47,
+        48
+    ],
+    "2022 Italian Grand Prix": [
+        12
+    ],
+    "2022 Singapore Grand Prix": [
+        20,
+        21,
+        25,
+        26,
+        27,
+        28,
+        29
+    ],
+    "2022 Mexico City Grand Prix": [
+        63,
+        64
+    ],
+    "2022 Brazilian Grand Prix": [
+        51,
+        52,
+        53
+    ],
+    "2023 Bahrain Grand Prix": [
+        39,
+        40
+    ],
+    "2023 Australian Grand Prix": [
+        17,
+        18
+    ],
+    "2023 Canadian Grand Prix": [
+        6,
+        7
+    ],
+    "2023 Austrian Grand Prix": [
+        13,
+        14,
+        15
+    ],
+    "2023 British Grand Prix": [
+        31
+    ],
+    "2023 Dutch Grand Prix": [
+        15
+    ],
+    "2023 Singapore Grand Prix": [
+        42,
+        43,
+        44
+    ],
+    "2023 Japanese Grand Prix": [
+        12,
+        13
+    ],
+    "2023 Mexico City Grand Prix": [
+        4,
+        5
+    ],
+    "2023 Las Vegas Grand Prix": [
+        1,
+        2
+    ],
+    "2024 Australian Grand Prix": [
+        16,
+        17,
+        57
+    ],
+    "2024 Chinese Grand Prix": [
+        20,
+        21,
+        22
+    ],
+    "2024 Miami Grand Prix": [
+        21,
+        22
+    ],
+    "2024 Austrian Grand Prix": [
+        64,
+        65
+    ],
+    "2024 Azerbaijan Grand Prix": [
+        49,
+        50
+    ],
+    "2024 São Paulo Grand Prix": [
+        26,
+        27
+    ],
+    "2024 Abu Dhabi Grand Prix": [
+        1,
+        2
+    ],
+    "2025 Miami Grand Prix": [
+        1,
+        2,
+        27,
+        28,
+        29,
+        32,
+        33
+    ],
+    "2025 Emilia Romagna Grand Prix": [
+        28,
+        29,
+        30
+    ],
+    "2025 Monaco Grand Prix": [
+        1,
+        2,
+        3
+    ],
+    "2025 British Grand Prix": [
+        1,
+        2,
+        4,
+        5
+    ],
+    "2025 Dutch Grand Prix": [
+        30,
+        31
+    ]
+}

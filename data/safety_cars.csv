@@ -1,0 +1,363 @@
+Race,Cause,Deployed,Retreated,FullLaps
+1973 Canadian Grand Prix,Accident,33,39.0,5
+1993 Brazilian Grand Prix,Accident/Rain,29,38.0,8
+1993 British Grand Prix,Stranded car,38,40.0,1
+1994 San Marino Grand Prix,Accident,1,6.0,4
+1995 Belgian Grand Prix,Rain,28,33.0,4
+1996 Argentine Grand Prix,Accident,28,33.0,4
+1996 Belgian Grand Prix,Accident,13,18.0,4
+1997 Argentine Grand Prix,Accident,1,5.0,4
+1997 Belgian Grand Prix,Rain,1,4.0,3
+1998 Canadian Grand Prix,Accident,1,6.0,4
+1998 Canadian Grand Prix,Debris,15,18.0,2
+1998 Canadian Grand Prix,Accident,20,23.0,2
+1998 British Grand Prix,Rain,42,49.0,6
+1998 Austrian Grand Prix,Two accidents,1,4.0,2
+1998 Belgian Grand Prix,Accident,28,33.0,4
+1999 Australian Grand Prix,Accident,15,18.0,2
+1999 Australian Grand Prix,Accident,22,26.0,4
+1999 Canadian Grand Prix,Accident,1,3.0,1
+1999 Canadian Grand Prix,Accident,3,8.0,4
+1999 Canadian Grand Prix,Accident,35,41.0,5
+1999 Canadian Grand Prix,Accident,66,,3
+1999 French Grand Prix,Stranded car/Rain,25,36.0,10
+1999 European Grand Prix,Accident,1,7.0,6
+2000 Australian Grand Prix,Accident,7,11.0,3
+2000 Austrian Grand Prix,Accident,1,3.0,1
+2000 German Grand Prix,Man on track,25,29.0,3
+2000 German Grand Prix,Accident,30,32.0,1
+2000 Belgian Grand Prix,Rain,1,2.0,1
+2000 Italian Grand Prix,Multiple accidents,1,12.0,11
+2000 Malaysian Grand Prix,Accident,1,3.0,1
+2001 Australian Grand Prix,Accident,6,16.0,10
+2001 Malaysian Grand Prix,Rain,4,11.0,6
+2001 Brazilian Grand Prix,Stranded car,1,3.0,1
+2001 Austrian Grand Prix,Four stranded cars,1,4.0,2
+2001 Canadian Grand Prix,Accident,21,24.0,2
+2001 Belgian Grand Prix,Accident,6,7.0,1
+2002 Australian Grand Prix,Accident,1,6.0,4
+2002 Australian Grand Prix,Accident,9,12.0,2
+2002 Austrian Grand Prix,Stranded car,24,28.0,3
+2002 Austrian Grand Prix,Accident,28,37.0,8
+2002 Canadian Grand Prix,Stranded car,14,18.0,3
+2003 Australian Grand Prix,Two accidents,8,11.0,2
+2003 Australian Grand Prix,Stranded car,16,20.0,3
+2003 Brazilian Grand Prix,Rain,1,9.0,8
+2003 Brazilian Grand Prix,Accident,18,23.0,5
+2003 Brazilian Grand Prix,Three accidents,27,30.0,2
+2003 Brazilian Grand Prix,Accident,33,37.0,3
+2003 Brazilian Grand Prix,Two accidents,54,,2
+2003 Spanish Grand Prix,Multiple accidents,0,6.0,5
+2003 Austrian Grand Prix,Stranded car,1,5.0,3
+2003 Monaco Grand Prix,Stranded car,1,5.0,3
+2003 German Grand Prix,Multiple accidents,1,4.0,4
+2003 British Grand Prix,Debris from car,5,8.0,2
+2003 British Grand Prix,Man on track,12,16.0,3
+2004 Monaco Grand Prix,Accident,3,8.0,4
+2004 Monaco Grand Prix,Accident,42,47.0,4
+2004 British Grand Prix,Accident,40,46.0,5
+2004 United States Grand Prix,Accident,1,6.0,4
+2004 United States Grand Prix,Accident,11,20.0,8
+2004 Belgian Grand Prix,Accident,1,5.0,3
+2004 Belgian Grand Prix,Accident,31,35.0,2
+2004 Belgian Grand Prix,Debris from accident,39,42.0,3
+2005 Monaco Grand Prix,Stranded car,25,29.0,3
+2005 Canadian Grand Prix,Accident,46,52.0,5
+2005 British Grand Prix,Accident,1,3.0,1
+2005 Belgian Grand Prix,Accident,11,14.0,2
+2005 Brazilian Grand Prix,Debris from accident,1,3.0,2
+2005 Japanese Grand Prix,Accident,1,8.0,6
+2005 Chinese Grand Prix,Loose drain cover,19,25.0,5
+2005 Chinese Grand Prix,Accident,29,35.0,5
+2006 Australian Grand Prix,Accident,1,4.0,3
+2006 Australian Grand Prix,Accident,8,10.0,1
+2006 Australian Grand Prix,Accident,33,36.0,2
+2006 Australian Grand Prix,Accident,36,41.0,4
+2006 San Marino Grand Prix,Accident,1,3.0,1
+2006 European Grand Prix,Stranded car,3,4.0,1
+2006 Monaco Grand Prix,Stranded car,51,53.0,1
+2006 British Grand Prix,Accident,2,4.0,1
+2006 Canadian Grand Prix,Accident,2,4.0,1
+2006 Canadian Grand Prix,Accident,61,64.0,2
+2006 United States Grand Prix,Two accidents,1,7.0,5
+2006 Hungarian Grand Prix,Accident,26,31.0,4
+2006 Turkish Grand Prix,Stranded car,13,16.0,2
+2006 Brazilian Grand Prix,Accident,3,7.0,3
+2007 Bahrain Grand Prix,Accident,1,4.0,2
+2007 Canadian Grand Prix,Accident,22,27.0,4
+2007 Canadian Grand Prix,Accident,27,34.0,7
+2007 Canadian Grand Prix,Debris from accident,50,55.0,3
+2007 Canadian Grand Prix,Accident,56,61.0,4
+2007 European Grand Prix,Accidents,3,8.0,4
+2007 Italian Grand Prix,Accident,1,7.0,5
+2007 Japanese Grand Prix,Rain,1,20.0,19
+2007 Japanese Grand Prix,Accident,42,49.0,6
+2008 Australian Grand Prix,Accident,1,3.0,1
+2008 Australian Grand Prix,Accident,27,31.0,3
+2008 Australian Grand Prix,Accident,45,49.0,3
+2008 Spanish Grand Prix,Accident,1,4.0,2
+2008 Spanish Grand Prix,Accident,23,29.0,6
+2008 Turkish Grand Prix,Accident,1,3.0,1
+2008 Monaco Grand Prix,Accident,8,11.0,2
+2008 Monaco Grand Prix,Accident,62,68.0,5
+2008 Canadian Grand Prix,Stranded car,17,22.0,5
+2008 German Grand Prix,Accident,36,42.0,5
+2008 Italian Grand Prix,Rain,1,3.0,2
+2008 Singapore Grand Prix,Accident,16,20.0,3
+2008 Singapore Grand Prix,Accident,51,54.0,3
+2008 Brazilian Grand Prix,Accident,2,5.0,2
+2009 Australian Grand Prix,Accident,19,25.0,5
+2009 Australian Grand Prix,Accident,56,,3
+2009 Malaysian Grand Prix,Rain,31,,1
+2009 Chinese Grand Prix,Rain,1,9.0,8
+2009 Chinese Grand Prix,Debris from accident,19,23.0,3
+2009 Spanish Grand Prix,Accident,1,6.0,3
+2009 Belgian Grand Prix,Accident,1,5.0,3
+2009 Italian Grand Prix,Accident,53,,1
+2009 Singapore Grand Prix,Accident,21,26.0,5
+2009 Japanese Grand Prix,Accident,45,50.0,5
+2009 Brazilian Grand Prix,Accident,1,6.0,5
+2010 Australian Grand Prix,Accident,2,5.0,2
+2010 Chinese Grand Prix,Accident,1,4.0,2
+2010 Chinese Grand Prix,Debris from accident,22,26.0,3
+2010 Monaco Grand Prix,Accident,1,7.0,5
+2010 Monaco Grand Prix,Accident,31,34.0,2
+2010 Monaco Grand Prix,Loose drain cover,43,46.0,2
+2010 Monaco Grand Prix,Accident,75,,3
+2010 European Grand Prix,Accident,10,15.0,4
+2010 British Grand Prix,Debris from car,28,31.0,2
+2010 Hungarian Grand Prix,Debris from car,15,18.0,2
+2010 Belgian Grand Prix,Accident,2,4.0,1
+2010 Belgian Grand Prix,Accident,38,41.0,2
+2010 Singapore Grand Prix,Accident,3,6.0,2
+2010 Singapore Grand Prix,Accident,31,36.0,4
+2010 Japanese Grand Prix,Accident,1,7.0,5
+2010 Korean Grand Prix,Rain,1,4.0,3
+2010 Korean Grand Prix,Rain,4,18.0,14
+2010 Korean Grand Prix,Accident,19,24.0,4
+2010 Korean Grand Prix,Accident,31,35.0,3
+2010 Brazilian Grand Prix,Accident,51,56.0,4
+2010 Abu Dhabi Grand Prix,Accident,1,6.0,4
+2011 Monaco Grand Prix,Accident,35,39.0,3
+2011 Monaco Grand Prix,Multiple accidents,69,73.0,3
+2011 Canadian Grand Prix,Rain,1,5.0,5
+2011 Canadian Grand Prix,Accident,9,13.0,4
+2011 Canadian Grand Prix,Rain,20,26.0,6
+2011 Canadian Grand Prix,Rain,26,35.0,8
+2011 Canadian Grand Prix,Accident,37,41.0,3
+2011 Canadian Grand Prix,Debris from accident,56,61.0,4
+2011 Belgian Grand Prix,Accident,13,17.0,3
+2011 Italian Grand Prix,Accident,1,4.0,3
+2011 Singapore Grand Prix,Accident,30,34.0,3
+2011 Japanese Grand Prix,Debris from accident,24,28.0,3
+2011 Korean Grand Prix,Accident,17,21.0,3
+2012 Australian Grand Prix,Stranded car,37,42.0,4
+2012 Malaysian Grand Prix,Rain,6,10.0,4
+2012 Malaysian Grand Prix,Rain,10,15.0,5
+2012 Monaco Grand Prix,Accident,2,4.0,1
+2012 European Grand Prix,Debris from accident,27,34.0,6
+2012 Belgian Grand Prix,Accident,1,5.0,4
+2012 Singapore Grand Prix,Accident,33,39.0,5
+2012 Singapore Grand Prix,Accident,40,43.0,2
+2012 Japanese Grand Prix,Accident,1,3.0,1
+2012 Abu Dhabi Grand Prix,Accident,9,15.0,5
+2012 Abu Dhabi Grand Prix,Accident,39,43.0,3
+2012 Brazilian Grand Prix,Debris,23,30.0,6
+2012 Brazilian Grand Prix,Accident,70,,1
+2013 Monaco Grand Prix,Accident,31,39.0,7
+2013 Monaco Grand Prix,Accident,47,48.0,1
+2013 Monaco Grand Prix,Accident,62,67.0,4
+2013 British Grand Prix,Debris from car,14,22.0,7
+2013 British Grand Prix,Stranded car,41,46.0,4
+2013 German Grand Prix,Stranded car,23,30.0,6
+2013 Singapore Grand Prix,Accident,25,31.0,5
+2013 Korean Grand Prix,Debris,31,37.0,5
+2013 Korean Grand Prix,Vehicle on track,38,41.0,2
+2013 United States Grand Prix,Accident,1,5.0,4
+2014 Australian Grand Prix,Debris from car,12,16.0,3
+2014 Bahrain Grand Prix,Accident,41,47.0,6
+2014 Monaco Grand Prix,Accident,1,4.0,3
+2014 Monaco Grand Prix,Accident,26,31.0,5
+2014 Canadian Grand Prix,Accident,1,8.0,6
+2014 British Grand Prix,Accident,1,3.0,1
+2014 German Grand Prix,Accident,1,3.0,1
+2014 Hungarian Grand Prix,Two accidents,9,14.0,4
+2014 Hungarian Grand Prix,Accident,23,27.0,4
+2014 Singapore Grand Prix,Debris from accident,31,38.0,6
+2014 Japanese Grand Prix,Rain,1,3.0,2
+2014 Japanese Grand Prix,Rain,3,10.0,6
+2014 Japanese Grand Prix,Accident,44,,4
+2014 United States Grand Prix,Accident,1,5.0,3
+2015 Australian Grand Prix,Accident,1,4.0,2
+2015 Malaysian Grand Prix,Accident,4,7.0,2
+2015 Chinese Grand Prix,Stranded car,54,,2
+2015 Monaco Grand Prix,Accident,59,71.0,11
+2015 Austrian Grand Prix,Accident,1,7.0,5
+2015 British Grand Prix,Accident,1,4.0,2
+2015 Hungarian Grand Prix,Accident,43,49.0,5
+2015 Singapore Grand Prix,Accident,16,19.0,3
+2015 Singapore Grand Prix,Man on track,37,41.0,3
+2015 Russian Grand Prix,Accident,1,4.0,2
+2015 Russian Grand Prix,Accident,12,17.0,5
+2015 United States Grand Prix,Stranded car,28,33.0,4
+2015 United States Grand Prix,Accident,43,47.0,3
+2015 Mexican Grand Prix,Accident,53,58.0,4
+2016 Australian Grand Prix,Accident,17,20.0,2
+2016 Chinese Grand Prix,Debris from car,5,9.0,5
+2016 Russian Grand Prix,Accident,1,4.0,2
+2016 Monaco Grand Prix,Rain,1,8.0,7
+2016 Austrian Grand Prix,Debris from car,27,32.0,4
+2016 British Grand Prix,Rain,1,6.0,5
+2016 Mexican Grand Prix,Accident,1,4.0,2
+2016 Brazilian Grand Prix,Rain,1,8.0,7
+2016 Brazilian Grand Prix,Accident,13,20.0,6
+2016 Brazilian Grand Prix,Rain,21,32.0,11
+2016 Brazilian Grand Prix,Accident,48,56.0,7
+2017 Chinese Grand Prix,Accident,4,8.0,3
+2017 Bahrain Grand Prix,Accident,14,17.0,3
+2017 Russian Grand Prix,Accident,1,4.0,2
+2017 Monaco Grand Prix,Accident,60,67.0,6
+2017 Canadian Grand Prix,Accident,1,4.0,2
+2017 Azerbaijan Grand Prix,Stranded car,12,17.0,4
+2017 Azerbaijan Grand Prix,Debris from car,17,20.0,2
+2017 Azerbaijan Grand Prix,Debris from accident,20,24.0,3
+2017 British Grand Prix,Accident,1,5.0,4
+2017 Hungarian Grand Prix,Accident,3,6.0,2
+2017 Belgian Grand Prix,Debris from accident,30,34.0,4
+2017 Singapore Grand Prix,Accident,1,5.0,3
+2017 Singapore Grand Prix,Accident,11,15.0,3
+2017 Singapore Grand Prix,Accident,38,42.0,3
+2017 Japanese Grand Prix,Accident,1,4.0,2
+2017 Brazilian Grand Prix,Accident,1,6.0,5
+2018 Australian Grand Prix,Stranded car,28,32.0,2
+2018 Chinese Grand Prix,Debris from accident,31,36.0,4
+2018 Azerbaijan Grand Prix,Two accidents,1,6.0,4
+2018 Azerbaijan Grand Prix,Two accidents,40,48.0,7
+2018 Spanish Grand Prix,Accident,1,7.0,5
+2018 Canadian Grand Prix,Accident,1,5.0,3
+2018 French Grand Prix,Accident,1,6.0,4
+2018 British Grand Prix,Accident,33,38.0,4
+2018 British Grand Prix,Accident,38,42.0,3
+2018 German Grand Prix,Accident,52,58.0,5
+2018 Belgian Grand Prix,Accident,1,5.0,3
+2018 Italian Grand Prix,Accident,1,4.0,3
+2018 Singapore Grand Prix,Accident,1,5.0,3
+2018 Japanese Grand Prix,Debris from accident,3,8.0,4
+2018 Abu Dhabi Grand Prix,Accident,1,5.0,3
+2019 Bahrain Grand Prix,Two stranded cars,55,,2
+2019 Spanish Grand Prix,Accident,46,53.0,6
+2019 Monaco Grand Prix,Debris from accident,11,15.0,4
+2019 British Grand Prix,Accident,20,24.0,4
+2019 German Grand Prix,Accident,2,5.0,2
+2019 German Grand Prix,Accident,29,34.0,4
+2019 German Grand Prix,Accident,41,46.0,4
+2019 German Grand Prix,Accident,57,60.0,2
+2019 Belgian Grand Prix,Accident,1,5.0,3
+2019 Singapore Grand Prix,Debris from accident,34,41.0,6
+2019 Singapore Grand Prix,Stranded car,44,48.0,3
+2019 Singapore Grand Prix,Accident,50,52.0,2
+2019 Russian Grand Prix,Accident,2,4.0,2
+2019 Russian Grand Prix,Accident,29,33.0,3
+2019 Brazilian Grand Prix,Stranded car,54,60.0,5
+2019 Brazilian Grand Prix,Accident,66,70.0,3
+2020 Austrian Grand Prix,Stranded car,26,31.0,4
+2020 Austrian Grand Prix,Stranded car,50,55.0,4
+2020 Austrian Grand Prix,Stranded car,55,61.0,5
+2020 Styrian Grand Prix,Debris from accident,1,4.0,2
+2020 British Grand Prix,Accident,2,6.0,3
+2020 British Grand Prix,Accident,13,19.0,5
+2020 Belgian Grand Prix,Accident,11,15.0,4
+2020 Italian Grand Prix,Stranded car,20,24.0,3
+2020 Italian Grand Prix,Accident,25,28.0,2
+2020 Tuscan Grand Prix,Accident,1,7.0,5
+2020 Tuscan Grand Prix,Accident,7,10.0,2
+2020 Tuscan Grand Prix,Accident,45,48.0,2
+2020 Russian Grand Prix,Two accidents,1,6.0,4
+2020 Eifel Grand Prix,Stranded car,45,50.0,5
+2020 Emilia Romagna Grand Prix,Accident,51,58.0,5
+2020 Bahrain Grand Prix,Accident,2,9.0,6
+2020 Bahrain Grand Prix,Stranded car,54,,3
+2020 Sakhir Grand Prix,Accident,1,7.0,5
+2020 Sakhir Grand Prix,Accident,64,69.0,3
+2020 Abu Dhabi Grand Prix,Stranded car,12,14.0,1
+2021 Bahrain Grand Prix,Accident,1,4.0,2
+2021 Emilia Romagna Grand Prix,Two accidents,2,7.0,4
+2021 Portuguese Grand Prix,Accident,2,7.0,4
+2021 Spanish Grand Prix,Stranded car,8,11.0,2
+2021 Azerbaijan Grand Prix,Accident,32,36.0,3
+2021 Azerbaijan Grand Prix,Accident,47,49.0,1
+2021 Austrian Grand Prix,Stranded car,1,4.0,2
+2021 Hungarian Grand Prix,Accident,1,2.0,1
+2021 Belgian Grand Prix,Rain,1,,2
+2021 Italian Grand Prix,Accident,26,32.0,5
+2021 Mexico City Grand Prix,Accident,1,5.0,3
+2021 São Paulo Grand Prix,Debris from accident,6,10.0,3
+2021 Saudi Arabian Grand Prix,Accident,10,15.0,4
+2021 Abu Dhabi Grand Prix,Accident,54,58.0,3
+2022 Bahrain Grand Prix,Stranded car,46,51.0,4
+2022 Saudi Arabian Grand Prix,Stranded car,16,21.0,4
+2022 Australian Grand Prix,Stranded car,4,7,2
+2022 Australian Grand Prix,Stranded car,24,27,3
+2022 Emilia Romagna Grand Prix,Stranded car,1,5,4
+2022 Miami Grand Prix,Stranded car,40,47,6
+2022 Monaco Grand Prix,Rain,1,3.0,1
+2022 Monaco Grand Prix,Stranded car,27,33,5
+2022 Canadian Grand Prix,Stranded car,49,55,5
+2022 British Grand Prix,Stranded car,39,43,4
+2022 French Grand Prix,Stranded car,18,21,2
+2022 Belgian Grand Prix,Stranded car,2,5,3
+2022 Dutch Grand Prix,Stranded car,56,61,4
+2022 Italian Grand Prix,Stranded car,47,,6
+2022 Singapore Grand Prix,Stranded car,8,11,3
+2022 Singapore Grand Prix,Stranded car,36,40,3
+2022 Japanese Grand Prix,Stranded car/Rain,1,6,5
+2022 United States Grand Prix,Stranded car,18,22,4
+2022 United States Grand Prix,Accident,23,26,3
+2022 São Paulo Grand Prix,Accident,1,7,7
+2022 São Paulo Grand Prix,Stranded car,55,60,5
+2023 Saudi Arabian Grand Prix,Stranded car,18,21.0,2
+2023 Australian Grand Prix,Stranded car,1,4,3
+2023 Australian Grand Prix,Stranded car,7,10,3
+2023 Australian Grand Prix,Debris from accident,55,57,3
+2023 Azerbaijan Grand Prix,Stranded car,10,14,3
+2023 Canadian Grand Prix,Debris from accident,12,17,4
+2023 Austrian Grand Prix,Debris from accident,1,4,3
+2023 British Grand Prix,Stranded car,32,39,6
+2023 Dutch Grand Prix,Stranded car,16,22,5
+2023 Dutch Grand Prix,Rain,64,67,2
+2023 Singapore Grand Prix,Debris from accident,20,23,2
+2023 Japanese Grand Prix,Debris from accident,1,5,4
+2023 Qatar Grand Prix,Stranded car,1,5,4
+2023 Mexico City Grand Prix,Accident,34,36,2
+2023 São Paulo Grand Prix,Debris from accident,1,5,4
+2023 Las Vegas Grand Prix,Stranded car,4,7,3
+2023 Las Vegas Grand Prix,Debris from accident,26,29,3
+2024 Saudi Arabian Grand Prix,Stranded car,7,10,3
+2024 Chinese Grand Prix,Stranded car,24,27,2
+2024 Chinese Grand Prix,Debris from accident,27,32,4
+2024 Miami Grand Prix,Stranded car,28,33,4
+2024 Canadian Grand Prix,Stranded car,25,30,4
+2024 Canadian Grand Prix,Stranded car,53,59,4
+2024 United States Grand Prix,Stranded car,3,6,3
+2024 Mexico City Grand Prix,Stranded car,1,7,5
+2024 São Paulo Grand Prix,Stranded car,30,34,3
+2024 São Paulo Grand Prix,Stranded car,39,43,4
+2024 Qatar Grand Prix,Stranded car,1,5,4
+2024 Qatar Grand Prix,Debris from car,35,40,4
+2024 Qatar Grand Prix,Stranded car,41,43,2
+2025 Australian Grand Prix,Stranded car,1,8,6
+2025 Australian Grand Prix,Stranded car,33,42,6
+2025 Australian Grand Prix,Stranded car,46,52,5
+2025 Bahrain Grand Prix,Stranded car,32,36,4
+2025 Saudi Arabian Grand Prix,Stranded car,1,4,3
+2025 Emilia Romagna Grand Prix,Stranded car,45,54,9
+2025 Spanish Grand Prix,Stranded car,54,61,7
+2025 Canadian Grand Prix,Stranded car,66,,3
+2025 Austrian Grand Prix,Two stranded cars,1,4,3
+2025 British Grand Prix,Stranded car,13,18,4
+2025 British Grand Prix,Stranded car,19,22,3
+2025 Belgian Grand Prix,Rain,1,5,4
+2025 Dutch Grand Prix,Stranded car,23,27,3
+2025 Dutch Grand Prix,Stranded car,53,58,4
+2025 Dutch Grand Prix,Stranded car,65,69,4
+2025 Azerbaijan Grand Prix,Stranded car,1,5,4
