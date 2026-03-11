@@ -21,7 +21,6 @@ circuitId,circuitRef,name,location,country,lat,lng,alt,url
 20,"nurburgring","Nürburgring","Nürburg","Germany",50.3356,6.9475,578,"http://en.wikipedia.org/wiki/N%C3%BCrburgring"
 21,"imola","Autodromo Enzo e Dino Ferrari","Imola","Italy",44.3439,11.7167,37,"http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari"
 22,"suzuka","Suzuka Circuit","Suzuka","Japan",34.8431,136.541,45,"http://en.wikipedia.org/wiki/Suzuka_Circuit"
-80,"vegas","Las Vegas Strip Street Circuit","Las Vegas","United States",36.1147,-115.173,642,"https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit"
 24,"yas_marina","Yas Marina Circuit","Abu Dhabi","UAE",24.4672,54.6031,3,"http://en.wikipedia.org/wiki/Yas_Marina_Circuit"
 25,"galvez","Autódromo Juan y Oscar Gálvez","Buenos Aires","Argentina",-34.6943,-58.4593,8,"http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Oscar_Alfredo_G%C3%A1lvez"
 26,"jerez","Circuito de Jerez","Jerez de la Frontera","Spain",36.7083,-6.03417,37,"http://en.wikipedia.org/wiki/Circuito_Permanente_de_Jerez"
@@ -76,3 +75,5 @@ circuitId,circuitRef,name,location,country,lat,lng,alt,url
 77,"jeddah","Jeddah Corniche Circuit","Jeddah","Saudi Arabia",21.6319,39.1044,15,"http://en.wikipedia.org/wiki/Jeddah_Street_Circuit"
 78,"losail","Losail International Circuit","Al Daayen","Qatar",25.49,51.4542,12,"http://en.wikipedia.org/wiki/Losail_International_Circuit"
 79,"miami","Miami International Autodrome","Miami","USA",25.9581,-80.2389,0,"http://en.wikipedia.org/wiki/Miami_International_Autodrome"
+80,"vegas","Las Vegas Strip Street Circuit","Las Vegas","United States",36.1147,-115.173,642,"https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit"
+81,"madring","Madring","Madrid","Spain",40.46528,-3.61528,667,"https://en.wikipedia.org/wiki/Madring"
