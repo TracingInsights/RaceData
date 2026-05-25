@@ -232,3 +232,24 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Node / JS / Web
+node_modules/
+/dist
+/out
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lerna/
+.npm
+.eslintcache
+.stylelintcache
+.next
+.nuxt
+.vuepress/dist
+.cache/
+.parcel-cache
+.docusaurus
+.turbo
+.svelte-kit

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Carbon Analytics Dashboard</title>
+  <!-- Google Fonts: Inter and Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS v3 (Play CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            f1: {
+              red: '#e10600',
+              black: '#0a0a0c',
+              darkgray: '#15151e',
+              lightgray: '#222230',
+              carbon: '#1a1a24'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            outfit: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Custom Styling for F1 Theme & Glassmorphism */
+    body {
+      background-color: #0a0a0c;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(225, 6, 0, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+        linear-gradient(rgba(10, 10, 12, 0.4) 0.5px, transparent 0.5px),
+        linear-gradient(90deg, rgba(10, 10, 12, 0.4) 0.5px, transparent 0.5px);
+      background-size: 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .f1-carbon-border {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(21, 21, 30, 0.7);
+      backdrop-filter: blur(16px);
+    }
+    
+    .f1-glow-red {
+      box-shadow: 0 0 15px rgba(225, 6, 0, 0.25);
+    }
+    
+    .f1-glow-cyan {
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
+    }
+    
+    .scrollbar-thin::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 3px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+      background: rgba(225, 6, 0, 0.5);
+    }
+  </style>
+</head>
+<body class="h-full text-slate-100 flex overflow-hidden">
+
+  <!-- Left Sidebar (Control Center) -->
+  <aside class="w-80 h-full flex flex-col flex-shrink-0 f1-carbon-border border-r border-slate-800 bg-opacity-80">
+    <!-- Header -->
+    <div class="p-6 border-b border-slate-800 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="bg-f1-red text-white p-2 rounded flex items-center justify-center font-bold font-outfit text-xl shadow-[0_0_10px_rgba(225,6,0,0.5)]">
+          F1
+        </div>
+        <div>
+          <h1 class="text-lg font-bold font-outfit tracking-tight uppercase text-white">Carbon Analytics</h1>
+          <span class="text-xs text-slate-400">Race Data AI Engine</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrollable Settings and Status -->
+    <div class="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-thin">
+      <!-- Section: API Configuration -->
+      <div class="space-y-4">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 font-outfit flex items-center">
+          <i class="fa-solid fa-key mr-2 text-f1-red"></i> Configuration
+        </h2>
+        
+        <!-- API Key Input -->
+        <div class="space-y-1">
+          <label for="api-key" class="text-xs text-slate-300">Google AI Studio API Key</label>
+          <div class="relative">
+            <input type="password" id="api-key" class="w-full bg-slate-900 bg-opacity-70 border border-slate-700 rounded px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-f1-red transition pr-10" placeholder="AIzaSy...">
+            <button id="toggle-api-key" class="absolute right-3 top-2.5 text-slate-400 hover:text-white transition">
+              <i class="fa-regular fa-eye"></i>
+            </button>
+          </div>
+          <p class="text-[10px] text-slate-400">Keys are saved locally in localStorage.</p>
+        </div>
+
+        <!-- Model Dropdown -->
+        <div class="space-y-1">
+          <label for="model-selector" class="text-xs text-slate-300">Gemini Model</label>
+          <div class="relative">
+            <select id="model-selector" class="w-full bg-slate-900 bg-opacity-70 border border-slate-700 rounded px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-f1-red transition appearance-none cursor-pointer">
+              <option value="pending">Enter API Key first...</option>
+            </select>
+            <div class="absolute right-3 top-3 pointer-events-none text-slate-400 text-xs">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section: Database Status -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 font-outfit flex items-center">
+            <i class="fa-solid fa-database mr-2 text-cyan-400"></i> Database Status
+          </h2>
+          <span id="load-progress-pill" class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">Initializing</span>
+        </div>
+
+        <!-- File List Container -->
+        <div id="db-status-list" class="space-y-2 max-h-96 overflow-y-auto scrollbar-thin pr-1">
+          <!-- Populated Dynamically -->
+          <div class="text-xs text-slate-400 text-center py-4">Initializing database...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Stats / Version -->
+    <div class="p-4 border-t border-slate-800 bg-slate-950 flex items-center justify-between text-xs text-slate-500">
+      <span>Version 1.0.0</span>
+      <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-green-500 mr-2 shadow-[0_0_8px_#22c55e]"></span>Client Engine OK</span>
+    </div>
+  </aside>
+
+  <!-- Right Workspace -->
+  <main class="flex-1 h-full flex flex-col min-w-0">
+    <!-- Top Header -->
+    <header class="h-16 f1-carbon-border border-b border-slate-800 flex items-center justify-between px-8 bg-opacity-60">
+      <div class="flex items-center space-x-3 text-sm">
+        <span class="text-slate-400 font-outfit uppercase">Target Dataset:</span>
+        <span class="bg-cyan-950 text-cyan-300 px-3 py-1 rounded-full text-xs font-semibold flex items-center border border-cyan-800">
+          <i class="fa-solid fa-road mr-1.5"></i> F1 Race Archive (1950 - Present)
+        </span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="https://github.com/TracingInsights/RaceData" target="_blank" class="text-slate-400 hover:text-white transition flex items-center text-sm">
+          <i class="fa-brands fa-github mr-1.5"></i> GitHub Repository
+        </a>
+      </div>
+    </header>
+
+    <!-- Chat Container / Output -->
+    <div id="chat-container" class="flex-1 overflow-y-auto p-8 space-y-6 scrollbar-thin">
+      <!-- Welcome Slate / Quick Start Cards (Rendered if no messages) -->
+      <div id="welcome-slate" class="max-w-4xl mx-auto my-8 space-y-10">
+        <div class="text-center space-y-4">
+          <div class="inline-flex bg-f1-red bg-opacity-10 text-f1-red p-3 rounded-full border border-f1-red border-opacity-20 animate-pulse text-2xl shadow-[0_0_20px_rgba(225,6,0,0.15)] mb-2">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h2 class="text-3xl font-extrabold font-outfit tracking-tight text-white uppercase">Formula 1 AI Analytics Engine</h2>
+          <p class="text-slate-400 text-sm max-w-xl mx-auto">
+            Query over 75 years of Formula 1 history in natural language. Powered by Gemini text-to-SQL and an in-memory AlaSQL database running entirely client-side.
+          </p>
+        </div>
+
+        <!-- Presets Grid -->
+        <div class="space-y-4">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-slate-400 font-outfit text-center">
+            Select a Quick Start Preset Analysis
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Preset 1 -->
+            <button class="preset-card text-left p-5 f1-carbon-border rounded-lg hover:border-f1-red transition group relative overflow-hidden" data-query="Compare the average pit stop duration for each constructor in the 2023 season.">
+              <div class="absolute right-4 top-4 text-slate-600 group-hover:text-f1-red transition text-lg">
+                <i class="fa-solid fa-gauge-high"></i>
+              </div>
+              <span class="text-xs text-f1-red font-semibold tracking-wider uppercase font-outfit mb-1 block">Constructor Pitstops</span>
+              <p class="text-sm font-medium text-slate-200 group-hover:text-white pr-6 transition">
+                Compare the average pit stop duration for each constructor in the 2023 season.
+              </p>
+              <span class="text-[10px] text-slate-400 mt-3 flex items-center font-mono uppercase">
+                <i class="fa-solid fa-code-fork mr-1"></i> JOINs: pit_stops, races, constructors, results
+              </span>
+            </button>
+
+            <!-- Preset 2 -->
+            <button class="preset-card text-left p-5 f1-carbon-border rounded-lg hover:border-f1-red transition group relative overflow-hidden" data-query="Who has scored the most career wins starting from 10th position or lower on the grid?">
+              <div class="absolute right-4 top-4 text-slate-600 group-hover:text-f1-red transition text-lg">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <span class="text-xs text-f1-red font-semibold tracking-wider uppercase font-outfit mb-1 block">Podium Performance</span>
+              <p class="text-sm font-medium text-slate-200 group-hover:text-white pr-6 transition">
+                Who has scored the most career wins starting from 10th position or lower on the grid?
+              </p>
+              <span class="text-[10px] text-slate-400 mt-3 flex items-center font-mono uppercase">
+                <i class="fa-solid fa-code-fork mr-1"></i> JOINs: results, drivers
+              </span>
+            </button>
+
+            <!-- Preset 3 -->
+            <button class="preset-card text-left p-5 f1-carbon-border rounded-lg hover:border-f1-red transition group relative overflow-hidden" data-query="List the top 5 fastest lap times ever recorded at the Monaco Grand Prix, including driver name, year, and lap time.">
+              <div class="absolute right-4 top-4 text-slate-600 group-hover:text-f1-red transition text-lg">
+                <i class="fa-solid fa-stopwatch"></i>
+              </div>
+              <span class="text-xs text-f1-red font-semibold tracking-wider uppercase font-outfit mb-1 block">Lap Time History</span>
+              <p class="text-sm font-medium text-slate-200 group-hover:text-white pr-6 transition">
+                List the top 5 fastest lap times ever recorded at the Monaco Grand Prix, including driver name, year, and lap time.
+              </p>
+              <span class="text-[10px] text-slate-400 mt-3 flex items-center font-mono uppercase">
+                <i class="fa-solid fa-code-fork mr-1"></i> JOINs: lap_times, races, drivers, circuits
+              </span>
+            </button>
+
+            <!-- Preset 4 -->
+            <button class="preset-card text-left p-5 f1-carbon-border rounded-lg hover:border-f1-red transition group relative overflow-hidden" data-query="Compare total race points scored by Lewis Hamilton and Sebastian Vettel year by year from 2010 to 2020.">
+              <div class="absolute right-4 top-4 text-slate-600 group-hover:text-f1-red transition text-lg">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <span class="text-xs text-f1-red font-semibold tracking-wider uppercase font-outfit mb-1 block">Rivalry Comparison</span>
+              <p class="text-sm font-medium text-slate-200 group-hover:text-white pr-6 transition">
+                Compare total race points scored by Lewis Hamilton and Sebastian Vettel year by year from 2010 to 2020.
+              </p>
+              <span class="text-[10px] text-slate-400 mt-3 flex items-center font-mono uppercase">
+                <i class="fa-solid fa-code-fork mr-1"></i> JOINs: results, drivers, races
+              </span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Timeline of chats will grow here -->
+    </div>
+
+    <!-- Active Loading Indicator / Dynamic Loading Alert Panel -->
+    <div id="query-loader-panel" class="hidden px-8 py-3 bg-slate-900 bg-opacity-90 border-t border-slate-800 flex items-center justify-between text-sm">
+      <div class="flex items-center space-x-3">
+        <i class="fa-solid fa-circle-notch fa-spin text-f1-red text-base"></i>
+        <span id="query-loader-status" class="text-slate-300">Processing query with AI...</span>
+      </div>
+      <div id="db-load-status-inline" class="text-xs text-slate-400 font-mono"></div>
+    </div>
+
+    <!-- Chat Input Area -->
+    <div class="p-6 border-t border-slate-800 bg-slate-950 bg-opacity-70 backdrop-blur-md">
+      <div class="max-w-4xl mx-auto">
+        <form id="chat-form" class="relative flex items-center">
+          <input type="text" id="query-input" class="w-full bg-slate-900 bg-opacity-80 border border-slate-800 focus:border-f1-red focus:outline-none text-slate-100 placeholder-slate-500 rounded-lg py-4 pl-6 pr-24 shadow-2xl transition text-base" placeholder="Ask a question about the race data archive (e.g., 'Compare average pitstop times by constructor in 2023')...">
+          
+          <div class="absolute right-3 flex items-center space-x-2">
+            <button type="submit" id="submit-btn" class="bg-f1-red text-white p-3 rounded-md hover:bg-red-700 transition flex items-center justify-center font-bold w-12 h-12 shadow-[0_0_15px_rgba(225,6,0,0.4)]">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+        <p class="text-center text-[10px] text-slate-500 mt-2">
+          Note: SQL generation is executed client-side. Make sure to input your Google AI Studio API key in the sidebar.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Import Vite script entry point -->
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
