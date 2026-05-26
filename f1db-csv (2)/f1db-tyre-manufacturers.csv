@@ -1,0 +1,10 @@
+"id","name","countryId","bestStartingGridPosition","bestRaceResult","bestSprintRaceResult","totalRaceEntries","totalRaceStarts","totalRaceWins","totalRaceLaps","totalPodiums","totalPodiumRaces","totalPolePositions","totalFastestLaps","totalSprintRaceStarts","totalSprintRaceWins"
+"avon","Avon","united-kingdom",2,5,,32,28,0,2961,0,0,0,0,0,0
+"bridgestone","Bridgestone","japan",1,1,,244,244,175,173435,482,209,168,170,0,0
+"continental","Continental","germany",1,1,,13,13,10,2232,18,11,8,9,0,0
+"dunlop","Dunlop","united-kingdom",1,1,,177,175,84,84698,241,104,77,83,0,0
+"englebert","Englebert","belgium",1,1,,60,60,8,11016,40,26,11,12,0,0
+"firestone","Firestone","united-states-of-america",1,1,,122,122,48,96610,138,77,59,52,0,0
+"goodyear","Goodyear","united-states-of-america",1,1,,493,493,368,376316,1139,459,358,364,0,0
+"michelin","Michelin","france",1,1,,217,215,102,99137,317,179,111,108,0,0
+"pirelli","Pirelli","italy",1,1,1,520,515,359,410604,1086,385,362,372,27,27

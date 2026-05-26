@@ -11,9 +11,10 @@ import {
   generateSQL, 
   selfHealSQL, 
   generateSummary,
-  SQLGenerationResponse 
+  SQLGenerationResponse,
+  ConversationContext
 } from './ai';
-import { renderChart } from './chart';
+import { renderChart, renderMultiDatasetChart, clearAllCharts } from './chart';
 
 // DOM elements references
 const apiKeyInput = document.getElementById('api-key') as HTMLInputElement;
@@ -30,10 +31,38 @@ const queryLoaderStatus = document.getElementById('query-loader-status') as HTML
 const dbLoadStatusInline = document.getElementById('db-load-status-inline') as HTMLDivElement;
 const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
 
+// Added for chat thread management and suggestions
+const newChatBtn = document.getElementById('new-chat-btn') as HTMLButtonElement;
+const threadListContainer = document.getElementById('thread-list') as HTMLDivElement;
+const suggestionsChipsContainer = document.getElementById('suggestions-chips-container') as HTMLDivElement;
+
+// Chat Thread Structures
+export interface ChatMessage {
+  id: number;
+  role: 'user' | 'assistant';
+  text: string;
+  sqlResponse?: SQLGenerationResponse;
+  sqlResults?: Record<string, unknown>[];
+  timeTakenMs?: number;
+  loadDurationMs?: number;
+  logs?: string[];
+  errorMessage?: string;
+}
+
+export interface ChatThread {
+  id: string;
+  title: string;
+  createdAt: number;
+  messages: ChatMessage[];
+}
+
 // Application State variables
 let apiKey = localStorage.getItem('f1_api_key') || '';
 let selectedModel = localStorage.getItem('f1_model') || 'gemini-1.5-flash';
 let messageCounter = 0;
+
+let threads: ChatThread[] = [];
+let activeThreadId: string | null = null;
 
 // Initialize Page Logic
 window.addEventListener('DOMContentLoaded', async () => {
@@ -63,6 +92,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     loadProgressPill.classList.add('bg-red-950', 'text-red-300', 'border', 'border-red-800');
   }
 
+  setupThreadManagement();
   setupPresetHandlers();
   setupChatHandlers();
 });
@@ -161,7 +191,294 @@ function renderDatabaseSidebar() {
   });
 }
 
+// ============================================================
+// Thread / Chat History Management
+// ============================================================
+
+const STORAGE_KEY = 'f1_chat_threads';
+const MAX_RESULTS_STORED = 100;
+
+function saveThreadsToStorage() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(threads));
+  } catch (e) {
+    console.warn('[Threads] Could not save threads to localStorage (quota exceeded?):', e);
+  }
+}
+
+function loadThreadsFromStorage() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      threads = JSON.parse(raw) as ChatThread[];
+    }
+  } catch (e) {
+    console.warn('[Threads] Could not load threads from localStorage:', e);
+    threads = [];
+  }
+}
+
+function generateThreadId(): string {
+  return `thread_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
+}
+
+function getActiveThread(): ChatThread | undefined {
+  return threads.find(t => t.id === activeThreadId);
+}
+
+function createNewThread() {
+  // Clear chat UI
+  clearAllCharts();
+  chatContainer.innerHTML = '';
+  if (welcomeSlate) {
+    const welcomeClone = welcomeSlate.cloneNode(true) as HTMLDivElement;
+    welcomeClone.id = 'welcome-slate';
+    welcomeClone.style.display = '';
+    chatContainer.appendChild(welcomeClone);
+    // Re-bind preset cards on the new clone
+    welcomeClone.querySelectorAll('.preset-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const query = card.getAttribute('data-query');
+        if (query) {
+          queryInput.value = query;
+          chatForm.requestSubmit();
+        }
+      });
+    });
+  }
+
+  // Create and store new thread
+  const newThread: ChatThread = {
+    id: generateThreadId(),
+    title: 'New Analysis',
+    createdAt: Date.now(),
+    messages: []
+  };
+  threads.unshift(newThread);
+  activeThreadId = newThread.id;
+  messageCounter = 0;
+  saveThreadsToStorage();
+  renderThreadList();
+  renderStarterChips();
+  console.log('[Threads] Created new thread:', newThread.id);
+}
+
+function selectThread(threadId: string) {
+  const thread = threads.find(t => t.id === threadId);
+  if (!thread) return;
+
+  activeThreadId = threadId;
+  messageCounter = thread.messages.length;
+
+  // Clear and re-render all messages
+  clearAllCharts();
+  chatContainer.innerHTML = '';
+  suggestionsChipsContainer.innerHTML = '';
+
+  if (thread.messages.length === 0) {
+    if (welcomeSlate) {
+      const welcomeClone = welcomeSlate.cloneNode(true) as HTMLDivElement;
+      welcomeClone.id = 'welcome-slate';
+      chatContainer.appendChild(welcomeClone);
+      welcomeClone.querySelectorAll('.preset-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const query = card.getAttribute('data-query');
+          if (query) { queryInput.value = query; chatForm.requestSubmit(); }
+        });
+      });
+    }
+    renderStarterChips();
+    renderThreadList();
+    return;
+  }
+
+  thread.messages.forEach(msg => {
+    if (msg.role === 'user') {
+      appendUserMessageDOM(msg.text);
+    } else if (msg.role === 'assistant') {
+      if (msg.errorMessage) {
+        appendErrorMessageDOM(msg.id, msg.errorMessage, '');
+      } else if (msg.sqlResponse) {
+        appendBotReport(
+          msg.id,
+          msg.text,
+          msg.sqlResponse.sql ? `*Loaded from history* — ${msg.text}` : '',
+          msg.sqlResponse,
+          msg.sqlResults || [],
+          msg.timeTakenMs || 0,
+          msg.loadDurationMs || 0,
+          msg.logs || [],
+          false // suppress saving again on re-render
+        );
+      }
+    }
+  });
+
+  // Show last suggestions if available
+  const lastAiMsg = [...thread.messages].reverse().find(m => m.role === 'assistant' && m.sqlResponse?.suggestions?.length);
+  if (lastAiMsg?.sqlResponse?.suggestions) {
+    renderSuggestionChips(lastAiMsg.sqlResponse.suggestions);
+  }
+
+  renderThreadList();
+  chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: 'smooth' });
+}
+
+function deleteThread(threadId: string) {
+  threads = threads.filter(t => t.id !== threadId);
+  if (activeThreadId === threadId) {
+    activeThreadId = null;
+    createNewThread();
+  } else {
+    saveThreadsToStorage();
+    renderThreadList();
+  }
+}
+
+function addMessageToActiveThread(msg: ChatMessage) {
+  const thread = getActiveThread();
+  if (!thread) return;
+  // Truncate stored results to cap storage size
+  if (msg.sqlResults && msg.sqlResults.length > MAX_RESULTS_STORED) {
+    msg.sqlResults = msg.sqlResults.slice(0, MAX_RESULTS_STORED);
+  }
+  thread.messages.push(msg);
+  // Auto-update thread title based on first user message
+  if (thread.title === 'New Analysis' && msg.role === 'user') {
+    thread.title = msg.text.length > 50 ? msg.text.substring(0, 47) + '...' : msg.text;
+  }
+  saveThreadsToStorage();
+  renderThreadList();
+}
+
+function renderThreadList() {
+  threadListContainer.innerHTML = '';
+
+  if (threads.length === 0) {
+    threadListContainer.innerHTML = '<div class="text-xs text-slate-500 italic py-2">No active sessions</div>';
+    return;
+  }
+
+  threads.forEach(thread => {
+    const item = document.createElement('div');
+    const isActive = thread.id === activeThreadId;
+    item.className = `group flex items-center justify-between rounded px-2.5 py-2 cursor-pointer transition text-xs ${
+      isActive
+        ? 'bg-f1-red bg-opacity-20 border border-f1-red border-opacity-40 text-white'
+        : 'hover:bg-slate-800 text-slate-300 hover:text-white border border-transparent'
+    }`;
+
+    const msgCount = thread.messages.filter(m => m.role === 'user').length;
+    item.innerHTML = `
+      <div class="flex items-center min-w-0 flex-1 mr-2">
+        <i class="fa-solid fa-comments text-[10px] ${isActive ? 'text-f1-red' : 'text-slate-600 group-hover:text-slate-400'} mr-2 flex-shrink-0"></i>
+        <div class="min-w-0">
+          <span class="block truncate font-medium text-[11px]">${thread.title}</span>
+          <span class="text-[9px] text-slate-500">${msgCount} quer${msgCount === 1 ? 'y' : 'ies'}</span>
+        </div>
+      </div>
+      <button class="delete-thread-btn flex-shrink-0 opacity-0 group-hover:opacity-100 p-1 rounded hover:text-red-400 transition text-slate-500" data-thread-id="${thread.id}">
+        <i class="fa-solid fa-trash-can text-[9px]"></i>
+      </button>
+    `;
+
+    // Click on item body = select thread
+    item.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest('.delete-thread-btn')) {
+        selectThread(thread.id);
+      }
+    });
+
+    // Click on delete button = delete thread
+    const deleteBtn = item.querySelector('.delete-thread-btn') as HTMLButtonElement;
+    if (deleteBtn) {
+      deleteBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (confirm(`Delete "${thread.title}"?`)) {
+          deleteThread(thread.id);
+        }
+      });
+    }
+
+    threadListContainer.appendChild(item);
+  });
+}
+
+// Render starter suggestion chips above chat input (when chat is empty)
+function renderStarterChips() {
+  const starters = [
+    'Who has the most podiums in F1 history?',
+    'Average pitstop time per constructor in 2023',
+    'Top 5 fastest laps ever at Monza',
+    'Safety car appearances per season since 2010',
+    'Hamilton vs Verstappen — points year by year'
+  ];
+  suggestionsChipsContainer.innerHTML = '';
+
+  const label = document.createElement('span');
+  label.className = 'text-[10px] text-slate-500 font-mono uppercase mr-1 flex-shrink-0';
+  label.textContent = 'Try:';
+  suggestionsChipsContainer.appendChild(label);
+
+  starters.forEach(starter => {
+    const chip = document.createElement('button');
+    chip.className = 'suggestion-chip bg-slate-800 hover:bg-f1-red text-slate-300 hover:text-white text-[10px] font-mono px-2.5 py-1 rounded-full border border-slate-700 hover:border-f1-red transition truncate max-w-[200px]';
+    chip.textContent = starter;
+    chip.title = starter;
+    chip.addEventListener('click', () => {
+      queryInput.value = starter;
+      queryInput.focus();
+      chatForm.requestSubmit();
+    });
+    suggestionsChipsContainer.appendChild(chip);
+  });
+}
+
+// Render dynamic follow-up suggestion chips (after bot report)
+function renderSuggestionChips(suggestions: string[]) {
+  suggestionsChipsContainer.innerHTML = '';
+
+  if (!suggestions || suggestions.length === 0) return;
+
+  const label = document.createElement('span');
+  label.className = 'text-[10px] text-slate-500 font-mono uppercase mr-1 flex-shrink-0 animate-pulse';
+  label.innerHTML = '<i class="fa-solid fa-lightbulb text-f1-red mr-1"></i>Next:';
+  suggestionsChipsContainer.appendChild(label);
+
+  suggestions.forEach(suggestion => {
+    const chip = document.createElement('button');
+    chip.className = 'suggestion-chip bg-slate-800 hover:bg-f1-red text-slate-300 hover:text-white text-[10px] font-mono px-2.5 py-1 rounded-full border border-slate-700 hover:border-f1-red transition truncate max-w-[240px]';
+    chip.textContent = suggestion;
+    chip.title = suggestion;
+    chip.addEventListener('click', () => {
+      queryInput.value = suggestion;
+      queryInput.focus();
+      chatForm.requestSubmit();
+    });
+    suggestionsChipsContainer.appendChild(chip);
+  });
+}
+
+function setupThreadManagement() {
+  loadThreadsFromStorage();
+
+  if (threads.length > 0) {
+    // Restore last active thread
+    activeThreadId = threads[0].id;
+    selectThread(activeThreadId);
+  } else {
+    createNewThread();
+  }
+
+  newChatBtn.addEventListener('click', () => {
+    createNewThread();
+  });
+}
+
+// ============================================================
 // Map clicking quick start preset cards to immediate search
+// ============================================================
 function setupPresetHandlers() {
   document.querySelectorAll('.preset-card').forEach(card => {
     card.addEventListener('click', () => {
@@ -186,22 +503,30 @@ function setupChatHandlers() {
       return;
     }
 
-    // Hide welcome panel on first interaction
-    if (welcomeSlate) {
-      welcomeSlate.style.display = 'none';
+    // Ensure there is an active thread; if not, create one
+    if (!activeThreadId) {
+      createNewThread();
     }
 
-    // Append User Question bubble
-    appendUserMessage(query);
+    // Hide welcome panel on first interaction
+    const currentWelcomeSlate = chatContainer.querySelector('#welcome-slate') as HTMLDivElement | null;
+    if (currentWelcomeSlate) {
+      currentWelcomeSlate.style.display = 'none';
+    }
+
+    // Save user message to thread and append to DOM
+    const currentMsgId = ++messageCounter;
+    addMessageToActiveThread({ id: currentMsgId, role: 'user', text: query });
+    appendUserMessageDOM(query);
     queryInput.value = '';
-    
+    suggestionsChipsContainer.innerHTML = '';
+
     // Activate loading indicators
     queryLoaderPanel.classList.remove('hidden');
     queryLoaderStatus.textContent = 'Translating question to SQL...';
     dbLoadStatusInline.textContent = '';
     submitBtn.disabled = true;
 
-    const currentMsgId = ++messageCounter;
     const startTime = performance.now();
 
     let sqlResponse: SQLGenerationResponse | null = null;
@@ -209,9 +534,19 @@ function setupChatHandlers() {
     let loadDuration = 0;
     let loadLogs: string[] = [];
 
+    // Build conversation history context for follow-up support
+    const thread = getActiveThread();
+    const history: ConversationContext[] = (thread?.messages || [])
+      .filter(m => m.role === 'user' || (m.role === 'assistant' && m.sqlResponse))
+      .slice(-8) // last 4 exchanges = 8 messages max to limit token count
+      .map(m => ({
+        role: m.role === 'user' ? 'user' : 'model',
+        text: m.role === 'user' ? m.text : (m.sqlResponse?.sql || '')
+      }));
+
     try {
-      // 1. Generate SQL via Gemini
-      sqlResponse = await generateSQL(query, apiKey, selectedModel);
+      // 1. Generate SQL via Gemini (with history context)
+      sqlResponse = await generateSQL(query, apiKey, selectedModel, history);
       console.log('[Orchestrator] Generated SQL Query:', sqlResponse.sql);
 
       // 2. Fetch and parse any un-loaded tables on-demand
@@ -239,7 +574,7 @@ function setupChatHandlers() {
         const errorMessage = sqlError.message || String(sqlError);
         console.warn('[Orchestrator] Direct execution failed. Triggering Self-Healing:', errorMessage);
         
-        const healedResponse = await selfHealSQL(query, sqlResponse.sql, errorMessage, apiKey, selectedModel);
+        const healedResponse = await selfHealSQL(query, sqlResponse.sql, errorMessage, apiKey, selectedModel, history);
         
         // Load any new required tables if the self-healed query has new table JOINs
         if (healedResponse.requiredTables && healedResponse.requiredTables.length > 0) {
@@ -262,7 +597,19 @@ function setupChatHandlers() {
       
       const totalTime = Math.round(performance.now() - startTime);
 
-      // 6. Render the massive composite Bot Report
+      // 6. Save assistant message to active thread
+      addMessageToActiveThread({
+        id: currentMsgId,
+        role: 'assistant',
+        text: query,
+        sqlResponse,
+        sqlResults,
+        timeTakenMs: totalTime,
+        loadDurationMs: loadDuration,
+        logs: loadLogs
+      });
+
+      // 7. Render the full composite Bot Report
       appendBotReport(
         currentMsgId,
         query,
@@ -271,14 +618,20 @@ function setupChatHandlers() {
         sqlResults,
         totalTime,
         loadDuration,
-        loadLogs
+        loadLogs,
+        true // save to thread flag (already saved, just for clarity)
       );
 
     } catch (err: any) {
       console.error('[Orchestrator] Error processing request:', err);
-      appendErrorMessage(
+      addMessageToActiveThread({
+        id: currentMsgId,
+        role: 'assistant',
+        text: query,
+        errorMessage: err.message || 'An unexpected error occurred.'
+      });
+      appendErrorMessageDOM(
         currentMsgId,
-        query,
         err.message || 'An unexpected error occurred during processing.',
         sqlResponse?.sql || ''
       );
@@ -290,8 +643,8 @@ function setupChatHandlers() {
   });
 }
 
-// Append User Chat Bubble
-function appendUserMessage(text: string) {
+// Append User Chat Bubble (DOM only — no thread save)
+function appendUserMessageDOM(text: string) {
   const container = document.createElement('div');
   container.className = 'flex items-start space-x-4 max-w-3xl ml-auto justify-end';
   
@@ -310,8 +663,13 @@ function appendUserMessage(text: string) {
   chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: 'smooth' });
 }
 
-// Append Bot Error Message Card
-function appendErrorMessage(_id: number, _query: string, message: string, sql: string) {
+// Keep backward compatibility (used by preset re-render)
+export function appendUserMessage(text: string) {
+  appendUserMessageDOM(text);
+}
+
+// Append Bot Error Message Card (DOM only — no thread save)
+function appendErrorMessageDOM(_id: number, message: string, sql: string) {
   const container = document.createElement('div');
   container.className = 'flex items-start space-x-4 max-w-4xl mr-auto';
   
@@ -326,7 +684,7 @@ function appendErrorMessage(_id: number, _query: string, message: string, sql: s
           Apologies, the query execution encountered a critical exception:
         </p>
         <div class="bg-red-950 bg-opacity-40 text-red-300 border border-red-900 border-opacity-35 px-4 py-3 rounded font-mono text-xs overflow-x-auto">
-          ${message}
+          ${message.replace(/</g, '&lt;').replace(/>/g, '&gt;')}
         </div>
         ${sql ? `
         <div class="space-y-1">
@@ -343,6 +701,11 @@ function appendErrorMessage(_id: number, _query: string, message: string, sql: s
   chatContainer.appendChild(container);
 }
 
+// Keep backward compat
+export function appendErrorMessage(_id: number, _query: string, message: string, sql: string) {
+  appendErrorMessageDOM(_id, message, sql);
+}
+
 // Render full F1 Carbon visual dashboard report card in chat
 function appendBotReport(
   id: number,
@@ -352,7 +715,8 @@ function appendBotReport(
   rows: Record<string, unknown>[],
   timeTakenMs: number,
   loadDurationMs: number,
-  logs: string[]
+  logs: string[],
+  _saveFlag = true
 ) {
   const container = document.createElement('div');
   container.className = 'flex items-start space-x-4 max-w-5xl mr-auto w-full';
@@ -555,18 +919,76 @@ function appendBotReport(
         ? response.chartSuggestion.yKey 
         : keys[1];
 
-      // Exclude null values from chart datasets
-      const chartRows = rows.filter(r => r[xKey] !== null && r[yKey] !== null);
-      const labels = chartRows.map(r => String(r[xKey]));
-      const values = chartRows.map(r => Number(r[yKey]));
+      // Premium Touch: Multi-Series / Multi-Dataset Charting detection
+      // If we have at least 3 columns, and one is string-based grouping category with 2-12 unique values:
+      let groupKey: string | null = null;
+      let uniqueGroups: string[] = [];
+      
+      if (keys.length >= 3) {
+        for (const key of keys) {
+          if (key !== xKey && key !== yKey) {
+            const uniqueVals = Array.from(new Set(rows.map(r => String(r[key]))))
+              .filter(v => v !== 'null' && v !== 'undefined' && v.trim() !== '');
+            if (uniqueVals.length >= 2 && uniqueVals.length <= 12) {
+              groupKey = key;
+              uniqueGroups = uniqueVals;
+              break;
+            }
+          }
+        }
+      }
 
-      renderChart(
-        `${reportId}-canvas`,
-        response.chartSuggestion.type,
-        labels,
-        values,
-        response.chartSuggestion.label || 'Analytics Curve'
-      );
+      if (groupKey && uniqueGroups.length > 0) {
+        // Group the data by groupKey
+        // Extract all unique X values and sort them
+        const xValues = Array.from(new Set(rows.map(r => r[xKey])))
+          .filter(x => x !== null && x !== undefined);
+        
+        // Sort X values (numerically if possible, otherwise string sort)
+        xValues.sort((a: any, b: any) => {
+          const numA = Number(a);
+          const numB = Number(b);
+          if (!isNaN(numA) && !isNaN(numB)) {
+            return numA - numB;
+          }
+          return String(a).localeCompare(String(b));
+        });
+
+        const labels = xValues.map(x => String(x));
+
+        // Create a dataset for each unique group
+        const datasets = uniqueGroups.map(group => {
+          const data = xValues.map(x => {
+            const matchingRow = rows.find(r => String(r[groupKey!]) === group && r[xKey] === x);
+            return matchingRow ? Number(matchingRow[yKey]) : 0;
+          });
+          return {
+            label: group,
+            data: data
+          };
+        });
+
+        renderMultiDatasetChart(
+          `${reportId}-canvas`,
+          response.chartSuggestion.type,
+          labels,
+          datasets,
+          response.chartSuggestion.label || 'Analytics Comparison'
+        );
+      } else {
+        // Fallback to standard single series chart
+        const chartRows = rows.filter(r => r[xKey] !== null && r[yKey] !== null);
+        const labels = chartRows.map(r => String(r[xKey]));
+        const values = chartRows.map(r => Number(r[yKey]));
+
+        renderChart(
+          `${reportId}-canvas`,
+          response.chartSuggestion.type,
+          labels,
+          values,
+          response.chartSuggestion.label || 'Analytics Curve'
+        );
+      }
     } catch (chartErr) {
       console.error('[Orchestrator] Charting failed:', chartErr);
     }
@@ -608,6 +1030,11 @@ function appendBotReport(
       });
     });
   });
+
+  // Render dynamic follow-up suggestion chips after report
+  if (response.suggestions && response.suggestions.length > 0) {
+    renderSuggestionChips(response.suggestions);
+  }
 
   chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: 'smooth' });
 }

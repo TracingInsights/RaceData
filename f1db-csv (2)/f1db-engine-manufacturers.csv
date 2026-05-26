@@ -1,0 +1,79 @@
+"id","name","countryId","bestChampionshipPosition","bestStartingGridPosition","bestRaceResult","bestSprintRaceResult","totalChampionshipWins","totalRaceEntries","totalRaceStarts","totalRaceWins","totalRaceLaps","totalPodiums","totalPodiumRaces","totalPoints","totalChampionshipPoints","totalPolePositions","totalFastestLaps","totalSprintRaceStarts","totalSprintRaceWins"
+"acer","Acer","taiwan",9,4,5,,0,17,17,0,1707,0,0,4,4,0,0,0,0
+"alfa-romeo","Alfa Romeo","italy",3,1,1,,0,225,215,12,17979,40,30,166,148,15,20,0,0
+"alta","Alta","united-kingdom",,6,3,,0,29,26,0,2610,1,1,0,0,0,0,0,0
+"arrows","Arrows","united-kingdom",7,6,4,,0,32,32,0,2254,0,0,7,7,0,0,0,0
+"asiatech","Asiatech","france",9,13,5,,0,34,33,0,2826,0,0,3,3,0,0,0,0
+"aston-martin","Aston Martin","united-kingdom",,2,6,,0,6,5,0,518,0,0,0,0,0,0,0,0
+"ats","ATS","italy",,13,11,,0,7,7,0,303,0,0,0,0,0,0,0,0
+"audi","Audi","germany",,9,9,12,0,5,5,0,413,0,0,2,2,0,0,3,0
+"bmw","BMW","germany",2,1,1,,0,273,270,20,31993,86,76,1021,1021,33,33,0,0
+"borgward","Borgward","germany",,16,10,,0,2,1,0,139,0,0,0,0,0,0,0,0
+"bpm","BPM","italy",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+"bristol","Bristol","united-kingdom",,3,3,,0,17,17,0,2318,1,1,0,0,0,0,0,0
+"brm","BRM","united-kingdom",1,1,1,,1,200,189,18,31681,65,55,605.5,451,11,14,0,0
+"bugatti","Bugatti","france",,18,,,0,1,1,0,18,0,0,0,0,0,0,0,0
+"butterworth","Butterworth","united-kingdom",,15,,,0,4,2,0,19,0,0,0,0,0,0,0,0
+"bwt-mercedes","BWT Mercedes","austria",4,1,1,,0,38,38,1,4156,4,3,283,268,1,0,0,0
+"castellotti","Castellotti","italy",5,4,4,,0,4,3,0,184,0,0,3,3,0,0,0,0
+"climax","Climax","united-kingdom",1,1,1,,4,98,97,40,33309,104,63,864.5,610,44,45,0,0
+"cosworth","Cosworth","united-kingdom",6,1,3,,0,199,199,0,37066,2,2,179,179,1,1,0,0
+"cummins","Cummins","united-states-of-america",,1,27,,0,2,2,0,123,0,0,0,0,1,0,0,0
+"de-tomaso","De Tomaso","italy",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+"emw","EMW","germany",,24,,,0,1,1,0,12,0,0,0,0,0,0,0,0
+"era","ERA","united-kingdom",,10,6,,0,4,4,0,452,0,0,0,0,0,0,0,0
+"european","European","united-kingdom",11,17,9,,0,17,17,0,1417,0,0,0,0,0,0,0,0
+"ferrari","Ferrari","italy",1,1,1,1,16,1131,1129,249,212341,847,647,12426.0,12070.0,256,276,27,1
+"fondmetal","Fondmetal","italy",10,18,8,,0,17,17,0,1755,0,0,0,0,0,0,0,0
+"ford","Ford","united-states-of-america",1,1,1,,10,528,525,176,248791,533,289,4634.0,4266.5,139,162,0,0
+"gordini","Gordini","france",,3,3,,0,40,40,0,4579,2,2,0,0,0,1,0,0
+"hart","Hart","united-kingdom",5,1,2,,0,158,145,0,11358,5,5,63,63,2,2,0,0
+"honda-rbpt","Honda RBPT","japan",1,1,1,1,1,70,70,38,15643,64,50,2063,2063,30,20,18,11
+"honda","Honda","japan",1,1,1,1,6,487,486,89,64751,223,164,3411.0,3409.0,90,76,6,1
+"ilmor","Ilmor","united-kingdom",6,7,4,,0,48,37,0,3642,0,0,12,12,0,0,0,0
+"jaguar","Jaguar","united-kingdom",,25,,,0,1,1,0,17,0,0,0,0,0,0,0,0
+"jap","JAP","united-kingdom",,20,,,0,1,1,0,0,0,0,0,0,0,0,0,0
+"judd","Judd","united-kingdom",6,2,2,,0,76,68,0,11664,8,8,86,86,0,3,0,0
+"kuchen","Küchen","germany",,14,,,0,1,1,0,4,0,0,0,0,0,0,0,0
+"lamborghini","Lamborghini","italy",6,5,3,,0,80,80,0,8947,1,1,20,20,0,0,0,0
+"lancia","Lancia","italy",,1,2,,0,5,4,0,460,1,1,0,0,2,1,0,0
+"lea-francis","Lea Francis","united-kingdom",,5,4,,0,10,10,0,1584,0,0,0,0,0,0,0,0
+"life","Life","italy",,,,,0,12,0,0,0,0,0,0,0,0,0,0,0
+"maserati","Maserati","italy",3,1,1,,0,108,107,11,21618,44,33,92,67,11,19,0,0
+"matra","Matra","france",4,1,1,,0,126,125,3,8305,24,24,175,173,4,6,0,0
+"mecachrome","Mecachrome","france",3,2,3,,0,16,16,0,1727,3,3,38,38,0,0,0,0
+"megatron","Megatron","germany",5,5,3,,0,32,32,0,4068,1,1,35,35,0,0,0,0
+"mercedes","Mercedes","germany",1,1,1,1,12,618,616,243,157951,670,446,17062.5,16775.5,253,244,27,12
+"milano","Milano","italy",,11,,,0,3,3,0,32,0,0,0,0,0,0,0,0
+"motori-moderni","Motori Moderni","italy",,11,8,,0,46,43,0,1963,0,0,0,0,0,0,0,0
+"mugen-honda","Mugen-Honda","japan",3,1,1,,0,147,147,4,13460,16,15,182,182,1,0,0,0
+"novi","Novi","united-states-of-america",,1,4,,0,6,6,0,1261,0,0,0,0,1,1,0,0
+"offenhauser","Offenhauser","united-states-of-america",,1,1,,0,12,12,11,48960,33,11,72,0,9,10,0,0
+"osca","OSCA","italy",,10,9,,0,12,8,0,247,0,0,0,0,0,0,0,0
+"osella","Osella","italy",,14,9,,0,16,10,0,347,0,0,0,0,0,0,0,0
+"petronas","Petronas","malaysia",4,2,3,,0,153,151,0,14950,4,4,142,142,0,0,0,0
+"peugeot","Peugeot","france",4,2,2,,0,115,115,0,10079,14,13,128,128,0,1,0,0
+"plate","Platé","italy",,8,6,,0,4,3,0,284,0,0,0,0,0,0,0,0
+"playlife","Playlife","italy",4,1,2,,0,49,49,0,4872,6,6,69,69,1,1,0,0
+"porsche","Porsche","germany",3,1,1,,0,42,37,1,3580,5,5,50,46,1,0,0,0
+"pratt-whitney","Pratt & Whitney","united-states-of-america",,18,8,,0,3,3,0,117,0,0,0,0,0,0,0,0
+"rbpt","RBPT","japan",1,1,1,1,1,22,22,17,4792,28,20,794,794,8,8,3,2
+"red-bull-ford","Red Bull Ford","austria",,2,3,5,0,5,5,0,931,1,1,78,78,0,1,3,0
+"renault","Renault","france",1,1,1,3,12,774,771,169,134928,465,323,8244.5,8228.5,213,177,24,0
+"repco","Repco","australia",1,1,1,,2,33,33,8,3550,25,17,175,115,7,4,0,0
+"sauber","Sauber","switzerland",7,5,4,,0,16,16,0,1420,0,0,12,12,0,0,0,0
+"scarab","Scarab","united-states-of-america",,15,10,,0,5,2,0,87,0,0,0,0,0,0,0,0
+"serenissima","Serenissima","italy",10,13,6,,0,3,1,0,78,0,0,1,1,0,0,0,0
+"subaru","Subaru","japan",,,,,0,8,0,0,0,0,0,0,0,0,0,0,0
+"supertec","Supertec","netherlands",5,4,2,,0,33,33,0,3942,3,3,42,42,0,1,0,0
+"tag-heuer","TAG Heuer","switzerland",2,1,1,,0,62,62,9,6288,42,38,1255,1255,3,13,0,0
+"tag","TAG","luxembourg",1,1,1,,2,68,68,25,6687,54,44,405.5,405.5,7,18,0,0
+"talbot-lago","Talbot-Lago","france",,4,3,,0,13,13,0,2846,2,2,0,0,0,0,0,0
+"tecno","Tecno","italy",11,12,6,,0,13,10,0,243,0,0,1,1,0,0,0,0
+"toro-rosso","Toro Rosso","italy",7,6,4,,0,20,20,0,1873,0,0,53,53,0,0,0,0
+"toyota","Toyota","japan",4,1,2,,0,140,140,0,23911,17,17,384.0,384.0,3,4,0,0
+"vanwall","Vanwall","united-kingdom",1,1,1,,1,29,28,9,2190,13,11,68,48,7,6,0,0
+"veritas","Veritas","germany",,7,7,,0,6,6,0,155,0,0,0,0,0,0,0,0
+"weslake","Weslake","united-kingdom",7,2,1,,0,18,18,1,447,2,2,13,13,0,2,0,0
+"yamaha","Yamaha","japan",7,3,2,,0,130,116,0,8966,2,2,36,36,0,0,0,0
+"zakspeed","Zakspeed","germany",10,13,5,,0,58,51,0,2821,0,0,2,2,0,0,0,0

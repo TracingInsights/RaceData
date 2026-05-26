@@ -1,0 +1,188 @@
+"id","name","fullName","countryId","bestChampionshipPosition","bestStartingGridPosition","bestRaceResult","bestSprintRaceResult","totalChampionshipWins","totalRaceEntries","totalRaceStarts","totalRaceWins","total1And2Finishes","totalRaceLaps","totalPodiums","totalPodiumRaces","totalPoints","totalChampionshipPoints","totalPolePositions","totalFastestLaps","totalSprintRaceStarts","totalSprintRaceWins"
+"adams","Adams","Adams","united-states-of-america",,17,27,,0,1,1,0,0,108,0,0,0,0,0,0,0,0
+"afm","AFM","Alex von Falkenhausen Motorenbau","germany",,9,9,,0,4,4,0,0,98,0,0,0,0,0,0,0,0
+"ags","AGS","Automobiles Gonfaronnaises Sportives","france",11,10,6,,0,80,48,0,0,2031,0,0,2,2,0,0,0,0
+"alfa-romeo","Alfa Romeo","Alfa Romeo Racing","italy",6,1,1,7,0,214,214,10,4,20608,26,18,199,199,12,16,12,0
+"alfa-special","Alfa Special","Alfa Special","south-africa",,16,10,,0,2,2,0,0,132,0,0,0,0,0,0,0,0
+"alphatauri","AlphaTauri","Scuderia AlphaTauri","italy",6,2,1,6,0,83,83,1,0,8865,2,2,309,309,0,2,12,0
+"alpine","Alpine","Alpine F1 Team","france",4,2,1,3,0,119,119,1,0,12787,6,5,570,570,0,1,27,0
+"alta","Alta","Alta Car and Engineering Company","united-kingdom",,12,9,,0,5,5,0,0,311,0,0,0,0,0,0,0,0
+"amon","Amon","Chris Amon Racing","new-zealand",,20,,,0,4,1,0,0,22,0,0,0,0,0,0,0,0
+"andrea-moda","Andrea Moda","Andrea Moda Formula","italy",,26,,,0,10,1,0,0,11,0,0,0,0,0,0,0,0
+"apollon","Apollon","Apollon","switzerland",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"arrows","Arrows","Arrows Grand Prix International","united-kingdom",5,1,2,,0,296,291,0,0,24515,8,8,142,142,1,0,0,0
+"arzani-volpini","Arzani-Volpini","Scuderia Arzani-Volpini","italy",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"aston-butterworth","Aston Butterworth","Aston Butterworth","united-kingdom",,15,,,0,4,2,0,0,19,0,0,0,0,0,0,0,0
+"aston-martin","Aston Martin","Aston Martin","united-kingdom",5,2,2,4,0,125,124,0,0,13455,9,9,595,595,0,3,27,0
+"ats-wheels","ATS","ATS Wheels","germany",11,4,5,,0,107,89,0,0,4375,0,0,7,7,0,0,0,0
+"ats","ATS","Automobili Turismo e Sport","italy",,13,11,,0,5,5,0,0,250,0,0,0,0,0,0,0,0
+"audi","Audi","Audi","germany",,9,9,12,0,5,5,0,0,413,0,0,2,2,0,0,3,0
+"balsa","Balsa","Balsa","germany",,25,,,0,1,1,0,0,5,0,0,0,0,0,0,0,0
+"bar","BAR","British American Racing","united-kingdom",2,1,2,,0,118,117,0,0,11153,15,15,227,227,2,0,0,0
+"behra-porsche","Behra-Porsche","Behra-Porsche","germany",,14,10,,0,4,2,0,0,117,0,0,0,0,0,0,0,0
+"bellasi","Bellasi","Bellasi","italy",,22,,,0,6,2,0,0,18,0,0,0,0,0,0,0,0
+"benetton","Benetton","Benetton Formula","italy",1,1,1,,1,260,260,27,2,26035,102,94,861.5,851.5,15,36,0,0
+"bmw-sauber","BMW Sauber","BMW Sauber F1 Team","germany",2,1,1,,0,70,70,1,1,7937,17,16,308,308,1,2,0,0
+"bmw","BMW","BMW","germany",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"boro","Boro","Boro","netherlands",,13,8,,0,8,6,0,0,263,0,0,0,0,0,0,0,0
+"brabham","Brabham","Motor Racing Developments","united-kingdom",1,1,1,,2,402,394,35,8,41173,124,106,983,843,39,42,0,0
+"brawn","Brawn","Brawn GP Formula One Team","united-kingdom",1,1,1,,1,17,17,8,4,1921,15,11,172,172,5,4,0,0
+"brm","BRM","British Racing Motors","united-kingdom",1,1,1,,1,208,197,17,5,23759,61,53,535.5,385,11,15,0,0
+"bromme","Bromme","Bromme","united-states-of-america",,11,22,,0,4,4,0,0,314,0,0,0,0,0,0,0,0
+"brp","BRP","British Racing Partnership","united-kingdom",6,7,4,,0,13,13,0,0,801,0,0,11,11,0,0,0,0
+"bugatti","Bugatti","Bugatti","france",,18,,,0,1,1,0,0,18,0,0,0,0,0,0,0,0
+"cadillac","Cadillac","Cadillac","united-states-of-america",,18,13,14,0,5,5,0,0,499,0,0,0,0,0,0,3,0
+"caterham","Caterham","Caterham F1 Team","malaysia",10,14,11,,0,56,56,0,0,5521,0,0,0,0,0,0,0,0
+"christensen","Christensen","Christensen","united-states-of-america",,14,18,,0,2,2,0,0,232,0,0,0,0,0,0,0,0
+"cisitalia","Cisitalia","Cisitalia","italy",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"coloni","Coloni","Scuderia Coloni","italy",,15,8,,0,65,13,0,0,522,0,0,0,0,0,0,0,0
+"connaught","Connaught","Connaught Engineering","united-kingdom",,5,3,,0,18,17,0,0,2126,1,1,0,0,0,0,0,0
+"connew","Connew","Connew Racing Team","united-kingdom",,25,,,0,2,1,0,0,22,0,0,0,0,0,0,0,0
+"cooper","Cooper","Cooper Car Company","united-kingdom",1,1,1,,2,129,129,16,6,22924,58,41,480.5,301,11,14,0,0
+"dallara","Dallara","Dallara Automobili","italy",8,3,3,,0,80,78,0,0,5400,2,2,15,15,0,0,0,0
+"de-tomaso","De Tomaso","De Tomaso Modena","italy",,9,,,0,15,10,0,0,335,0,0,0,0,0,0,0,0
+"deidt","Deidt","Deidt","united-states-of-america",,3,2,,0,3,3,0,0,899,2,1,0,0,0,0,0,0
+"del-roy","Del Roy","Del Roy","united-states-of-america",,33,32,,0,1,1,0,0,6,0,0,0,0,0,0,0,0
+"derrington-francis","Derrington-Francis","Derrington-Francis Racing Team","united-kingdom",,19,,,0,1,1,0,0,24,0,0,0,0,0,0,0,0
+"dunn","Dunn","Dunn","united-states-of-america",,23,13,,0,3,3,0,0,349,0,0,0,0,0,0,0,0
+"eagle","Eagle","All American Racers","united-states-of-america",7,2,1,,0,26,25,1,0,746,2,2,17,17,0,2,0,0
+"eifelland","Eifelland","Team Eifelland Caravans","germany",,14,10,,0,8,8,0,0,414,0,0,0,0,0,0,0,0
+"elder","Elder","Elder","united-states-of-america",,32,23,,0,1,1,0,0,115,0,0,0,0,0,0,0,0
+"emeryson","Emeryson","Emeryson Cars","united-kingdom",,19,11,,0,6,4,0,0,153,0,0,0,0,0,0,0,0
+"emw","EMW","Eisenacher Motorenwerk","germany",,24,,,0,1,1,0,0,12,0,0,0,0,0,0,0,0
+"enb","ENB","Ecurie National Belge","belgium",,25,16,,0,1,1,0,0,14,0,0,0,0,0,0,0,0
+"ensign","Ensign","Ensign Racing","united-kingdom",10,3,4,,0,133,99,0,0,4458,0,0,19,19,0,1,0,0
+"epperly","Epperly","Epperly","united-states-of-america",,7,1,,0,5,5,2,2,2784,5,3,29,0,0,2,0,0
+"era","ERA","English Racing Automobiles","united-kingdom",,10,6,,0,7,7,0,0,561,0,0,0,0,0,0,0,0
+"eurobrun","EuroBrun","EuroBrun Racing","italy",,15,11,,0,46,15,0,0,841,0,0,0,0,0,0,0,0
+"ewing","Ewing","Ewing","united-states-of-america",,1,17,,0,2,2,0,0,294,0,0,0,0,1,0,0,0
+"ferguson","Ferguson","Harry Ferguson Research","united-kingdom",,20,,,0,1,1,0,0,56,0,0,0,0,0,0,0,0
+"ferrari","Ferrari","Scuderia Ferrari","italy",1,1,1,1,16,1129,1127,248,87,127288,840,643,11178.0,10822.0,254,267,27,1
+"first","FIRST","FIRST Racing","italy",,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"fittipaldi","Fittipaldi","Fittipaldi Automotive","brazil",7,5,2,,0,120,103,0,0,5343,3,3,44,44,0,0,0,0
+"fondmetal","Fondmetal","Fondmetal","italy",,10,10,,0,29,19,0,0,736,0,0,0,0,0,0,0,0
+"footwork","Footwork","Footwork Arrows","united-kingdom",7,6,3,,0,97,91,0,0,7150,1,1,25,25,0,0,0,0
+"force-india","Force India","Force India F1 Team","india",4,1,2,,0,212,212,0,0,22042,6,6,1098,1039,1,5,0,0
+"forti","Forti","Forti Corse","italy",,19,7,,0,27,23,0,0,1804,0,0,0,0,0,0,0,0
+"frank-williams-racing-cars","Frank Williams Racing Cars","Frank Williams Racing Cars","united-kingdom",9,11,2,,0,14,12,0,0,684,1,1,6,6,0,0,0,0
+"frazer-nash","Frazer-Nash","Frazer-Nash","united-kingdom",,7,4,,0,4,4,0,0,221,0,0,0,0,0,0,0,0
+"fry","Fry","Fry Racing Team","united-kingdom",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"gilby","Gilby","Gilby Engineering","united-kingdom",,19,15,,0,6,3,0,0,135,0,0,0,0,0,0,0,0
+"gordini","Gordini","Gordini","france",,3,3,,0,33,33,0,0,3975,2,2,0,0,0,1,0,0
+"greifzu","Greifzu","Greifzu","germany",,26,14,,0,1,1,0,0,16,0,0,0,0,0,0,0,0
+"haas","Haas","Haas F1 Team","united-states-of-america",5,4,4,5,0,219,219,0,0,23172,0,0,405,405,1,3,27,0
+"hall","Hall","Hall","united-states-of-america",,33,19,,0,1,1,0,0,97,0,0,0,0,0,0,0,0
+"heck","Heck","Heck","germany",,29,12,,0,2,2,0,0,29,0,0,0,0,0,0,0,0
+"hesketh","Hesketh","Hesketh Racing","united-kingdom",4,2,1,,0,60,52,1,0,3015,7,7,48,48,0,1,0,0
+"hill","Hill","Embassy Racing With Graham Hill","united-kingdom",11,6,5,,0,11,10,0,0,688,0,0,3,3,0,0,0,0
+"honda","Honda","Honda Racing F1 Team","japan",4,1,1,,0,88,88,3,0,7671,9,9,156,154,2,2,0,0
+"hrt","HRT","Hispania Racing Team","spain",11,18,13,,0,57,56,0,0,5328,0,0,0,0,0,0,0,0
+"hwm","HWM","Hersham and Walton Motors","united-kingdom",,6,5,,0,16,14,0,0,1537,0,0,0,0,0,0,0,0
+"iso-marlboro","Iso-Marlboro","Iso-Marlboro","united-kingdom",10,3,4,,0,30,30,0,0,2105,0,0,6,6,0,0,0,0
+"jaguar","Jaguar","Jaguar Racing F1 Team","united-kingdom",7,2,3,,0,85,85,0,0,7738,2,2,49,49,0,0,0,0
+"jbw","JBW","JBW Cars","united-kingdom",,7,13,,0,6,5,0,0,157,0,0,0,0,0,0,0,0
+"jordan","Jordan","Jordan Grand Prix","ireland",3,1,1,,0,250,250,4,1,22001,19,17,291,291,2,2,0,0
+"kauhsen","Kauhsen","Kauhsen","germany",,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"kick-sauber","Kick Sauber","Kick Sauber F1 Team","switzerland",9,7,3,9,0,48,48,0,0,5163,1,1,74,74,0,0,12,0
+"klenk","Klenk","Klenk","germany",,21,,,0,1,1,0,0,8,0,0,0,0,0,0,0,0
+"kojima","Kojima","Kojima Engineering","japan",,10,11,,0,2,2,0,0,138,0,0,0,0,0,0,0,0
+"krakau","Krakau","Krakau","germany",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"kurtis-kraft","Kurtis Kraft","Kurtis Kraft","united-states-of-america",,1,1,,0,12,12,5,3,26720,16,8,4,0,6,7,0,0
+"kuzma","Kuzma","Kuzma","united-states-of-america",,2,1,,0,10,10,1,0,5921,3,3,0,0,0,0,0,0
+"lancia","Lancia","Lancia","italy",,1,2,,0,5,4,0,0,460,1,1,0,0,2,1,0,0
+"langley","Langley","Langley","united-states-of-america",,31,16,,0,1,1,0,0,128,0,0,0,0,0,0,0,0
+"larrousse","Larrousse","Larrousse F1","france",10,9,5,,0,32,32,0,0,2805,0,0,5,5,0,0,0,0
+"lds","LDS","LDS","south-africa",,14,11,,0,5,5,0,0,306,0,0,0,0,0,0,0,0
+"lec","LEC","LEC Refrigeration Racing","united-kingdom",,19,13,,0,5,3,0,0,142,0,0,0,0,0,0,0,0
+"lesovsky","Lesovsky","Lesovsky","united-states-of-america",,1,3,,0,9,9,0,0,1931,1,1,7,0,1,1,0,0
+"leyton-house","Leyton House","Leyton House Racing","united-kingdom",7,7,2,,0,32,30,0,0,2134,1,1,8,8,0,0,0,0
+"life","Life","Life Racing Engines","italy",,,,,0,14,0,0,0,0,0,0,0,0,0,0,0,0
+"ligier","Ligier","Equipe Ligier","france",2,1,1,,0,330,326,9,1,26233,50,45,388,388,9,10,0,0
+"lola","Lola","Lola Cars","united-kingdom",4,1,2,,0,152,149,0,0,9874,3,3,43,43,1,0,0,0
+"lotus-f1","Lotus","Lotus F1 Team","united-kingdom",4,2,1,,0,77,77,2,0,7500,25,20,706,706,0,5,0,0
+"lotus-racing","Lotus Racing","Lotus Racing","malaysia",10,13,12,,0,38,38,0,0,3661,0,0,0,0,0,0,0,0
+"lotus","Lotus","Team Lotus","united-kingdom",1,1,1,,7,493,491,79,8,55948,172,157,1514,1332,107,71,0,0
+"lyncar","Lyncar","Lyncar","united-kingdom",,26,17,,0,2,1,0,0,51,0,0,0,0,0,0,0,0
+"maki","Maki","Maki Engineering","japan",,,,,0,8,0,0,0,0,0,0,0,0,0,0,0,0
+"manor","Manor","Manor Racing","united-kingdom",11,12,10,,0,21,21,0,0,2167,0,0,1,1,0,0,0,0
+"march","March","March Engineering","united-kingdom",3,1,1,,0,208,197,3,0,21036,21,20,185.0,172.5,5,7,0,0
+"marchese","Marchese","Marchese","united-states-of-america",,16,11,,0,2,2,0,0,226,0,0,0,0,0,0,0,0
+"martini","Martini","Automobiles Martini","france",,18,9,,0,7,4,0,0,213,0,0,0,0,0,0,0,0
+"marussia","Marussia","Marussia F1 Team","united-kingdom",9,12,9,,0,74,73,0,0,7693,0,0,2,2,0,0,0,0
+"maserati","Maserati","Maserati","italy",5,1,1,,0,73,70,9,1,16375,37,28,9,6,10,17,0,0
+"matra","Matra","Equipe Matra Sports","france",1,1,1,,1,63,62,9,2,6134,21,17,184,163,4,12,0,0
+"mcguire","McGuire","McGuire","australia",,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"mclaren","McLaren","McLaren Racing","united-kingdom",1,1,1,1,10,1003,998,203,56,106128,561,447,8214.5,7889.5,177,185,27,7
+"mercedes","Mercedes","Mercedes AMG F1","germany",1,1,1,1,8,346,346,136,62,39850,317,216,8378.5,8378.5,148,118,27,5
+"merzario","Merzario","Team Merzario","italy",,20,,,0,31,10,0,0,272,0,0,0,0,0,0,0,0
+"meskowski","Meskowski","Meskowski","united-states-of-america",,21,8,,0,1,1,0,0,394,0,0,0,0,0,0,0,0
+"midland","Midland","Midland F1 Racing","russia",10,14,9,,0,18,18,0,0,1714,0,0,0,0,0,0,0,0
+"minardi","Minardi","Minardi F1 Team","italy",7,2,4,,0,346,339,0,0,26826,0,0,38,38,0,0,0,0
+"modena","Modena","Modena Team","italy",,17,7,,0,16,6,0,0,262,0,0,0,0,0,0,0,0
+"moore","Moore","Moore","united-states-of-america",,7,6,,0,3,3,0,0,536,0,0,0,0,0,0,0,0
+"nacke","Nacke","Nacke","germany",,30,,,0,1,1,0,0,5,0,0,0,0,0,0,0,0
+"nichels","Nichels","Nichels","united-states-of-america",,4,9,,0,2,2,0,0,300,0,0,0,0,0,0,0,0
+"olson","Olson","Olson","united-states-of-america",,30,23,,0,1,1,0,0,123,0,0,0,0,0,0,0,0
+"onyx","Onyx","Onyx Grand Prix","united-kingdom",10,11,3,,0,26,17,0,0,1078,1,1,6,6,0,0,0,0
+"osca","O.S.C.A.","Officine Specializzate Costruzione Automobili","italy",,10,9,,0,7,4,0,0,217,0,0,0,0,0,0,0,0
+"osella","Osella","Osella Squadra Corse","italy",12,8,4,,0,172,130,0,0,4842,0,0,5,5,0,0,0,0
+"pacific","Pacific","Pacific Racing","united-kingdom",,19,8,,0,33,22,0,0,1154,0,0,0,0,0,0,0,0
+"pankratz","Pankratz","Pankratz","united-states-of-america",,7,17,,0,2,2,0,0,204,0,0,0,0,0,0,0,0
+"parnelli","Parnelli","Vel's Parnelli Jones Racing","united-states-of-america",10,3,4,,0,16,16,0,0,548,0,0,6,6,0,1,0,0
+"pawl","Pawl","Pawl","united-states-of-america",,13,16,,0,3,3,0,0,394,0,0,0,0,0,0,0,0
+"penske","Penske","Team Penske","united-states-of-america",5,2,1,,0,41,40,1,0,2146,3,3,23,23,0,0,0,0
+"phillips","Phillips","Phillips","united-states-of-america",,6,3,,0,7,7,0,0,1290,1,1,3,0,0,0,0,0
+"politoys","Politoys","Politoys","united-kingdom",,26,,,0,1,1,0,0,7,0,0,0,0,0,0,0,0
+"porsche","Porsche","Porsche","germany",3,1,1,,0,35,32,1,0,3309,5,5,50,46,1,0,0,0
+"prost","Prost","Prost Grand Prix","france",6,3,2,,0,83,83,0,0,7430,3,3,35,35,0,0,0,0
+"protos","Protos","Protos","united-kingdom",,23,,,0,1,1,0,0,16,0,0,0,0,0,0,0,0
+"racing-bulls","Racing Bulls","Racing Bulls","italy",6,3,3,6,0,29,29,0,0,3085,1,1,113,113,0,0,9,0
+"racing-point","Racing Point","Racing Point F1 Team","united-kingdom",4,1,1,,0,38,38,1,0,4156,4,3,283,268,1,0,0,0
+"rae","Rae","Rae","united-states-of-america",,29,22,,0,1,1,0,0,123,0,0,0,0,0,0,0,0
+"ram","RAM","RAM Racing","united-kingdom",,14,8,,0,44,31,0,0,1628,0,0,0,0,0,0,0,0
+"rb","RB","Racing Bulls","italy",8,3,7,4,0,24,24,0,0,2602,0,0,46,46,0,1,6,0
+"rebaque","Rebaque","Team Rebaque","mexico",,22,,,0,3,1,0,0,26,0,0,0,0,0,0,0,0
+"red-bull","Red Bull","Red Bull Racing","austria",1,1,1,1,6,423,422,130,31,45297,298,234,8345.0,8345.0,111,103,27,14
+"reif","Reif","Reif","germany",,23,,,0,1,1,0,0,3,0,0,0,0,0,0,0,0
+"renault","Renault","Renault Sport Formula One Team","france",1,1,1,,2,403,400,35,2,38337,103,91,1777,1777,51,33,0,0
+"rial","Rial","Rial Racing","germany",9,12,4,,0,32,20,0,0,872,0,0,6,6,0,0,0,0
+"sauber","Sauber","Sauber F1 Team","switzerland",4,2,2,,0,395,392,0,0,38401,10,10,557,557,0,3,0,0
+"scarab","Scarab","Scarab","united-states-of-america",,15,10,,0,5,2,0,0,87,0,0,0,0,0,0,0,0
+"schroeder","Schroeder","Schroeder","united-states-of-america",,23,5,,0,4,4,0,0,842,0,0,0,0,0,0,0,0
+"scirocco","Scirocco","Scirocco-Powell","united-kingdom",,18,8,,0,7,5,0,0,106,0,0,0,0,0,0,0,0
+"shadow","Shadow","Shadow Racing Cars","united-kingdom",6,1,1,,0,112,104,1,0,9133,7,7,68.5,67.5,3,2,0,0
+"shannon","Shannon","Shannon Racing Cars","united-kingdom",,18,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"sherman","Sherman","Sherman","united-states-of-america",,13,4,,0,2,2,0,0,397,0,0,0,0,0,0,0,0
+"simca-gordini","Simca-Gordini","Simca-Gordini","france",,9,4,,0,15,14,0,0,604,0,0,0,0,0,0,0,0
+"simtek","Simtek","Simtek","united-kingdom",,14,9,,0,21,20,0,0,1473,0,0,0,0,0,0,0,0
+"snowberger","Snowberger","Snowberger","united-states-of-america",,22,26,,0,1,1,0,0,111,0,0,0,0,0,0,0,0
+"spirit","Spirit","Spirit Racing","united-kingdom",,13,7,,0,25,23,0,0,930,0,0,0,0,0,0,0,0
+"spyker","Spyker","Spyker F1 Team","netherlands",10,19,8,,0,17,17,0,0,1449,0,0,1,1,0,0,0,0
+"stebro","Stebro","Stebro","canada",,21,7,,0,1,1,0,0,88,0,0,0,0,0,0,0,0
+"stevens","Stevens","Stevens","united-states-of-america",,1,8,,0,6,6,0,0,1202,0,0,0,0,1,0,0,0
+"stewart","Stewart","Stewart Grand Prix","united-kingdom",4,1,1,,0,49,49,1,0,3985,5,4,47,47,1,0,0,0
+"super-aguri","Super Aguri","Super Aguri F1 Team","japan",9,10,6,,0,39,39,0,0,3569,0,0,4,4,0,0,0,0
+"surtees","Surtees","Surtees Racing Organisation","united-kingdom",5,2,2,,0,119,118,0,0,9720,2,2,54,53,0,3,0,0
+"sutton","Sutton","Sutton","united-states-of-america",,31,30,,0,1,1,0,0,45,0,0,0,0,0,0,0,0
+"talbot-lago","Talbot-Lago","Talbot-Lago","france",,4,3,,0,13,13,0,0,2846,2,2,0,0,0,0,0,0
+"tec-mec","Tec-Mec","Studio Tecnica Meccanica","united-states-of-america",,17,,,0,1,1,0,0,6,0,0,0,0,0,0,0,0
+"tecno","Tecno","Tecno Racing Team","italy",11,12,6,,0,14,11,0,0,252,0,0,1,1,0,0,0,0
+"theodore","Theodore","Theodore Racing","hong-kong",12,11,6,,0,51,34,0,0,1803,0,0,2,2,0,0,0,0
+"token","Token","Token Racing","united-kingdom",,20,14,,0,4,3,0,0,125,0,0,0,0,0,0,0,0
+"toleman","Toleman","Toleman Motorsport","united-kingdom",7,1,2,,0,70,57,0,0,2892,3,3,26,26,1,2,0,0
+"toro-rosso","Toro Rosso","Scuderia Toro Rosso","italy",6,1,1,,0,268,268,1,0,26972,3,3,500,500,1,1,0,0
+"toyota","Toyota","Toyota Racing","japan",4,1,2,,0,140,139,0,0,14363,13,13,278.5,278.5,3,3,0,0
+"trevis","Trevis","Trevis","united-states-of-america",,7,6,,0,4,4,0,0,960,0,0,1,0,0,0,0,0
+"trojan","Trojan","Trojan-Tauranac Racing","united-kingdom",,19,10,,0,8,6,0,0,230,0,0,0,0,0,0,0,0
+"turner","Turner","Turner","united-states-of-america",,23,21,,0,1,1,0,0,146,0,0,0,0,0,0,0,0
+"tyrrell","Tyrrell","Tyrrell Racing","united-kingdom",1,1,1,,1,433,431,23,8,38299,77,66,711,617,14,20,0,0
+"vanwall","Vanwall","Vanwall","united-kingdom",1,1,1,,1,29,28,9,0,2190,13,11,68,48,7,6,0,0
+"venturi","Venturi","Venturi Automobiles","france",11,10,6,,0,16,16,0,0,1157,0,0,1,1,0,0,0,0
+"veritas","Veritas","Veritas","germany",,7,7,,0,6,6,0,0,155,0,0,0,0,0,0,0,0
+"virgin","Virgin","Virgin Racing","united-kingdom",12,16,14,,0,38,38,0,0,3412,0,0,0,0,0,0,0,0
+"watson","Watson","Watson","united-states-of-america",,1,1,,0,9,9,3,2,2778,5,3,28,0,2,1,0,0
+"wetteroth","Wetteroth","Wetteroth","united-states-of-america",,28,24,,0,1,1,0,0,122,0,0,0,0,0,0,0,0
+"williams","Williams","Williams Grand Prix Engineering","united-kingdom",1,1,1,3,9,856,855,114,33,88178,314,245,3781.0,3775.0,128,134,27,0
+"wolf-williams","Wolf-Williams","Wolf-Williams Racing","united-kingdom",,17,7,,0,16,13,0,0,815,0,0,0,0,0,0,0,0
+"wolf","Wolf","Walter Wolf Racing","canada",4,1,1,,0,48,47,3,0,2414,13,13,79,79,1,2,0,0
+"zakspeed","Zakspeed","Zakspeed Racing","germany",10,13,5,,0,74,53,0,0,2858,0,0,2,2,0,0,0,0

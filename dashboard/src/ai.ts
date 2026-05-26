@@ -13,6 +13,12 @@ export interface SQLGenerationResponse {
     yKey: string;
     label: string;
   };
+  suggestions: string[];
+}
+
+export interface ConversationContext {
+  role: 'user' | 'model';
+  text: string;
 }
 
 // System prompt describing the complete database schema and query instructions
@@ -60,6 +66,7 @@ Here is the exact schema of the Formula 1 database (18 tables):
    - In \`lap_times\`, \`milliseconds\` is an integer. ALWAYS use \`milliseconds\` for calculations, sorting, averages, and comparisons.
    - In \`pit_stops\`, \`milliseconds\` is an integer. ALWAYS use \`milliseconds\` for averages, sums, and comparisons.
 6. **Output Format**: You MUST output a clean, parsable JSON block. No markdown tags, no backticks, no wrap-ups, just raw JSON.
+7. **Suggestions**: Provide 2-3 logical, interesting, and brief follow-up questions relevant to the user's query and F1 database schema under "suggestions".
 
 JSON Structure:
 {
@@ -70,7 +77,11 @@ JSON Structure:
     "xKey": "surname",
     "yKey": "wins",
     "label": "Top 5 Race Winners in F1 History"
-  }
+  },
+  "suggestions": [
+    "Who is the active driver with the most wins?",
+    "How many wins did they score with each constructor?"
+  ]
 }
 
 Use "type": "none" for charts if the result is a single number, a text name, or not plottable.
@@ -116,16 +127,26 @@ export async function fetchAvailableModels(apiKey: string): Promise<ModelMetadat
 export async function generateSQL(
   userQuery: string,
   apiKey: string,
-  modelName: string
+  modelName: string,
+  history?: ConversationContext[]
 ): Promise<SQLGenerationResponse> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
   
+  // Format history context cleanly
+  let historyPrompt = "";
+  if (history && history.length > 0) {
+    historyPrompt = "\n\n[CONVERSATION HISTORY]\n" + history.map(h => {
+      const prefix = h.role === 'user' ? 'User Question' : 'Assistant SQL';
+      return `${prefix}: "${h.text}"`;
+    }).join('\n') + "\n\n";
+  }
+
   const payload = {
     contents: [
       {
         parts: [
           { text: SYSTEM_PROMPT_SQL },
-          { text: `User Question: "${userQuery}"\n\nGenerate the SQL query JSON:` }
+          { text: `${historyPrompt}User Question: "${userQuery}"\n\nGenerate the SQL query JSON:` }
         ]
       }
     ],
@@ -166,13 +187,23 @@ export async function selfHealSQL(
   failedSql: string,
   errorMessage: string,
   apiKey: string,
-  modelName: string
+  modelName: string,
+  history?: ConversationContext[]
 ): Promise<SQLGenerationResponse> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
   
+  let historyPrompt = "";
+  if (history && history.length > 0) {
+    historyPrompt = "\n\n[CONVERSATION HISTORY]\n" + history.map(h => {
+      const prefix = h.role === 'user' ? 'User Question' : 'Assistant SQL';
+      return `${prefix}: "${h.text}"`;
+    }).join('\n') + "\n\n";
+  }
+
   const healingPrompt = `
 You are an expert F1 database debugger. A SQL query you generated for AlaSQL in-memory database failed with an error.
 
+${historyPrompt}
 Original User Question: "${userQuery}"
 Failed SQL Query:
 \`\`\`sql
@@ -189,7 +220,8 @@ JSON Structure:
 {
   "sql": "CORRECTED_SQL_QUERY",
   "requiredTables": ["drivers", "results", ...],
-  "chartSuggestion": { ... }
+  "chartSuggestion": { ... },
+  "suggestions": [ ... ]
 }
   `;
 

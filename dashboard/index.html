@@ -93,6 +93,14 @@
       </div>
     </div>
 
+    <!-- Pinned New Chat Button -->
+    <div class="px-6 pt-4 flex-shrink-0">
+      <button id="new-chat-btn" class="w-full bg-f1-red hover:bg-red-700 text-white font-semibold font-outfit text-sm py-2.5 px-4 rounded-md transition flex items-center justify-center space-x-2 shadow-[0_0_12px_rgba(225,6,0,0.35)]">
+        <i class="fa-solid fa-plus"></i>
+        <span>New Analysis</span>
+      </button>
+    </div>
+
     <!-- Scrollable Settings and Status -->
     <div class="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-thin">
       <!-- Section: API Configuration -->
@@ -124,6 +132,17 @@
               <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Section: Saved Conversations -->
+      <div class="space-y-4">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 font-outfit flex items-center">
+          <i class="fa-solid fa-comments mr-2 text-f1-red"></i> Conversations
+        </h2>
+        <!-- Thread List Container -->
+        <div id="thread-list" class="space-y-1 max-h-52 overflow-y-auto scrollbar-thin pr-1">
+          <div class="text-xs text-slate-500 italic py-2">No active sessions</div>
         </div>
       </div>
 
@@ -264,6 +283,9 @@
     <!-- Chat Input Area -->
     <div class="p-6 border-t border-slate-800 bg-slate-950 bg-opacity-70 backdrop-blur-md">
       <div class="max-w-4xl mx-auto">
+        <!-- Dynamic/Starter Suggestion Chips -->
+        <div id="suggestions-chips-container" class="flex flex-wrap gap-2 mb-3 items-center justify-center"></div>
+
         <form id="chat-form" class="relative flex items-center">
           <input type="text" id="query-input" class="w-full bg-slate-900 bg-opacity-80 border border-slate-800 focus:border-f1-red focus:outline-none text-slate-100 placeholder-slate-500 rounded-lg py-4 pl-6 pr-24 shadow-2xl transition text-base" placeholder="Ask a question about the race data archive (e.g., 'Compare average pitstop times by constructor in 2023')...">
           

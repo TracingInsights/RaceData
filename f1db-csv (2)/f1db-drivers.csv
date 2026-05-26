@@ -1,0 +1,916 @@
+"id","name","firstName","lastName","fullName","abbreviation","permanentNumber","gender","dateOfBirth","dateOfDeath","placeOfBirth","countryOfBirthCountryId","nationalityCountryId","secondNationalityCountryId","bestChampionshipPosition","bestStartingGridPosition","bestRaceResult","bestSprintRaceResult","totalChampionshipWins","totalRaceEntries","totalRaceStarts","totalRaceWins","totalRaceLaps","totalPodiums","totalPoints","totalChampionshipPoints","totalPolePositions","totalFastestLaps","totalSprintRaceStarts","totalSprintRaceWins","totalDriverOfTheDay","totalGrandSlams"
+"adderly-fong","Adderly Fong","Adderly","Fong","Adderly Fong Cheun-yue","FON",,"MALE","1990-03-02",,"Vancouver","canada","hong-kong",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"adolf-brudes","Adolf Brudes","Adolf","Brudes","Adolf Brudes von Breslau","BRU",,"MALE","1899-10-15","1986-11-05","Groß Kottulin","germany","germany",,,19,,,0,1,1,0,5,0,0,0,0,0,0,0,0,0
+"adolfo-schwelm-cruz","Adolfo Schwelm Cruz","Adolfo","Schwelm Cruz","Adolfo Julio Carlos Schwelm Cruz","SCH",,"MALE","1923-06-28","2012-02-10","Buenos Aires","argentina","argentina",,,13,,,0,1,1,0,20,0,0,0,0,0,0,0,0,0
+"adrian-campos","Adrián Campos","Adrián","Campos","Adrián Campos Suñer","CAM",,"MALE","1960-06-17","2021-01-27","Alzira","spain","spain",,,16,14,,0,21,17,0,433,0,0,0,0,0,0,0,0,0
+"adrian-sutil","Adrian Sutil","Adrian","Sutil","Adrian Sutil","SUT",,"MALE","1983-01-11",,"Starnberg","germany","germany",,9,2,4,,0,128,128,0,6022,0,124,124,0,1,0,0,0,0
+"aguri-suzuki","Aguri Suzuki","Aguri","Suzuki","Aguri Suzuki","SUZ",,"MALE","1960-09-08",,"Tokyo","japan","japan",,12,6,3,,0,88,65,0,2463,1,8,8,0,0,0,0,0,0
+"al-herman","Al Herman","Al","Herman","Al Herman","HER",,"MALE","1926-03-15","1960-06-18","Topton","united-states-of-america","united-states-of-america",,,16,7,,0,5,5,0,619,0,0,0,0,0,0,0,0,0
+"al-keller","Al Keller","Al","Keller","Al Keller","KEL",,"MALE","1920-04-11","1961-11-19","Alexander","united-states-of-america","united-states-of-america",,,8,11,,0,5,5,0,687,0,0,0,0,0,0,0,0,0
+"al-pease","Al Pease","Al","Pease","Al Pease","PEA",,"MALE","1921-10-15","2014-05-04","Darlington","united-kingdom","canada",,,15,,,0,3,2,0,69,0,0,0,0,0,0,0,0,0
+"alain-de-changy","Alain de Changy","Alain","De Changy","Alain Carpentier de Changy","DEC",,"MALE","1922-02-05","1994-08-05","Brussels","belgium","belgium",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"alain-prost","Alain Prost","Alain","Prost","Alain Marie Pascal Prost","PRO",,"MALE","1955-02-24",,"Lorette","france","france",,1,1,1,,4,202,199,51,10540,106,798.5,768.5,33,41,0,0,0,0
+"alan-brown","Alan Brown","Alan","Brown","Alan Everest Brown","BRO",,"MALE","1919-11-20","2004-01-20","Malton","united-kingdom","united-kingdom",,16,9,5,,0,9,8,0,458,0,2,2,0,0,0,0,0,0
+"alan-jones","Alan Jones","Alan","Jones","Alan Stanley Jones","JON",,"MALE","1946-11-02",,"Melbourne","australia","australia",,1,1,1,,1,117,116,12,5566,24,206,199,6,13,0,0,0,0
+"alan-rees","Alan Rees","Alan","Rees","Alan Rees","REE",,"MALE","1938-01-12",,"Langstone","united-kingdom","united-kingdom",,,15,7,,0,3,3,0,95,0,0,0,0,0,0,0,0,0
+"alan-rollinson","Alan Rollinson","Alan","Rollinson","Alan Rollinson","ROL",,"MALE","1943-05-15","2019-06-02","Walsall","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"alan-stacey","Alan Stacey","Alan","Stacey","Alan Stacey","STA",,"MALE","1933-08-29","1960-06-19","Broomfield","united-kingdom","united-kingdom",,,8,8,,0,7,7,0,219,0,0,0,0,0,0,0,0,0
+"albert-scherrer","Albert Scherrer","Albert","Scherrer","Albert Scherrer","SCH",,"MALE","1908-02-28","1986-07-05","Riehen","switzerland","switzerland",,,18,9,,0,1,1,0,49,0,0,0,0,0,0,0,0,0
+"alberto-ascari","Alberto Ascari","Alberto","Ascari","Alberto Ascari","ASC",,"MALE","1918-07-13","1955-05-26","Milan","italy","italy",,1,1,1,,2,32,32,13,1609,17,140.14,107.64,14,13,0,0,0,5
+"alberto-colombo","Alberto Colombo","Alberto","Colombo","Alberto Colombo","COL",,"MALE","1946-02-23","2024-01-07","Varedo","italy","italy",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"alberto-crespo","Alberto Crespo","Alberto","Crespo","Alberto Augusto Crespo","CRE",,"MALE","1920-01-16","1991-08-14","Buenos Aires","argentina","argentina",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"alberto-rodriguez-larreta","Alberto Rodriguez Larreta","Alberto","Rodriguez Larreta","Alberto Rodriguez Larreta","ROD",,"MALE","1934-01-14","1977-03-11","Buenos Aires","argentina","argentina",,,15,9,,0,1,1,0,77,0,0,0,0,0,0,0,0,0
+"alberto-uria","Alberto Uria","Alberto","Uria","Alberto Uria","URI",,"MALE","1924-07-11","1988-12-04","Montevideo","uruguay","uruguay",,,13,6,,0,2,2,0,110,0,0,0,0,0,0,0,0,0
+"aldo-gordini","Aldo Gordini","Aldo","Gordini","Aldo Gordini","GOR",,"MALE","1921-05-20","1995-01-28","Bologna","italy","france",,,17,,,0,1,1,0,27,0,0,0,0,0,0,0,0,0
+"alejandro-de-tomaso","Alejandro de Tomaso","Alejandro","De Tomaso","Alejandro de Tomaso","DET",,"MALE","1928-07-10","2003-05-21","Buenos Aires","argentina","argentina",,,12,9,,0,2,2,0,104,0,0,0,0,0,0,0,0,0
+"alessandro-nannini","Alessandro Nannini","Alessandro","Nannini","Alessandro Nannini","NAN",,"MALE","1959-07-07",,"Siena","italy","italy",,6,3,1,,0,78,76,1,2935,9,65,65,0,2,0,0,0,0
+"alessandro-pesenti-rossi","Alessandro Pesenti-Rossi","Alessandro","Pesenti-Rossi","Alessandro Pesenti-Rossi","PES",,"MALE","1942-08-31","2026-02-21","Bergamo","italy","italy",,,21,11,,0,4,3,0,113,0,0,0,0,0,0,0,0,0
+"alex-caffi","Alex Caffi","Alex","Caffi","Alessandro Caffi","CAF",,"MALE","1964-03-18",,"Rovato","italy","italy",,16,3,4,,0,76,56,0,2293,0,6,6,0,0,0,0,0,0
+"alex-palou","Álex Palou","Álex","Palou","Álex Palou Montalbo","PAL",,"MALE","1997-04-01",,"Sant Antoni de Vilamajor","spain","spain",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"alex-ribeiro","Alex Ribeiro","Alex","Ribeiro","Alexandre Dias Ribeiro","RIB",,"MALE","1948-11-07",,"Belo Horizonte","brazil","brazil",,,17,8,,0,20,10,0,514,0,0,0,0,0,0,0,0,0
+"alex-soler-roig","Alex Soler-Roig","Alex","Soler-Roig","Alex Soler-Roig","SOL",,"MALE","1932-10-29",,"Barcelona","spain","spain",,,17,,,0,10,6,0,119,0,0,0,0,0,0,0,0,0
+"alex-yoong","Alex Yoong","Alex","Yoong","Alexander Charles Yoong Loong","YOO",,"MALE","1976-07-20",,"Kuala Lumpur","malaysia","malaysia",,20,19,7,,0,18,14,0,645,0,0,0,0,0,0,0,0,0
+"alex-zanardi","Alex Zanardi","Alex","Zanardi","Alessandro Zanardi","ZAN",,"MALE","1966-10-23","2026-05-01","Bologna","italy","italy",,20,4,6,,0,44,41,0,1568,0,1,1,0,0,0,0,0,0
+"alexander-albon","Alexander Albon","Alexander","Albon","Alexander Albon","ALB","23","MALE","1996-03-23",,"London","united-kingdom","thailand",,7,4,3,6,0,134,132,0,7109,2,314,314,0,1,24,0,4,0
+"alexander-dunne","Alexander Dunne","Alexander","Dunne","Alexander Dunne","DUN",,"MALE","2005-11-11",,"Offaly","ireland","ireland",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"alexander-rossi","Alexander Rossi","Alexander","Rossi","Alexander Michael Rossi","RSI",,"MALE","1991-09-25",,"Nevada City","united-states-of-america","united-states-of-america",,20,16,12,,0,5,5,0,302,0,0,0,0,0,0,0,0,0
+"alexander-wurz","Alexander Wurz","Alexander","Wurz","Alexander Wurz","WUR",,"MALE","1974-02-15",,"Waidhofen an der Thaya","austria","austria",,8,5,3,,0,69,69,0,3471,3,45,45,0,1,0,0,0,0
+"alexandre-premat","Alexandre Prémat","Alexandre","Prémat","Alexandre Prémat","PRE",,"MALE","1982-04-05",,"Juvisy-sur-Orge","france","france",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"alfonso-celis-jr","Alfonso Celis Jr.","Alfonso","Celis Jr.","Alfonso Celis Enecoiz","CEL",,"MALE","1996-09-18",,"Mexico City","mexico","mexico",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"alfonso-de-portago","Alfonso de Portago","Alfonso","De Portago","Alfonso Antonio Vicente Eduardo Angel Blas Francisco de Borja Cabeza de Vaca y Leighton","DEP",,"MALE","1928-10-11","1957-05-12","London","united-kingdom","spain",,15,9,2,,0,5,5,0,238,1,4,4,0,0,0,0,0,0
+"alfonso-thiele","Alfonso Thiele","Alfonso","Thiele","Alfonso Thiele","THI",,"MALE","1920-04-05","1986-07-15","Istanbul","turkey","united-states-of-america","italy",,9,,,0,1,1,0,32,0,0,0,0,0,0,0,0,0
+"alfredo-pian","Alfredo Pián","Alfredo","Pián","Alfredo Pián","PIA",,"MALE","1912-10-21","1990-07-25","Las Rosas","argentina","argentina",,,18,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"allan-mcnish","Allan McNish","Allan","McNish","Allan McNish","MCN",,"MALE","1969-12-29",,"Dumfries","united-kingdom","united-kingdom",,19,10,7,,0,17,16,0,639,0,0,0,0,0,0,0,0,0
+"allen-berg","Allen Berg","Allen","Berg","Allen Bernard Berg","BER",,"MALE","1961-08-01",,"Vancouver","canada","canada",,,25,12,,0,9,9,0,285,0,0,0,0,0,0,0,0,0
+"andre-guelfi","André Guelfi","André","Guelfi","André Guelfi","GUE",,"MALE","1919-05-06","2016-06-28","Mazagan","morocco","france",,,25,15,,0,1,1,0,48,0,0,0,0,0,0,0,0,0
+"andre-lotterer","André Lotterer","André","Lotterer","André Lotterer","LOT",,"MALE","1981-11-19",,"Duisburg","germany","germany","belgium",,21,,,0,1,1,0,1,0,0,0,0,0,0,0,0,0
+"andre-milhoux","André Milhoux","André","Milhoux","André Milhoux","MIL",,"MALE","1928-12-09",,"Liège","belgium","belgium",,,21,,,0,1,1,0,15,0,0,0,0,0,0,0,0,0
+"andre-pilette","André Pilette","André","Pilette","André Pilette","PIL",,"MALE","1918-10-06","1993-12-27","Paris","france","belgium",,19,8,5,,0,14,9,0,281,0,2,2,0,0,0,0,0,0
+"andre-simon","André Simon","André","Simon","André Simon","SIM",,"MALE","1920-01-05","2012-07-11","Paris","france","france",,,4,6,,0,12,11,0,461,0,0,0,0,0,0,0,0,0
+"andre-testut","André Testut","André","Testut","André Testut","TES",,"MALE","1926-04-13","2005-09-24","Lyon","france","monaco",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"andrea-chiesa","Andrea Chiesa","Andrea","Chiesa","Andrea Chiesa","CHI",,"MALE","1964-05-06",,"Milan","italy","switzerland",,,20,,,0,10,3,0,59,0,0,0,0,0,0,0,0,0
+"andrea-de-adamich","Andrea de Adamich","Andrea","De Adamich","Andrea Lodovico de Adamich","DEA",,"MALE","1941-10-03","2025-11-05","Trieste","italy","italy",,15,7,4,,0,36,30,0,1240,0,6,6,0,0,0,0,0,0
+"andrea-de-cesaris","Andrea de Cesaris","Andrea","De Cesaris","Andrea de Cesaris","DEC",,"MALE","1959-05-31","2014-10-05","Rome","italy","italy",,8,1,2,,0,214,207,0,7703,5,59,59,1,1,0,0,0,0
+"andrea-montermini","Andrea Montermini","Andrea","Montermini","Andrea Montermini","MON",,"MALE","1964-05-30",,"Sassuolo","italy","italy",,,19,8,,0,28,19,0,581,0,0,0,0,0,0,0,0,0
+"andy-linden","Andy Linden","Andy","Linden","Andy Linden","LIN",,"MALE","1922-04-05","1987-02-10","Brownsville","united-states-of-america","united-states-of-america",,12,2,4,,0,7,7,0,878,0,5,5,0,0,0,0,0,0
+"andy-sutcliffe","Andy Sutcliffe","Andy","Sutcliffe","Andy Sutcliffe","SUT",,"MALE","1947-05-09","2015-07-13","Mildenhall","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"anthony-davidson","Anthony Davidson","Anthony","Davidson","Anthony Denis Davidson","DAV",,"MALE","1979-04-18",,"Hemel Hempstead","united-kingdom","united-kingdom",,22,11,11,,0,24,24,0,1061,0,0,0,0,0,0,0,0,0
+"anthony-joseph-foyt","Anthony Joseph Foyt","Anthony Joseph","Foyt","Anthony Joseph Foyt","FOY",,"MALE","1935-01-16",,"Houston","united-states-of-america","united-states-of-america",,,12,10,,0,3,3,0,438,0,0,0,0,0,0,0,0,0
+"antonio-creus","Antonio Creus","Antonio","Creus","Antonio Creus Rubín de Celis","CRE",,"MALE","1924-10-28","1996-02-19","Madrid","spain","spain",,,22,,,0,1,1,0,16,0,0,0,0,0,0,0,0,0
+"antonio-fuoco","Antonio Fuoco","Antonio","Fuoco","Antonio Fuoco","FUO",,"MALE","1996-05-20",,"Cariati","italy","italy",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"antonio-giovinazzi","Antonio Giovinazzi","Antonio","Giovinazzi","Antonio Giovinazzi","GIO",,"MALE","1993-12-14",,"Martina Franca","italy","italy",,17,7,5,8,0,62,62,0,3416,0,21,21,0,0,3,0,0,0
+"antonio-pizzonia","Antônio Pizzonia","Antônio","Pizzonia","Antônio Reginaldo Pizzonia Júnior","PIZ",,"MALE","1980-09-11",,"Manaus","brazil","brazil",,15,6,7,,0,20,20,0,857,0,8,8,0,0,0,0,0,0
+"archie-scott-brown","Archie Scott Brown","Archie","Scott Brown","William Archibald Scott Brown","SCO",,"MALE","1927-05-13","1958-05-19","Paisley","united-kingdom","united-kingdom",,,10,,,0,1,1,0,16,0,0,0,0,0,0,0,0,0
+"art-bisch","Art Bisch","Art","Bisch","Art Bisch","BIS",,"MALE","1926-11-10","1958-07-06","Mesa","united-states-of-america","united-states-of-america",,,28,33,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"art-cross","Art Cross","Art","Cross","Art Cross","CRO",,"MALE","1918-01-24","2005-04-15","Jersey City","united-states-of-america","united-states-of-america",,10,12,2,,0,4,4,0,768,1,8,8,0,0,0,0,0,0
+"artem-markelov","Artem Markelov","Artem","Markelov","Artem Valeryevich Markelov","MAR",,"MALE","1994-09-10",,"Moscow","russia","russia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"arthur-leclerc","Arthur Leclerc","Arthur","Leclerc","Arthur Leclerc","LEL",,"MALE","2000-10-14",,"Monte Carlo","monaco","monaco",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"arthur-legat","Arthur Legat","Arthur","Legat","Arthur Legat","LEG",,"MALE","1898-11-01","1960-02-23","Haine-Saint-Paul","belgium","belgium",,,19,13,,0,2,2,0,31,0,0,0,0,0,0,0,0,0
+"arthur-owen","Arthur Owen","Arthur","Owen","Arthur Owen","OWE",,"MALE","1915-03-23","2002-04-27","London","united-kingdom","united-kingdom",,,11,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"arturo-merzario","Arturo Merzario","Arturo","Merzario","Arturo Francesco Merzario","MER",,"MALE","1943-03-11",,"Civenna","italy","italy",,12,3,4,,0,85,57,0,1965,0,11,11,0,0,0,0,0,0
+"arvid-lindblad","Arvid Lindblad","Arvid","Lindblad","Arvid Anand Olof Lindblad","LIN","41","MALE","2007-08-08",,"Virginia Water","united-kingdom","united-kingdom",,,9,8,8,0,5,4,0,221,0,5,5,0,0,2,0,0,0
+"asdrubal-fontes-bayardo","Asdrúbal Fontes Bayardo","Asdrúbal","Fontes Bayardo","Asdrúbal Esteban Fontes Bayardo","FON",,"MALE","1922-12-26","2006-07-09","Pan de Azúcar","uruguay","uruguay",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"ayrton-senna","Ayrton Senna","Ayrton","Senna","Ayrton Senna da Silva","SEN",,"MALE","1960-03-21","1994-05-01","São Paulo","brazil","brazil",,1,1,1,,3,162,161,41,8219,80,614,610,65,19,0,0,0,4
+"ayumu-iwasa","Ayumu Iwasa","Ayumu","Iwasa","Ayumu Iwasa","IWA",,"MALE","2001-09-22",,"Moriguchi","japan","japan",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"bas-leinders","Bas Leinders","Bas","Leinders","Bas Leinders","LEI",,"MALE","1975-07-16",,"Bree","belgium","belgium",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"basil-van-rooyen","Basil van Rooyen","Basil","Van Rooyen","Basil van Rooyen","VAN",,"MALE","1939-04-19","2023-09-14","Johannesburg","south-africa","south-africa",,,9,,,0,2,2,0,34,0,0,0,0,0,0,0,0,0
+"bayliss-levrett","Bayliss Levrett","Bayliss","Levrett","Bayliss Levrett","LEV",,"MALE","1914-02-14","2002-03-13","Jacksonville","united-states-of-america","united-states-of-america",,,17,27,,0,1,1,0,108,0,0,0,0,0,0,0,0,0
+"ben-pon","Ben Pon","Ben","Pon","Bernardus Marinus Pon","PON",,"MALE","1936-12-09","2019-09-30","Leiden","netherlands","netherlands",,,18,,,0,1,1,0,2,0,0,0,0,0,0,0,0,0
+"beppe-gabbiani","Beppe Gabbiani","Beppe","Gabbiani","Giuseppe Gabbiani","GAB",,"MALE","1957-01-02",,"Piacenza","italy","italy",,,20,,,0,17,3,0,79,0,0,0,0,0,0,0,0,0
+"bernard-collomb","Bernard Collomb","Bernard","Collomb","Bernard Marie François Alexandre Collomb-Clerc","COL",,"MALE","1930-10-07","2011-09-19","Annecy","france","france",,,21,10,,0,6,4,0,29,0,0,0,0,0,0,0,0,0
+"bernard-de-dryver","Bernard de Dryver","Bernard","De Dryver","Bernard de Dryver","DED",,"MALE","1952-09-19",,"Brussels","belgium","belgium",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"bernd-schneider","Bernd Schneider","Bernd","Schneider","Bernd Schneider","SCH",,"MALE","1964-07-20",,"St. Ingbert","germany","germany",,,15,12,,0,34,9,0,301,0,0,0,0,0,0,0,0,0
+"bernie-ecclestone","Bernie Ecclestone","Bernie","Ecclestone","Bernard Charles Ecclestone","ECC",,"MALE","1930-10-28",,"St Peter South Elmham","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"bertil-roos","Bertil Roos","Bertil","Roos","Bertil Roos","ROO",,"MALE","1943-10-12","2016-03-31","Gothenburg","sweden","sweden",,,23,,,0,1,1,0,2,0,0,0,0,0,0,0,0,0
+"bertrand-gachot","Bertrand Gachot","Bertrand","Gachot","Bertrand Gachot","GAC",,"MALE","1962-12-23",,"Luxembourg","luxembourg","france",,13,10,5,,0,84,47,0,1793,0,5,5,0,1,0,0,0,0
+"bill-aston","Bill Aston","Bill","Aston","William Aston","AST",,"MALE","1900-03-29","1974-03-04","Hopton","united-kingdom","united-kingdom",,,21,,,0,3,1,0,2,0,0,0,0,0,0,0,0,0
+"bill-brack","Bill Brack","Bill","Brack","William Brack","BRA",,"MALE","1935-12-26",,"Toronto","canada","canada",,,18,,,0,3,3,0,118,0,0,0,0,0,0,0,0,0
+"bill-cantrell","Bill Cantrell","William","Cantrell","William Cantrell","CAN",,"MALE","1908-01-31","1996-01-22","West Point","united-states-of-america","united-states-of-america",,,,27,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"bill-cheesbourg","Bill Cheesbourg","Bill","Cheesbourg","William Bernard Cheesbourg","CHE",,"MALE","1927-06-12","1995-11-06","Tucson","united-states-of-america","united-states-of-america",,,23,10,,0,3,3,0,428,0,0,0,0,0,0,0,0,0
+"bill-holland","Bill Holland","Bill","Holland","Bill Holland","HOL",,"MALE","1907-12-18","1984-05-20","Philadelphia","united-states-of-america","united-states-of-america",,7,10,2,,0,2,2,0,314,1,6,6,0,0,0,0,0,0
+"bill-homeier","Bill Homeier","Bill","Homeier","Bill Homeier","HOM",,"MALE","1918-08-31","2001-05-05","Rock Island","united-states-of-america","united-states-of-america",,23,18,5,,0,3,3,0,274,0,1,1,0,0,0,0,0,0
+"bill-mackey","Bill Mackey","Bill","Mackey","Bill Mackey","MAC",,"MALE","1927-12-15","1951-07-29","Dayton","united-states-of-america","united-states-of-america",,,33,19,,0,1,1,0,97,0,0,0,0,0,0,0,0,0
+"bill-moss","Bill Moss","Bill","Moss","Bill Moss","MOS",,"MALE","1933-09-04","2010-01-13","Luton","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"bill-schindler","Bill Schindler","Bill","Schindler","Bill Schindler","SCH",,"MALE","1909-03-06","1952-09-20","Middletown","united-states-of-america","united-states-of-america",,,15,13,,0,3,3,0,440,0,0,0,0,0,0,0,0,0
+"bill-vukovich","Bill Vukovich","Bill","Vukovich","William John Vukovich","VUK",,"MALE","1918-12-13","1955-05-30","Alameda","united-states-of-america","united-states-of-america",,6,1,1,,0,5,5,2,676,2,19,19,1,3,0,0,0,0
+"bill-whitehouse","Bill Whitehouse","Bill","Whitehouse","Bill Whitehouse","WHI",,"MALE","1909-04-01","1957-07-14","London","united-kingdom","united-kingdom",,,19,,,0,1,1,0,63,0,0,0,0,0,0,0,0,0
+"billy-garrett","Billy Garrett","Billy","Garrett","Billy Garrett","GAR",,"MALE","1933-04-24","1999-02-15","Princeton","united-states-of-america","united-states-of-america",,,15,16,,0,2,2,0,274,0,0,0,0,0,0,0,0,0
+"birabongse-bhanudej","Birabongse Bhanudej","Birabongse","Bhanudej","Prince Birabongse Bhanudej Bhanubandh","BIR",,"MALE","1914-07-15","1985-12-23","Grand Palace","thailand","thailand",,8,5,4,,0,19,19,0,904,0,8,8,0,0,0,0,0,0
+"bjorn-wirdheim","Björn Wirdheim","Björn","Wirdheim","Björn Karl Michael Wirdheim","WIR",,"MALE","1980-04-04",,"Växjö","sweden","sweden",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"bob-anderson","Bob Anderson","Bob","Anderson","Robert Hugh Fearon Anderson","AND",,"MALE","1931-05-19","1967-08-14","Hendon","united-kingdom","united-kingdom",,11,7,3,,0,29,25,0,1371,1,8,8,0,0,0,0,0,0
+"bob-bondurant","Bob Bondurant","Bob","Bondurant","Robert Bondurant","BON",,"MALE","1933-04-27","2021-11-12","Evanston","united-states-of-america","united-states-of-america",,14,11,4,,0,9,9,0,403,0,3,3,0,0,0,0,0,0
+"bob-christie","Bob Christie","Bob","Christie","Bob Christie","CHR",,"MALE","1924-04-04","2009-06-01","Grants Pass","united-states-of-america","united-states-of-america",,,14,10,,0,5,5,0,891,0,0,0,0,0,0,0,0,0
+"bob-drake","Bob Drake","Bob","Drake","Bob Drake","DRA",,"MALE","1919-12-14","1990-04-18","San Francisco","united-states-of-america","united-states-of-america",,,22,13,,0,1,1,0,68,0,0,0,0,0,0,0,0,0
+"bob-evans","Bob Evans","Bob","Evans","Robert Evans","EVA",,"MALE","1947-06-11",,"Waddington","united-kingdom","united-kingdom",,,20,9,,0,12,10,0,414,0,0,0,0,0,0,0,0,0
+"bob-gerard","Bob Gerard","Bob","Gerard","Frederick Roberts Gerard","GER",,"MALE","1914-01-19","1990-01-26","Leicester","united-kingdom","united-kingdom",,,10,6,,0,8,8,0,561,0,0,0,0,0,0,0,0,0
+"bob-said","Bob Said","Bob","Said","Boris Said","SAI",,"MALE","1932-05-05","2002-03-24","New York City","united-states-of-america","united-states-of-america",,,13,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"bob-scott","Bob Scott","Bob","Scott","Bob Scott","SCO",,"MALE","1928-10-04","1954-07-05","Watsonville","united-states-of-america","united-states-of-america",,,11,12,,0,3,3,0,63,0,0,0,0,0,0,0,0,0
+"bob-sweikert","Bob Sweikert","Bob","Sweikert","Robert Charles Sweikert","SWE",,"MALE","1926-05-20","1956-06-17","Los Angeles","united-states-of-america","united-states-of-america",,7,9,1,,0,5,5,1,825,1,8,8,0,0,0,0,0,0
+"bob-veith","Bob Veith","Bob","Veith","Bob Veith","VEI",,"MALE","1924-11-01","2006-03-29","Tulare","united-states-of-america","united-states-of-america",,,4,7,,0,5,5,0,801,0,0,0,0,0,0,0,0,0
+"bobby-ball","Bobby Ball","Bobby","Ball","Robert K. Ball","BAL",,"MALE","1925-08-26","1954-02-27","Phoenix","united-states-of-america","united-states-of-america",,17,17,5,,0,2,2,0,234,0,2,2,0,0,0,0,0,0
+"bobby-grim","Bobby Grim","Bobby","Grim","Robert Grim","GRI",,"MALE","1924-09-04","1995-06-14","Coal City","united-states-of-america","united-states-of-america",,,5,16,,0,2,2,0,279,0,0,0,0,0,0,0,0,0
+"bobby-rahal","Bobby Rahal","Bobby","Rahal","Robert Woodward Rahal","RAH",,"MALE","1953-01-10",,"Medina","united-states-of-america","united-states-of-america",,,20,12,,0,2,2,0,74,0,0,0,0,0,0,0,0,0
+"bobby-unser","Bobby Unser","Bobby","Unser","Robert William Unser","UNS",,"MALE","1934-02-20","2021-05-02","Colorado Springs","united-states-of-america","united-states-of-america",,,19,,,0,2,1,0,35,0,0,0,0,0,0,0,0,0
+"boy-hayje","Boy Hayje","Boy","Hayje","Johan Hayje","HAY",,"MALE","1949-05-03",,"Amsterdam","netherlands","netherlands",,,21,,,0,7,3,0,159,0,0,0,0,0,0,0,0,0
+"brausch-niemann","Brausch Niemann","Brausch","Niemann","Ambraüsus Niemann","NIE",,"MALE","1939-01-07",,"Durban","south-africa","south-africa",,,15,14,,0,2,1,0,66,0,0,0,0,0,0,0,0,0
+"brendon-hartley","Brendon Hartley","Brendon","Hartley","Brendon Hartley","HAR",,"MALE","1989-11-10",,"Palmerston North","new-zealand","new-zealand",,19,6,9,,0,25,25,0,1178,0,4,4,0,0,0,0,0,0
+"brett-lunger","Brett Lunger","Brett","Lunger","Robert Brett Lunger","LUN",,"MALE","1945-11-14",,"Wilmington","united-states-of-america","united-states-of-america",,,13,7,,0,43,34,0,1713,0,0,0,0,0,0,0,0,0
+"brian-gubby","Brian Gubby","Brian","Gubby","Brian Gubby","GUB",,"MALE","1934-04-17",,"Epsom","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"brian-hart","Brian Hart","Brian","Hart","Brian Hart","HAR",,"MALE","1936-09-07","2014-01-05","Enfield","united-kingdom","united-kingdom",,,25,,,0,1,1,0,12,0,0,0,0,0,0,0,0,0
+"brian-henton","Brian Henton","Brian","Henton","Brian Henton","HEN",,"MALE","1946-09-19",,"Chaddesden","united-kingdom","united-kingdom",,,11,7,,0,37,19,0,913,0,0,0,0,1,0,0,0,0
+"brian-mcguire","Brian McGuire","Brian","McGuire","Brian McGuire","MCG",,"MALE","1945-12-13","1977-08-29","East Melbourne","australia","australia",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"brian-naylor","Brian Naylor","Brian","Naylor","John Brian Naylor","NAY",,"MALE","1923-03-24","1989-08-08","Salford","united-kingdom","united-kingdom",,,7,13,,0,8,7,0,178,0,0,0,0,0,0,0,0,0
+"brian-redman","Brian Redman","Brian","Redman","Brian Herman Thomas Redman","RED",,"MALE","1937-03-09",,"Burnley","united-kingdom","united-kingdom",,14,10,3,,0,15,12,0,506,1,8,8,0,0,0,0,0,0
+"brian-shawe-taylor","Brian Shawe-Taylor","Brian","Shawe-Taylor","Brian Newton Shawe-Taylor","SHA",,"MALE","1915-01-28","1999-05-01","Dublin","ireland","united-kingdom",,,12,8,,0,2,2,0,84,0,0,0,0,0,0,0,0,0
+"bruce-halford","Bruce Halford","Bruce","Halford","Bruce Halford","HAL",,"MALE","1931-05-18","2001-12-02","Hampton in Arden","united-kingdom","united-kingdom",,,11,8,,0,9,8,0,176,0,0,0,0,0,0,0,0,0
+"bruce-johnstone","Bruce Johnstone","Bruce","Johnstone","William Bruce Gordon Johnstone","JOH",,"MALE","1937-01-30","2022-03-03","Durban","south-africa","south-africa",,,17,9,,0,1,1,0,76,0,0,0,0,0,0,0,0,0
+"bruce-kessler","Bruce Kessler","Bruce","Kessler","Bruce Kessler","KES",,"MALE","1936-03-23","2024-04-04","Seattle","united-states-of-america","united-states-of-america",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"bruce-mclaren","Bruce McLaren","Bruce","McLaren","Bruce Leslie McLaren","MCL",,"MALE","1937-08-30","1970-06-02","Auckland","new-zealand","new-zealand",,2,2,1,,0,104,100,4,5079,27,196.5,188.5,0,3,0,0,0,0
+"bruno-giacomelli","Bruno Giacomelli","Bruno","Giacomelli","Bruno Giacomelli","GIA",,"MALE","1952-09-10",,"Poncarale","italy","italy",,15,1,3,,0,82,69,0,2694,1,14,14,1,0,0,0,0,0
+"bruno-senna","Bruno Senna","Bruno","Senna","Bruno Senna Lalli","SEN",,"MALE","1983-10-15",,"São Paulo","brazil","brazil",,16,7,6,,0,46,46,0,2198,0,33,33,0,1,0,0,0,0
+"bud-tingelstad","Bud Tingelstad","Bud","Tingelstad","Bud Tingelstad","TIN",,"MALE","1928-04-04","1981-07-30","Frazee","united-states-of-america","united-states-of-america",,,28,9,,0,1,1,0,200,0,0,0,0,0,0,0,0,0
+"cal-niday","Cal Niday","Cal","Niday","Cal Niday","NID",,"MALE","1914-04-29","1988-02-14","Turlock","united-states-of-america","united-states-of-america",,,9,10,,0,3,3,0,400,0,0,0,0,0,0,0,0,0
+"callum-ilott","Callum Ilott","Callum","Ilott","Callum Ilott","ILO",,"MALE","1998-11-11",,"Cambridge","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"carel-godin-de-beaufort","Carel Godin de Beaufort","Carel","Godin de Beaufort","Karel Pieter Antoni Jan Hubertus Godin de Beaufort","DEB",,"MALE","1934-04-10","1964-08-02","Maarsbergen","netherlands","netherlands",,14,8,6,,0,31,28,0,1351,0,4,4,0,0,0,0,0,0
+"carl-forberg","Carl Forberg","Carl","Forberg","Carl Forberg","FOR",,"MALE","1911-03-04","2000-01-17","Omaha","united-states-of-america","united-states-of-america",,,24,7,,0,1,1,0,193,0,0,0,0,0,0,0,0,0
+"carl-scarborough","Carl Scarborough","Carl","Scarborough","Carl Scarborough","SCA",,"MALE","1914-07-03","1953-05-30","Benton","united-states-of-america","united-states-of-america",,,15,12,,0,2,2,0,290,0,0,0,0,0,0,0,0,0
+"carlo-facetti","Carlo Facetti","Carlo","Facetti","Carlo Giovanni Facetti","FAC",,"MALE","1935-06-26",,"Cormano","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"carlo-franchi","Carlo Franchi","Carlo","Franchi","Carlo Franchi","FRA",,"MALE","1938-01-01",,"Milan","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"carlos-menditeguy","Carlos Menditéguy","Carlos","Menditéguy","Carlos Alberto Menditéguy","MEN",,"MALE","1914-08-10","1973-04-27","Buenos Aires","argentina","argentina",,14,6,3,,0,11,10,0,487,1,9,9,0,0,0,0,0,0
+"carlos-pace","Carlos Pace","Carlos","Pace","José Carlos Pace","PAC",,"MALE","1944-10-06","1977-03-18","São Paulo","brazil","brazil",,6,1,1,,0,73,72,1,3242,6,58,58,1,5,0,0,0,0
+"carlos-reutemann","Carlos Reutemann","Carlos","Reutemann","Carlos Alberto Reutemann","REU",,"MALE","1942-04-12","2021-07-07","Santa Fe","argentina","argentina",,2,1,1,,0,146,146,12,6985,45,310,298,6,6,0,0,0,0
+"carlos-sainz-jr","Carlos Sainz Jr.","Carlos","Sainz Jr.","Carlos Sainz Vázquez de Castro","SAI","55","MALE","1994-09-01",,"Madrid","spain","spain",,5,1,1,2,0,237,234,4,12652,29,1342.5,1342.5,6,4,27,0,8,0
+"carroll-shelby","Carroll Shelby","Carroll","Shelby","Carroll Hall Shelby","SHE",,"MALE","1923-01-11","2012-05-10","Leesburg","united-states-of-america","united-states-of-america",,,6,4,,0,8,8,0,351,0,0,0,0,0,0,0,0,0
+"cecil-green","Cecil Green","Cecil","Green","Cecil Green","GRE",,"MALE","1919-09-30","1951-07-29","Dallas","united-states-of-america","united-states-of-america",,14,10,4,,0,2,2,0,217,0,3,3,0,0,0,0,0,0
+"cesare-perdisa","Cesare Perdisa","Cesare","Perdisa","Cesare Perdisa","PER",,"MALE","1932-10-21","1998-05-10","Bologna","italy","italy",,16,6,3,,0,8,7,0,493,2,5,5,0,0,0,0,0,0
+"chanoch-nissany","Chanoch Nissany","Chanoch","Nissany","Chanoch Nissany","NIS",,"MALE","1963-07-29",,"Budapest","hungary","israel",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"charles-de-tornaco","Charles de Tornaco","Charles","De Tornaco","Charles de Tornaco","DET",,"MALE","1927-06-07","1953-09-18","Brussels","belgium","belgium",,,13,7,,0,4,2,0,52,0,0,0,0,0,0,0,0,0
+"charles-leclerc","Charles Leclerc","Charles","Leclerc","Charles Marc Hervé Perceval Leclerc","LEC","16","MALE","1997-10-16",,"Monte Carlo","monaco","monaco",,2,1,1,2,0,178,176,8,9580,52,1747,1747,27,11,26,0,19,1
+"charles-pic","Charles Pic","Charles","Pic","Charles Pic","PIC",,"MALE","1990-02-15",,"Montélimar","france","france",,20,18,12,,0,39,39,0,2029,0,0,0,0,0,0,0,0,0
+"charles-pozzi","Charles Pozzi","Charles","Pozzi","Charles Pozzi","POZ",,"MALE","1909-08-27","2001-02-28","Paris","france","france",,,16,6,,0,1,1,0,56,0,0,0,0,0,0,0,0,0
+"chet-miller","Chet Miller","Chet","Miller","Chet Miller","MIL",,"MALE","1902-07-19","1953-05-15","Detroit","united-states-of-america","united-states-of-america",,,27,25,,0,2,2,0,97,0,0,0,0,0,0,0,0,0
+"chico-landi","Chico Landi","Chico","Landi","Francisco Sacco Land","LAN",,"MALE","1907-07-14","1989-06-07","São Paulo","brazil","brazil",,25,11,4,,0,6,6,0,324,0,1.5,1.5,0,0,0,0,0,0
+"chico-serra","Chico Serra","Chico","Serra","Francisco Serra","SER",,"MALE","1957-02-03",,"São Paulo","brazil","brazil",,26,15,6,,0,33,18,0,831,0,1,1,0,0,0,0,0,0
+"chris-amon","Chris Amon","Chris","Amon","Christopher Arthur Amon","AMO",,"MALE","1943-07-20","2016-08-03","Bulls","new-zealand","new-zealand",,5,1,2,,0,108,96,0,4565,11,83,83,5,3,0,0,0,0
+"chris-bristow","Chris Bristow","Chris","Bristow","Christopher William Bristow","BRI",,"MALE","1937-12-02","1960-06-19","Lambeth","united-kingdom","united-kingdom",,,4,10,,0,4,4,0,115,0,0,0,0,0,0,0,0,0
+"chris-craft","Chris Craft","Chris","Craft","Christopher Craft","CRA",,"MALE","1939-11-17","2021-02-20","Porthleven","united-kingdom","united-kingdom",,,27,,,0,2,1,0,30,0,0,0,0,0,0,0,0,0
+"chris-irwin","Chris Irwin","Chris","Irwin","Chris Irwin","IRW",,"MALE","1942-06-27",,"London","united-kingdom","united-kingdom",,16,9,5,,0,10,10,0,441,0,2,2,0,0,0,0,0,0
+"chris-lawrence","Chris Lawrence","Chris","Lawrence","Christopher J. Lawrence","LAW",,"MALE","1933-07-27","2011-08-13","Ealing","united-kingdom","united-kingdom",,,19,11,,0,2,2,0,83,0,0,0,0,0,0,0,0,0
+"christian-danner","Christian Danner","Christian","Danner","Christian Danner","DAN",,"MALE","1958-04-04",,"Munich","germany","germany",,18,16,4,,0,47,36,0,1377,0,4,4,0,0,0,0,0,0
+"christian-fittipaldi","Christian Fittipaldi","Christian","Fittipaldi","Christian Fittipaldi","FIT",,"MALE","1971-01-18",,"São Paulo","brazil","brazil",,13,6,4,,0,43,40,0,2141,0,12,12,0,0,0,0,0,0
+"christian-goethals","Christian Goethals","Christian","Goethals","Christian Roger Xavier Marie Joseph Ghislain Goethals","GOE",,"MALE","1928-08-04","2003-02-26","Heule","belgium","belgium",,,23,,,0,1,1,0,4,0,0,0,0,0,0,0,0,0
+"christian-klien","Christian Klien","Christian","Klien","Christian Klien","KLI",,"MALE","1983-02-07",,"Hohenems","austria","austria",,15,4,5,,0,51,49,0,2331,0,14,14,0,0,0,0,0,0
+"christijan-albers","Christijan Albers","Christijan","Albers","Christijan Albers","ALB",,"MALE","1979-04-16",,"Eindhoven","netherlands","netherlands",,19,13,5,,0,46,46,0,2194,0,4,4,0,0,0,0,0,0
+"christophe-bouchut","Christophe Bouchut","Christophe","Bouchut","Christophe Bouchut","BOU",,"MALE","1966-09-24",,"Voiron","france","france",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"chuck-arnold","Chuck Arnold","Chuck","Arnold","Chuck Arnold","ARN",,"MALE","1926-05-30","1997-09-04","Stamford","united-states-of-america","united-states-of-america",,,21,15,,0,1,1,0,200,0,0,0,0,0,0,0,0,0
+"chuck-daigh","Chuck Daigh","Chuck","Daigh","Chuck Daigh","DAI",,"MALE","1923-11-29","2008-04-29","Long Beach","united-states-of-america","united-states-of-america",,,17,10,,0,6,3,0,142,0,0,0,0,0,0,0,0,0
+"chuck-stevenson","Chuck Stevenson","Chuck","Stevenson","Charles Stevenson","STE",,"MALE","1919-10-15","1995-08-21","Sidney","united-states-of-america","united-states-of-america",,,5,9,,0,5,5,0,717,0,0,0,0,0,0,0,0,0
+"chuck-weyant","Chuck Weyant","Chuck","Weyant","Chuck Weyant","WEY",,"MALE","1923-04-03","2017-01-23","St. Mary's","united-states-of-america","united-states-of-america",,,25,12,,0,4,4,0,475,0,0,0,0,0,0,0,0,0
+"cian-shields","Cian Shields","Cian","Shields","Cian Shields","SHI",,"MALE","2005-03-07",,"Glasgow","united-kingdom","united-kingdom","ireland",,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"claudio-langes","Claudio Langes","Claudio","Langes","Claudio Langes","LAN",,"MALE","1961-08-04",,"Brescia","italy","italy",,,,,,0,14,0,0,0,0,0,0,0,0,0,0,0,0
+"clay-regazzoni","Clay Regazzoni","Clay","Regazzoni","Gianclaudio Giuseppe Regazzoni","REG",,"MALE","1939-09-05","2006-12-15","Mendrisio","switzerland","switzerland",,2,1,1,,0,139,132,5,6582,28,212,209,5,15,0,0,0,1
+"clemar-bucci","Clemar Bucci","Clemar","Bucci","Clemar Bucci","BUC",,"MALE","1920-09-04","2011-01-12","Zenón Pereyra","argentina","argentina",,,10,,,0,5,5,0,93,0,0,0,0,0,0,0,0,0
+"clemente-biondetti","Clemente Biondetti","Clemente","Biondetti","Clemente Biondetti","BIO",,"MALE","1898-10-18","1955-02-24","Buddusò","italy","italy",,,25,,,0,1,1,0,17,0,0,0,0,0,0,0,0,0
+"cliff-allison","Cliff Allison","Cliff","Allison","Henry Clifford Allison","ALL",,"MALE","1932-02-08","2005-04-07","Brough","united-kingdom","united-kingdom",,12,5,2,,0,18,16,0,690,1,11,11,0,0,0,0,0,0
+"cliff-griffith","Cliff Griffith","Cliff","Griffith","Cliff Griffith","GRI",,"MALE","1916-02-06","1996-01-23","Nineveh","united-states-of-america","united-states-of-america",,,9,9,,0,3,3,0,429,0,0,0,0,0,0,0,0,0
+"clive-puzey","Clive Puzey","Clive","Puzey","Clive Puzey","PUZ",,"MALE","1941-07-11",,"Bulawayo","zimbabwe","zimbabwe",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"colin-chapman","Colin Chapman","Colin","Chapman","Anthony Colin Bruce Chapman","CHA",,"MALE","1928-05-19","1982-12-16","London","united-kingdom","united-kingdom",,,5,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"colin-davis","Colin Davis","Colin","Davis","Colin Charles Houghton Davis","DAV",,"MALE","1933-07-29","2012-12-19","Marylebone","united-kingdom","united-kingdom",,,17,11,,0,2,2,0,75,0,0,0,0,0,0,0,0,0
+"conny-andersson","Conny Andersson","Conny","Andersson","Conny Andersson","AND",,"MALE","1939-12-28",,"Alingsås","sweden","sweden",,,26,,,0,5,1,0,9,0,0,0,0,0,0,0,0,0
+"consalvo-sanesi","Consalvo Sanesi","Consalvo","Sanesi","Consalvo Sanesi","SAN",,"MALE","1911-03-28","1998-07-28","Terranuova Bracciolini","italy","italy",,12,4,4,,0,5,5,0,205,0,3,3,0,0,0,0,0,0
+"corrado-fabi","Corrado Fabi","Corrado","Fabi","Corrado Fabi","FAB",,"MALE","1961-04-12",,"Milan","italy","italy",,,11,7,,0,18,12,0,421,0,0,0,0,0,0,0,0,0
+"cristiano-da-matta","Cristiano da Matta","Cristiano","Da Matta","Cristiano Monteiro da Matta","DAM",,"MALE","1973-09-19",,"Belo Horizonte","brazil","brazil",,13,3,6,,0,28,28,0,1484,0,13,13,0,0,0,0,0,0
+"cuth-harrison","Cuth Harrison","Cuth","Harrison","Thomas Cuthbert Harrison","HAR",,"MALE","1906-07-06","1981-01-21","Ecclesall","united-states-of-america","united-kingdom",,,14,7,,0,3,3,0,118,0,0,0,0,0,0,0,0,0
+"damien-magee","Damien Magee","Damien","Magee","Damien Magee","MAG",,"MALE","1945-11-17",,"Belfast","united-kingdom","united-kingdom",,,22,14,,0,2,1,0,78,0,0,0,0,0,0,0,0,0
+"damon-hill","Damon Hill","Damon","Hill","Damon Graham Devereux Hill","HIL",,"MALE","1960-09-17",,"Hampstead","united-kingdom","united-kingdom",,1,1,1,,1,122,115,22,5848,42,360,360,20,19,0,0,0,1
+"dan-gurney","Dan Gurney","Dan","Gurney","Daniel Sexton Gurney","GUR",,"MALE","1931-04-13","2018-01-14","Port Jefferson","united-states-of-america","united-states-of-america",,4,1,1,,0,87,86,4,3676,19,133,133,3,6,0,0,0,0
+"dani-clos","Dani Clos","Dani","Clos","Daniel Clos Álvarez","CLO",,"MALE","1988-10-23",,"Barcelona","spain","spain",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"daniel-juncadella","Daniel Juncadella","Daniel","Juncadella","Daniel Juncadella Pérez-Sala","JUN",,"MALE","1991-05-07",,"Barcelona","spain","spain",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"daniel-ricciardo","Daniel Ricciardo","Daniel","Ricciardo","Daniel Ricciardo","RIC",,"MALE","1989-07-01",,"Perth","australia","australia",,3,1,1,3,0,257,257,8,14129,32,1329,1329,3,17,12,0,11,0
+"daniil-kvyat","Daniil Kvyat","Daniil","Kvyat","Daniil Vyacheslavovich Kvyat","KVY",,"MALE","1994-04-26",,"Ufa","russia","russia",,7,4,2,,0,112,110,0,5828,3,202,202,0,1,0,0,1,0
+"danny-kladis","Danny Kladis","Danny","Kladis","Danny Kladis","KLA",,"MALE","1917-02-10","2009-04-26","Crystal City","united-states-of-america","united-states-of-america",,,,30,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"danny-ongais","Danny Ongais","Danny","Ongais","Danny Ongais","ONG",,"MALE","1942-05-21","2022-02-26","Kahului","united-states-of-america","united-states-of-america",,,21,7,,0,6,4,0,132,0,0,0,0,0,0,0,0,0
+"danny-sullivan","Danny Sullivan","Danny","Sullivan","Daniel John Sullivan III","SUL",,"MALE","1950-03-09",,"Louisville","united-states-of-america","united-states-of-america",,17,9,5,,0,15,15,0,678,0,2,2,0,0,0,0,0,0
+"dave-charlton","Dave Charlton","Dave","Charlton","David William Charlton","CHA",,"MALE","1936-10-27","2013-02-24","Brotton","united-kingdom","south-africa",,,8,12,,0,14,11,0,348,0,0,0,0,0,0,0,0,0
+"dave-morgan","Dave Morgan","Dave","Morgan","Dave Morgan","MOR",,"MALE","1944-08-07","2018-11-06","Cranmore","united-kingdom","united-kingdom",,,23,18,,0,1,1,0,50,0,0,0,0,0,0,0,0,0
+"david-brabham","David Brabham","David","Brabham","David Brabham","BRA",,"MALE","1965-09-05",,"London","united-kingdom","australia",,,21,10,,0,30,24,0,937,0,0,0,0,0,0,0,0,0
+"david-coulthard","David Coulthard","David","Coulthard","David Marshall Coulthard","COU",,"MALE","1971-03-27",,"Twynholm","united-kingdom","united-kingdom",,2,1,1,,0,247,246,13,12394,62,535,535,12,18,0,0,0,0
+"david-hampshire","David Hampshire","David","Hampshire","David Alan Hampshire","HAM",,"MALE","1917-12-29","1990-08-25","Mickleover","united-kingdom","united-kingdom",,,16,9,,0,2,2,0,70,0,0,0,0,0,0,0,0,0
+"david-hobbs","David Hobbs","David","Hobbs","David Wishart Hobbs","HOB",,"MALE","1939-06-09",,"Royal Leamington Spa","united-kingdom","united-kingdom",,,12,7,,0,7,7,0,379,0,0,0,0,0,0,0,0,0
+"david-kennedy","David Kennedy","David","Kennedy","David Kennedy","KEN",,"MALE","1953-01-15",,"Sligo","ireland","ireland",,,,,,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+"david-murray","David Murray","David","Murray","David Murray","MUR",,"MALE","1909-12-28","1973-04-05","Edinburgh","united-kingdom","united-kingdom",,,15,,,0,5,4,0,159,0,0,0,0,0,0,0,0,0
+"david-piper","David Piper","David","Piper","David Piper","PIP",,"MALE","1930-12-02",,"Edgware","united-kingdom","united-kingdom",,,22,12,,0,3,2,0,91,0,0,0,0,0,0,0,0,0
+"david-prophet","David Prophet","David","Prophet","David Prophet","PRO",,"MALE","1937-10-09","1981-03-29","Hong Kong","hong-kong","united-kingdom",,,14,14,,0,2,2,0,120,0,0,0,0,0,0,0,0,0
+"david-purley","David Purley","David","Purley","David Charles Purley","PUR",,"MALE","1945-01-26","1985-07-02","Bognor Regis","united-kingdom","united-kingdom",,,16,9,,0,11,7,0,248,0,0,0,0,0,0,0,0,0
+"david-walker","David Walker","David","Walker","David Walker","WAL",,"MALE","1941-06-10","2024-05-24","Sydney","australia","australia",,,12,9,,0,11,11,0,482,0,0,0,0,0,0,0,0,0
+"davide-valsecchi","Davide Valsecchi","Davide","Valsecchi","Davide Valsecchi","VAL",,"MALE","1987-01-24",,"Eupilio","italy","italy",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"dempsey-wilson","Dempsey Wilson","Dempsey","Wilson","Dempsey Cothrin Wilson","WIL",,"MALE","1927-03-11","1971-04-23","Los Angeles","united-states-of-america","united-states-of-america",,,32,15,,0,2,2,0,162,0,0,0,0,0,0,0,0,0
+"dennis-poore","Dennis Poore","Dennis","Poore","Roger Dennistoun Poore","POO",,"MALE","1916-08-19","1987-02-12","London","united-kingdom","united-kingdom",,13,8,4,,0,2,2,0,157,0,3,3,0,0,0,0,0,0
+"dennis-taylor","Dennis Taylor","Dennis","Taylor","Dennis Taylor","TAY",,"MALE","1921-06-12","1962-06-02","Sidcup","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"denny-hulme","Denny Hulme","Denny","Hulme","Denis Clive Hulme","HUL",,"MALE","1936-06-18","1992-10-04","Motueka","new-zealand","new-zealand",,1,1,1,,1,112,112,8,6237,33,248,248,1,9,0,0,0,0
+"derek-bell","Derek Bell","Derek","Bell","Derek Reginald Bell","BEL",,"MALE","1941-10-31",,"Pinner","united-kingdom","united-kingdom",,22,8,6,,0,16,9,0,180,0,1,1,0,0,0,0,0,0
+"derek-daly","Derek Daly","Derek","Daly","Derek Daly","DAL",,"MALE","1953-03-11",,"Ballinteer","ireland","ireland",,11,7,4,,0,64,49,0,2234,0,15,15,0,0,0,0,0,0
+"derek-warwick","Derek Warwick","Derek","Warwick","Derek Stanley Arthur Warwick","WAR",,"MALE","1954-08-27",,"New Alresford","united-kingdom","united-kingdom",,7,3,2,,0,162,147,0,6376,4,71,71,0,2,0,0,0,0
+"desire-wilson","Desiré Wilson","Desiré","Wilson","Desiré Randall Wilson","WIL",,"FEMALE","1953-11-26",,"Brakpan","south-africa","south-africa",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"desmond-titterington","Desmond Titterington","Desmond","Titterington","Desmond Titterington","TIT",,"MALE","1928-05-01","2002-04-13","Cultra","united-kingdom","united-kingdom",,,11,,,0,1,1,0,74,0,0,0,0,0,0,0,0,0
+"dick-gibson","Dick Gibson","Dick","Gibson","Richard Gibson","GIB",,"MALE","1918-04-16","2010-12-17","Bourne","united-kingdom","united-kingdom",,,18,,,0,2,2,0,5,0,0,0,0,0,0,0,0,0
+"dick-rathmann","Dick Rathmann","Dick","Rathmann","James Rathmann","RAT",,"MALE","1926-01-06","2000-02-01","Los Angeles","united-states-of-america","united-states-of-america",,19,1,5,,0,5,5,0,417,0,2,2,1,0,0,0,0,0
+"didier-pironi","Didier Pironi","Didier","Pironi","Didier Joseph Louis Pironi","PIR",,"MALE","1952-03-26","1987-08-23","Villecresnes","france","france",,2,1,1,,0,72,70,3,3423,13,101,101,4,5,0,0,0,0
+"dieter-quester","Dieter Quester","Dieter","Quester","Dieter Quester","QUE",,"MALE","1939-05-30",,"Vienna","austria","austria",,,25,9,,0,2,1,0,51,0,0,0,0,0,0,0,0,0
+"dino-beganovic","Dino Beganovic","Dino","Beganovic","Dino Beganovic","BEG",,"MALE","2004-01-19",,"Linköping","sweden","sweden","bosnia-and-herzegovina",,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"divina-galica","Divina Galica","Divina","Galica","Divina Mary Galica","GAL",,"FEMALE","1944-08-13",,"Bushey Heath","united-kingdom","united-kingdom",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"domenico-schiattarella","Domenico Schiattarella","Domenico","Schiattarella","Domenico Luca Schiattarella","SCH",,"MALE","1967-11-17",,"Milan","italy","italy",,,20,9,,0,7,6,0,261,0,0,0,0,0,0,0,0,0
+"don-beauman","Don Beauman","Don","Beauman","Donald Bentley Beauman","BEA",,"MALE","1928-07-26","1955-07-09","Farnborough","united-kingdom","united-kingdom",,,17,11,,0,1,1,0,84,0,0,0,0,0,0,0,0,0
+"don-branson","Don Branson","Don","Branson","Donald L. Branson","BRA",,"MALE","1920-06-02","1966-11-12","Rantoul","united-states-of-america","united-states-of-america",,19,8,4,,0,2,2,0,312,0,3,3,0,0,0,0,0,0
+"don-edmunds","Don Edmunds","Don","Edmunds","Don Edmunds","EDM",,"MALE","1930-09-23","2020-08-11","Santa Ana","united-states-of-america","united-states-of-america",,,27,19,,0,1,1,0,170,0,0,0,0,0,0,0,0,0
+"don-freeland","Don Freeland","Don","Freeland","Don Freeland","FRE",,"MALE","1925-03-25","2007-11-02","Los Angeles","united-states-of-america","united-states-of-america",,12,6,3,,0,8,8,0,1311,1,4,4,0,0,0,0,0,0
+"dorino-serafini","Dorino Serafini","Dorino","Serafini","Teodoro Serafini","SER",,"MALE","1909-07-22","2000-07-05","Pesaro","italy","italy",,13,6,2,,0,1,1,0,80,1,3,3,0,0,0,0,0,0
+"doug-serrurier","Doug Serrurier","Doug","Serrurier","Louis Douglas Serrurier","SER",,"MALE","1920-12-09","2006-06-04","Germiston","south-africa","south-africa",,,14,11,,0,3,2,0,140,0,0,0,0,0,0,0,0,0
+"dries-van-der-lof","Dries van der Lof","Dries","Van der Lof","Andre van der Lof","VAN",,"MALE","1919-08-23","1990-05-24","Emmen","netherlands","netherlands",,,14,,,0,1,1,0,70,0,0,0,0,0,0,0,0,0
+"duane-carter","Duane Carter","Duane","Carter","Duane Carter","CAR",,"MALE","1913-05-05","1993-05-07","Fresno","united-states-of-america","united-states-of-america",,13,4,3,,0,8,8,0,1400,1,6.5,6.5,0,0,0,0,0,0
+"duke-dinsmore","Duke Dinsmore","Duke","Dinsmore","J. Carlyle Dinsmore","DIN",,"MALE","1913-04-10","1985-10-12","Williamstown","united-states-of-america","united-states-of-america",,,7,16,,0,4,4,0,274,0,0,0,0,0,0,0,0,0
+"duke-nalon","Duke Nalon","Dennis","Nalon","Dennis Nalon","NAL",,"MALE","1913-03-02","2001-02-26","Chicago","united-states-of-america","united-states-of-america",,,1,10,,0,3,3,0,426,0,0,0,1,0,0,0,0,0
+"duncan-hamilton","Duncan Hamilton","Duncan","Hamilton","James Duncan Hamilton","HAM",,"MALE","1920-04-30","1994-05-13","Cork","ireland","united-kingdom",,,10,7,,0,5,5,0,236,0,0,0,0,0,0,0,0,0
+"ed-elisian","Ed Elisian","Ed","Elisian","Ed Elisian","ELI",,"MALE","1926-12-09","1959-08-30","Oakland","united-states-of-america","united-states-of-america",,,2,18,,0,5,5,0,457,0,0,0,0,0,0,0,0,0
+"eddie-cheever","Eddie Cheever","Eddie","Cheever","Edward McKay Cheever Jr.","CHE",,"MALE","1958-01-10",,"Phoenix","united-states-of-america","united-states-of-america",,7,2,2,,0,143,132,0,5490,9,70,70,0,0,0,0,0,0
+"eddie-irvine","Eddie Irvine","Eddie","Irvine","Edmund Irvine Jr.","IRV",,"MALE","1965-11-10",,"Newtownards","united-kingdom","united-kingdom",,2,2,1,,0,147,147,4,6846,26,191,191,0,1,0,0,0,0
+"eddie-johnson","Eddie Johnson","Eddie","Johnson","Eddie Johnson","JOH",,"MALE","1919-02-10","1974-06-30","Richmond","united-states-of-america","united-states-of-america",,24,7,6,,0,9,9,0,1277,0,1,1,0,0,0,0,0,0
+"eddie-keizan","Eddie Keizan","Eddie","Keizan","Eddie Keizan","KEI",,"MALE","1944-09-12","2016-05-21","Johannesburg","south-africa","south-africa",,,22,13,,0,3,3,0,219,0,0,0,0,0,0,0,0,0
+"eddie-russo","Eddie Russo","Eddie","Russo","Eddie Russo","RUS",,"MALE","1923-11-19","2012-10-14","Chicago","united-states-of-america","united-states-of-america",,,13,22,,0,4,4,0,196,0,0,0,0,0,0,0,0,0
+"eddie-sachs","Eddie Sachs","Eddie","Sachs","Edward Julius Sachs, Jr.","SAC",,"MALE","1927-05-28","1964-05-30","Allentown","united-states-of-america","united-states-of-america",,,1,17,,0,4,4,0,487,0,0,0,1,0,0,0,0,0
+"edgar-barth","Edgar Barth","Edgar","Barth","Edgar Barth","BAR",,"MALE","1917-01-26","1965-05-20","Herold","germany","germany",,,12,6,,0,5,5,0,98,0,0,0,0,0,0,0,0,0
+"eitel-cantoni","Eitel Cantoni","Eitel","Cantoni","Eitel Danilo Cantoni","CAN",,"MALE","1906-10-04","1997-06-06","Montevideo","uruguay","uruguay",,,23,11,,0,3,3,0,80,0,0,0,0,0,0,0,0,0
+"elie-bayol","Élie Bayol","Élie","Bayol","Élie Marcel Bayol","BAY",,"MALE","1914-02-28","1995-05-25","Marseille","france","france",,19,10,5,,0,8,7,0,278,0,2,2,0,0,0,0,0,0
+"elio-de-angelis","Elio de Angelis","Elio","De Angelis","Elio de Angelis","DEA",,"MALE","1958-03-26","1986-05-15","Rome","italy","italy",,3,1,1,,0,109,108,2,4753,9,122,122,3,0,0,0,0,0
+"eliseo-salazar","Eliseo Salazar","Eliseo","Salazar","Eliseo Salazar Valenzuela","SAL",,"MALE","1954-11-14",,"Santiago","chile","chile",,18,12,5,,0,37,24,0,883,0,3,3,0,0,0,0,0,0
+"elmer-george","Elmer George","Elmer","George","Elmer George","GEO",,"MALE","1928-07-05","1976-05-31","Hockerville","united-states-of-america","united-states-of-america",,,9,33,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"emanuele-naspetti","Emanuele Naspetti","Emanuele","Naspetti","Emanuele Naspetti","NAS",,"MALE","1968-02-24",,"Ancona","italy","italy",,,21,11,,0,6,6,0,242,0,0,0,0,0,0,0,0,0
+"emanuele-pirro","Emanuele Pirro","Emanuele","Pirro","Emanuele Pirro","PIR",,"MALE","1962-01-12",,"Rome","italy","italy",,18,7,5,,0,40,37,0,1368,0,3,3,0,0,0,0,0,0
+"emerson-fittipaldi","Emerson Fittipaldi","Emerson","Fittipaldi","Emerson Fittipaldi","FIT",,"MALE","1946-12-12",,"São Paulo","brazil","brazil",,1,1,1,,2,149,144,14,7289,35,281,281,6,6,0,0,0,0
+"emilio-de-villota","Emilio de Villota","Emilio","De Villota","Emilio de Villota Ruíz","DEV",,"MALE","1946-07-26",,"Madrid","spain","spain",,,23,13,,0,14,2,0,120,0,0,0,0,0,0,0,0,0
+"emilio-zapico","Emilio Zapico","Emilio","Zapico","Emilio Rodríguez Zapico","ZAP",,"MALE","1944-05-27","1996-08-06","León","spain","spain",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"emmanuel-de-graffenried","Emmanuel de Graffenried","Emmanuel","De Graffenried","Emmanuel de Graffenried","DEG",,"MALE","1914-05-18","2007-01-22","Paris","france","switzerland",,8,5,4,,0,23,22,0,962,0,9,9,0,0,0,0,0,0
+"enrico-bertaggia","Enrico Bertaggia","Enrico","Bertaggia","Enrico Bertaggia","BER",,"MALE","1964-09-19",,"Noale","italy","italy",,,,,,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+"enrico-toccacelo","Enrico Toccacelo","Enrico","Toccacelo","Enrico Toccacelo","TOC",,"MALE","1978-12-14",,"Rome","italy","italy",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"enrique-bernoldi","Enrique Bernoldi","Enrique","Bernoldi","Enrique Antônio Langue e Silvério de Bernoldi","BER",,"MALE","1978-10-19",,"Curitiba","brazil","brazil",,21,12,8,,0,29,28,0,941,0,0,0,0,0,0,0,0,0
+"eppie-wietzes","Eppie Wietzes","Egbert","Wietzes","Egbert Wietzes","WIE",,"MALE","1938-05-28","2020-06-10","Assen","netherlands","canada",,,16,,,0,2,2,0,102,0,0,0,0,0,0,0,0,0
+"eric-bernard","Éric Bernard","Éric","Bernard","Éric Bernard","BER",,"MALE","1964-08-24",,"Martigues","france","france",,13,8,3,,0,47,45,0,1969,1,10,10,0,0,0,0,0,0
+"eric-brandon","Eric Brandon","Eric","Brandon","Eric Brandon","BRA",,"MALE","1920-07-18","1982-08-08","East Ham","united-kingdom","united-kingdom",,,12,8,,0,5,5,0,239,0,0,0,0,0,0,0,0,0
+"eric-thompson","Eric Thompson","Eric","Thompson","Eric Thompson","THO",,"MALE","1919-11-04","2015-08-22","Ditton Hill","united-kingdom","united-kingdom",,16,9,5,,0,1,1,0,82,0,2,2,0,0,0,0,0,0
+"eric-van-de-poele","Eric van de Poele","Eric","Van de Poele","Eric van de Poele","VAN",,"MALE","1961-09-30",,"Verviers","belgium","belgium",,,15,9,,0,29,5,0,170,0,0,0,0,0,0,0,0,0
+"erik-comas","Érik Comas","Érik","Comas","Érik Comas","COM",,"MALE","1963-09-28",,"Romans-sur-Isère","france","france",,11,7,5,,0,63,59,0,2804,0,7,7,0,0,0,0,0,0
+"ernesto-brambilla","Ernesto Brambilla","Ernesto","Brambilla","Ernesto Brambilla","BRA",,"MALE","1934-01-31","2020-08-03","Monza","italy","italy",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"ernesto-prinoth","Ernesto Prinoth","Ernesto","Prinoth","Ernesto Prinoth","PRI",,"MALE","1923-04-15","1981-11-26","Urtijëi","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"ernesto-viso","Ernesto Viso","Ernesto","Viso","Ernesto José Viso Lossada","VIS",,"MALE","1985-03-19",,"Caracas","venezuela","venezuela",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ernie-mccoy","Ernie McCoy","Ernie","McCoy","Ernie McCoy","MCC",,"MALE","1921-02-19","2001-02-04","Reading","united-states-of-america","united-states-of-america",,,20,8,,0,2,2,0,394,0,0,0,0,0,0,0,0,0
+"ernie-pieterse","Ernie Pieterse","Ernest","Pieterse","Ernest Pieterse","PIE",,"MALE","1938-07-04","2017-11-01","Parow","south-africa","south-africa",,,12,10,,0,3,2,0,74,0,0,0,0,0,0,0,0,0
+"ernst-klodwig","Ernst Klodwig","Ernst","Klodwig","Ernst Klodwig","KLO",,"MALE","1903-05-23","1973-04-15","Aschersleben","germany","germany",,,29,12,,0,2,2,0,29,0,0,0,0,0,0,0,0,0
+"ernst-loof","Ernst Loof","Ernst","Loof","Ernst Loof","LOO",,"MALE","1907-07-04","1956-03-03","Neindorf","germany","germany",,,31,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"erwin-bauer","Erwin Bauer","Erwin","Bauer","Erwin Bauer","BAU",,"MALE","1912-07-17","1958-06-03","Stuttgart","germany","germany",,,33,,,0,1,1,0,1,0,0,0,0,0,0,0,0,0
+"esteban-gutierrez","Esteban Gutiérrez","Esteban","Gutiérrez","Esteban Manuel Gutiérrez Gutiérrez","GUT",,"MALE","1991-08-05",,"Monterrey","mexico","mexico",,16,8,7,,0,59,59,0,3053,0,6,6,0,1,0,0,0,0
+"esteban-ocon","Esteban Ocon","Esteban","Ocon","Esteban Ocon","OCO","31","MALE","1996-09-17",,"Évreux","france","france",,8,3,1,5,0,185,185,1,9969,4,484,484,0,1,27,0,1,0
+"esteban-tuero","Esteban Tuero","Esteban","Tuero","Esteban Tuero","TUE",,"MALE","1978-04-22",,"Buenos Aires","argentina","argentina",,,17,8,,0,16,16,0,613,0,0,0,0,0,0,0,0,0
+"ettore-chimeri","Ettore Chimeri","Ettore","Chimeri","Ettore Muro Chimeri","CHI",,"MALE","1921-06-04","1960-02-27","Lodi","italy","venezuela",,,21,,,0,1,1,0,23,0,0,0,0,0,0,0,0,0
+"eugene-chaboud","Eugène Chaboud","Eugène","Chaboud","Marius Eugène Chaboud","CHA",,"MALE","1907-04-12","1983-12-28","Lyon","france","france",,20,10,5,,0,3,3,0,91,0,1,1,0,0,0,0,0,0
+"eugene-martin","Eugène Martin","Eugène","Martin","Eugène Martin","MAR",,"MALE","1915-03-24","2006-10-12","Suresnes","france","france",,,7,,,0,2,2,0,27,0,0,0,0,0,0,0,0,0
+"eugenio-castellotti","Eugenio Castellotti","Eugenio","Castellotti","Eugenio Castellotti","CAS",,"MALE","1930-10-10","1957-03-14","Lodi","italy","italy",,3,1,2,,0,14,14,0,620,3,19.5,19.5,1,0,0,0,0,0
+"fabio-leimer","Fabio Leimer","Fabio","Leimer","Fabio Leimer","LEI",,"MALE","1989-04-17",,"Rothrist","switzerland","switzerland",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"fabrizio-barbazza","Fabrizio Barbazza","Fabrizio","Barbazza","Fabrizio Barbazza","BAR",,"MALE","1963-04-02",,"Monza","italy","italy",,19,20,6,,0,20,8,0,315,0,2,2,0,0,0,0,0,0
+"fairuz-fauzy","Fairuz Fauzy","Fairuz","Fauzy","Mohamed Fairuz Fauzy","FAU",,"MALE","1982-10-24",,"Kuala Lumpur","malaysia","malaysia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"felice-bonetto","Felice Bonetto","Felice","Bonetto","Felice Bonetto","BON",,"MALE","1903-06-09","1953-11-21","Manerbio","italy","italy",,8,2,3,,0,16,15,0,749,2,17.5,17.5,0,0,0,0,0,0
+"felipe-drugovich","Felipe Drugovich","Felipe","Drugovich","Felipe Drugovich Roncato","DRU",,"MALE","2000-05-23",,"Maringá","brazil","brazil",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"felipe-massa","Felipe Massa","Felipe","Massa","Felipe Massa","MAS",,"MALE","1981-04-25",,"São Paulo","brazil","brazil",,2,1,1,,0,271,269,11,14852,41,1167,1167,16,15,0,0,0,0
+"felipe-nasr","Felipe Nasr","Felipe","Nasr","Luiz Felipe de Oliveira Nasr","NAS",,"MALE","1992-08-21",,"Brasília","brazil","brazil",,13,8,5,,0,40,39,0,2224,0,29,29,0,0,0,0,0,0
+"fernando-alonso","Fernando Alonso","Fernando","Alonso","Fernando Alonso Díaz","ALO","14","MALE","1981-07-29",,"Oviedo","spain","spain",,1,1,1,5,2,433,431,32,23268,106,2393,2393,22,26,26,0,7,1
+"franck-lagorce","Franck Lagorce","Franck","Lagorce","Franck Lagorce","LAG",,"MALE","1968-09-01",,"L'Haÿ-les-Roses","france","france",,,20,11,,0,2,2,0,89,0,0,0,0,0,0,0,0,0
+"franck-montagny","Franck Montagny","Franck","Montagny","Franck Montagny","MON",,"MALE","1978-01-05",,"Feurs","france","france",,27,19,16,,0,7,7,0,240,0,0,0,0,0,0,0,0,0
+"franco-colapinto","Franco Colapinto","Franco","Colapinto","Franco Alejandro Colapinto","COL","43","MALE","2003-05-27",,"Pilar","argentina","argentina",,19,8,6,9,0,32,31,0,1734,0,20,20,0,0,10,0,0,0
+"franco-comotti","Franco Comotti","Franco","Comotti","Gianfranco Comotti","COM",,"MALE","1906-07-24","1963-05-10","Brescia","italy","italy",,,16,12,,0,2,2,0,78,0,0,0,0,0,0,0,0,0
+"franco-forini","Franco Forini","Franco","Forini","Franco Forini","FOR",,"MALE","1958-09-22",,"Muralto","switzerland","switzerland",,,26,,,0,3,2,0,59,0,0,0,0,0,0,0,0,0
+"franco-rol","Franco Rol","Franco","Rol","Franco Rol","ROL",,"MALE","1908-06-05","1977-06-18","Turin","italy","italy",,,7,9,,0,5,5,0,137,0,0,0,0,0,0,0,0,0
+"francois-cevert","François Cevert","François","Cevert","Albert François Cevert Goldenberg","CEV",,"MALE","1944-02-25","1973-10-06","Paris","france","france",,3,2,1,,0,48,47,1,2379,13,89,89,0,2,0,0,0,0
+"francois-hesnault","François Hesnault","François","Hesnault","François Hesnault","HES",,"MALE","1956-12-30",,"Neuilly-sur-Seine","france","france",,,13,7,,0,21,19,0,464,0,0,0,0,0,0,0,0,0
+"francois-mazet","François Mazet","François","Mazet","François Mazet","MAZ",,"MALE","1943-02-24",,"Paris","france","france",,,23,13,,0,1,1,0,50,0,0,0,0,0,0,0,0,0
+"francois-migault","François Migault","François","Migault","François Migault","MIG",,"MALE","1944-12-04","2012-01-29","Le Mans","france","france",,,14,14,,0,16,13,0,548,0,0,0,0,0,0,0,0,0
+"francois-picard","François Picard","François","Picard","François Picard","PIC",,"MALE","1921-04-26","1996-04-29","Villefranche-sur-Saône","france","france",,,24,,,0,1,1,0,31,0,0,0,0,0,0,0,0,0
+"frank-armi","Frank Armi","Frank","Armi","Frank Armi","ARM",,"MALE","1918-10-12","1992-11-28","Portland","united-states-of-america","united-states-of-america",,,33,19,,0,1,1,0,193,0,0,0,0,0,0,0,0,0
+"frank-dochnal","Frank Dochnal","Frank","Dochnal","Frank J. Dochnal","DOC",,"MALE","1920-10-08","2010-07-07","St. Louis","united-states-of-america","united-states-of-america",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"frank-gardner","Frank Gardner","Frank","Gardner","Frank Gardner","GAR",,"MALE","1931-10-01","2009-08-29","Sydney","australia","australia",,,11,8,,0,9,8,0,307,0,0,0,0,0,0,0,0,0
+"fred-agabashian","Fred Agabashian","Fred","Agabashian","Levon Agabashian","AGA",,"MALE","1913-08-21","1989-10-13","Modesto","united-states-of-america","united-states-of-america",,18,1,4,,0,8,8,0,986,0,1.5,1.5,1,0,0,0,0,0
+"fred-gamble","Fred Gamble","Fred","Gamble","Fred K. Gamble","GAM",,"MALE","1932-03-17","2024-03-30","Pittsburgh","united-states-of-america","united-states-of-america",,,14,10,,0,1,1,0,41,0,0,0,0,0,0,0,0,0
+"fred-wacker","Fred Wacker","Fred","Wacker","Frederick G. Wacker Jr.","WAC",,"MALE","1918-07-10","1998-06-16","Chicago","united-states-of-america","united-states-of-america",,,15,6,,0,5,3,0,117,0,0,0,0,0,0,0,0,0
+"frederik-vesti","Frederik Vesti","Frederik","Vesti","Frederik Vesti Stamm","VES",,"MALE","2002-01-13",,"Langelund","denmark","denmark",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"fritz-dorey","Fritz d'Orey","Fritz","D'Orey","Frederico José Carlos Themudo d'Orey","D'O",,"MALE","1938-03-25","2020-08-31","São Paulo","brazil","brazil",,,17,10,,0,3,3,0,103,0,0,0,0,0,0,0,0,0
+"fritz-riess","Fritz Riess","Fritz","Riess","Fritz Riess","RIE",,"MALE","1922-07-11","1991-05-15","Nuremberg","germany","germany",,,12,7,,0,1,1,0,16,0,0,0,0,0,0,0,0,0
+"gabriel-bortoleto","Gabriel Bortoleto","Gabriel","Bortoleto","Gabriel Bortoleto Oliveira","BOR","5","MALE","2004-10-14",,"Osasco","brazil","brazil",,19,7,6,9,0,29,28,0,1461,0,21,21,0,0,9,0,2,0
+"gabriele-tarquini","Gabriele Tarquini","Gabriele","Tarquini","Gabriele Tarquini","TAR",,"MALE","1962-03-02",,"Giulianova","italy","italy",,26,11,6,,0,78,38,0,1495,0,1,1,0,0,0,0,0,0
+"gaetano-starrabba","Gaetano Starrabba","Gaetano","Starrabba","Prince Gaetano Starrabba di Giardinelli","STA",,"MALE","1932-12-03",,"Palermo","italy","italy",,,30,,,0,1,1,0,19,0,0,0,0,0,0,0,0,0
+"gary-brabham","Gary Brabham","Gary","Brabham","Gary Brabham","BRA",,"MALE","1961-03-29",,"Wimbledon","united-kingdom","australia",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"gaston-mazzacane","Gastón Mazzacane","Gastón","Mazzacane","Gastón Hugo Mazzacane","MAZ",,"MALE","1975-05-08",,"La Plata","argentina","argentina",,21,19,8,,0,21,21,0,1047,0,0,0,0,0,0,0,0,0
+"gene-force","Gene Force","Gene","Force","Gene Force","FOR",,"MALE","1916-06-15","1983-08-21","New Madison","united-states-of-america","united-states-of-america",,,20,11,,0,2,2,0,216,0,0,0,0,0,0,0,0,0
+"gene-hartley","Gene Hartley","Gene","Hartley","Leslie Eugene Hartley","HAR",,"MALE","1926-01-28","1994-03-13","Roanoke","united-states-of-america","united-states-of-america",,,9,9,,0,8,8,0,1206,0,0,0,0,0,0,0,0,0
+"geoff-lees","Geoff Lees","Geoffrey","Lees","Geoffrey Lees","LEE",,"MALE","1951-05-01",,"Kingsbury","united-kingdom","united-kingdom",,,16,7,,0,12,5,0,187,0,0,0,0,0,0,0,0,0
+"geoffrey-crossley","Geoffrey Crossley","Geoffrey","Crossley","Geoffrey Crossley","CRO",,"MALE","1921-05-11","2002-01-07","Baslow","united-kingdom","united-kingdom",,,12,9,,0,2,2,0,73,0,0,0,0,0,0,0,0,0
+"george-abecassis","George Abecassis","George","Abecassis","George Edgar Abecassis","ABE",,"MALE","1913-03-21","1991-12-18","Oatlands","united-kingdom","united-kingdom",,,10,,,0,2,2,0,35,0,0,0,0,0,0,0,0,0
+"george-amick","George Amick","George","Amick","George R. Amick","AMI",,"MALE","1924-10-24","1959-04-04","Vernonia","united-states-of-america","united-states-of-america",,15,25,2,,0,1,1,0,200,1,6,6,0,0,0,0,0,0
+"george-connor","George Connor","George","Connor","George Connor","CON",,"MALE","1906-08-16","2001-03-28","Rialto","united-states-of-america","united-states-of-america",,,4,8,,0,3,3,0,364,0,0,0,0,0,0,0,0,0
+"george-constantine","George Constantine","George","Constantine","George J. Constantine","CON",,"MALE","1918-02-22","1968-01-07","Southbridge","united-states-of-america","united-states-of-america",,,15,,,0,1,1,0,5,0,0,0,0,0,0,0,0,0
+"george-eaton","George Eaton","George","Eaton","George Ross Eaton","EAT",,"MALE","1945-11-12",,"Toronto","canada","canada",,,9,10,,0,13,11,0,445,0,0,0,0,0,0,0,0,0
+"george-follmer","George Follmer","George","Follmer","George Follmer","FOL",,"MALE","1934-01-27",,"Phoenix","united-states-of-america","united-states-of-america",,13,11,3,,0,13,12,0,534,1,5,5,0,0,0,0,0,0
+"george-fonder","George Fonder","George","Fonder","George Fonder","FON",,"MALE","1917-06-22","1958-06-14","Elmhurst","united-states-of-america","united-states-of-america",,,13,15,,0,2,2,0,197,0,0,0,0,0,0,0,0,0
+"george-russell","George Russell","George","Russell","George Russell","RUS","63","MALE","1998-02-15",,"King's Lynn","united-kingdom","united-kingdom",,4,1,1,1,0,157,157,6,8843,26,1121,1121,9,11,27,3,1,0
+"georges-berger","Georges Berger","Georges","Berger","Georges Berger","BER",,"MALE","1918-09-14","1967-08-23","Sint-Jans-Molenbeek","belgium","belgium",,,20,,,0,2,2,0,12,0,0,0,0,0,0,0,0,0
+"georges-grignard","Georges Grignard","Georges","Grignard","Auguste Georges Paul Grignard","GRI",,"MALE","1905-07-25","1977-12-07","Villeneuve-Saint-Georges","france","france",,,16,,,0,1,1,0,23,0,0,0,0,0,0,0,0,0
+"gerard-larrousse","Gérard Larrousse","Gérard","Larrousse","Gérard Larrousse","LAR",,"MALE","1940-05-23",,"Lyon","france","france",,,28,,,0,2,1,0,53,0,0,0,0,0,0,0,0,0
+"gerhard-berger","Gerhard Berger","Gerhard","Berger","Gerhard Berger","BER",,"MALE","1959-08-27",,"Wörgl","austria","austria",,3,1,1,,0,210,210,10,9793,48,385,385,12,21,0,0,0,1
+"gerhard-mitter","Gerhard Mitter","Gerhard","Mitter","Gerhard Karl Mitter","MIT",,"MALE","1935-08-30","1969-08-01","Krásná Lípa","czechia","germany",,12,12,4,,0,7,5,0,39,0,3,3,0,0,0,0,0,0
+"gerino-gerini","Gerino Gerini","Gerino","Gerini","Gerino Gerini","GER",,"MALE","1928-08-10","2013-04-17","Rome","italy","italy",,25,15,4,,0,7,6,0,182,0,1.5,1.5,0,0,0,0,0,0
+"gerry-ashmore","Gerry Ashmore","Gerry","Ashmore","Gerry Ashmore","ASH",,"MALE","1936-07-25","2021-08-25","West Bromwich","united-kingdom","united-kingdom",,,25,16,,0,4,3,0,20,0,0,0,0,0,0,0,0,0
+"giacomo-russo","Giacomo Russo","Giacomo","Russo","Giacomo Russo","RUS",,"MALE","1937-10-23","1967-06-18","Milan","italy","italy",,,20,9,,0,3,2,0,100,0,0,0,0,0,0,0,0,0
+"giancarlo-baghetti","Giancarlo Baghetti","Giancarlo","Baghetti","Giancarlo Baghetti","BAG",,"MALE","1934-12-25","1995-11-27","Milan","italy","italy",,9,6,1,,0,21,21,1,852,1,14,14,0,1,0,0,0,0
+"giancarlo-fisichella","Giancarlo Fisichella","Giancarlo","Fisichella","Giancarlo Fisichella","FIS",,"MALE","1973-01-14",,"Rome","italy","italy",,4,1,1,,0,231,229,3,11509,19,275,275,4,2,0,0,0,0
+"gianfranco-brancatelli","Gianfranco Brancatelli","Gianfranco","Brancatelli","Gianfranco Brancatelli","BRA",,"MALE","1950-01-18",,"Turin","italy","italy",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"gianmaria-bruni","Gianmaria Bruni","Gianmaria","Bruni","Gianmaria Bruni","BRU",,"MALE","1981-05-30",,"Rome","italy","italy",,25,16,14,,0,18,18,0,736,0,0,0,0,0,0,0,0,0
+"gianni-morbidelli","Gianni Morbidelli","Gianni","Morbidelli","Gianni Morbidelli","MOR",,"MALE","1968-01-13",,"Pesaro","italy","italy",,14,6,3,,0,70,67,0,2846,1,8.5,8.5,0,0,0,0,0,0
+"giedo-van-der-garde","Giedo van der Garde","Giedo","Van der Garde","Giedo Gijsbertus Gerrit van der Garde","VDG",,"MALE","1985-04-25",,"Rhenen","netherlands","netherlands",,22,14,14,,0,19,19,0,931,0,0,0,0,0,0,0,0,0
+"gijs-van-lennep","Gijs van Lennep","Gijs","Van Lennep","Gijsbert van Lennep","VAN",,"MALE","1942-03-16",,"Aerdenhout","netherlands","netherlands",,19,20,6,,0,10,8,0,421,0,2,2,0,0,0,0,0,0
+"gilles-villeneuve","Gilles Villeneuve","Gilles","Villeneuve","Joseph Gilles Henri Villeneuve","VIL",,"MALE","1950-01-18","1982-05-08","Saint-Jean-sur-Richelieu","canada","canada",,2,1,1,,0,68,67,6,3283,13,107,101,2,8,0,0,0,1
+"gino-bianco","Gino Bianco","Gino","Bianco","Luigi Emilio Rodolfo Bertetti Bianco","BIA",,"MALE","1916-07-22","1984-05-08","Milan","italy","brazil",,,12,18,,0,4,4,0,127,0,0,0,0,0,0,0,0,0
+"gino-munaron","Gino Munaron","Gino","Munaron","Gino Munaron","MUN",,"MALE","1928-04-02","2009-11-22","Turin","italy","italy",,,8,13,,0,5,4,0,182,0,0,0,0,0,0,0,0,0
+"giorgio-bassi","Giorgio Bassi","Giorgio","Bassi","Giorgio Bassi","BAS",,"MALE","1934-01-20",,"Milan","italy","italy",,,22,,,0,1,1,0,8,0,0,0,0,0,0,0,0,0
+"giorgio-francia","Giorgio Francia","Giorgio","Francia","Giorgio Francia","FRA",,"MALE","1947-11-08",,"Bologna","italy","italy",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"giorgio-mondini","Giorgio Mondini","Giorgio","Mondini","Giorgio Mondini","MOD",,"MALE","1980-07-19",,"Geneva","switzerland","switzerland",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"giorgio-pantano","Giorgio Pantano","Giorgio","Pantano","Giorgio Pantano","PAN",,"MALE","1979-02-04",,"Conselve","italy","italy",,24,14,13,,0,14,14,0,549,0,0,0,0,0,0,0,0,0
+"giorgio-scarlatti","Giorgio Scarlatti","Giorgio","Scarlatti","Giorgio Scarlatti","SCA",,"MALE","1921-10-02","1990-07-26","Rome","italy","italy",,20,5,5,,0,15,12,0,424,0,1,1,0,0,0,0,0,0
+"giovanna-amati","Giovanna Amati","Giovanna","Amati","Giovanna Amati","AMA",,"FEMALE","1959-07-20",,"Rome","italy","italy",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"giovanni-de-riu","Giovanni de Riu","Giovanni","De Riu","Giovanni de Riu","DER",,"MALE","1925-03-10","2008-12-11","Macomer","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"giovanni-lavaggi","Giovanni Lavaggi","Giovanni","Lavaggi","Giovanni Lavaggi","LAV",,"MALE","1958-02-18",,"Augusta","italy","italy",,,20,10,,0,10,7,0,204,0,0,0,0,0,0,0,0,0
+"giulio-cabianca","Giulio Cabianca","Giulio","Cabianca","Giulio Cabianca","CAB",,"MALE","1923-02-19","1961-06-15","Verona","italy","italy",,19,4,4,,0,4,3,0,163,0,3,3,0,0,0,0,0,0
+"graham-hill","Graham Hill","Graham","Hill","Norman Graham Hill","HIL",,"MALE","1929-02-15","1975-11-29","Hampstead","united-kingdom","united-kingdom",,1,1,1,,2,179,176,14,8791,36,289,270,13,10,0,0,0,0
+"graham-mcrae","Graham McRae","Graham","McRae","Graham McRae","MCR",,"MALE","1940-03-05","2021-08-04","Wellington","new-zealand","new-zealand",,,28,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"graham-whitehead","Graham Whitehead","Graham","Whitehead","Anthony Graham Whitehead","WHI",,"MALE","1922-04-15","1981-01-15","Harrogate","united-kingdom","united-kingdom",,,12,12,,0,1,1,0,80,0,0,0,0,0,0,0,0,0
+"gregor-foitek","Gregor Foitek","Gregor","Foitek","Gregor Foitek","FOI",,"MALE","1965-03-27",,"Zurich","switzerland","switzerland",,,20,7,,0,22,7,0,299,0,0,0,0,0,0,0,0,0
+"guanyu-zhou","Guanyu Zhou","Guanyu","Zhou","Guanyu Zhou","ZHO","24","MALE","1999-05-30",,"Shanghai","china","china",,18,5,8,9,0,68,68,0,3649,0,16,16,0,2,15,0,1,0
+"gunnar-nilsson","Gunnar Nilsson","Gunnar","Nilsson","Gunnar Nilsson","NIL",,"MALE","1948-11-20","1978-10-20","Helsingborg","sweden","sweden",,8,3,1,,0,32,31,1,1316,4,31,31,0,1,0,0,0,0
+"gunther-seiffert","Günther Seiffert","Günther","Seiffert","Günther Seiffert","SEI",,"MALE","1937-10-18","2020-11-11","Oldenburg","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"gus-hutchison","Gus Hutchison","Gus","Hutchison","Gus Hutchison","HUT",,"MALE","1937-04-26",,"Atlanta","united-states-of-america","united-states-of-america",,,22,,,0,1,1,0,21,0,0,0,0,0,0,0,0,0
+"guy-edwards","Guy Edwards","Guy","Edwards","Guy Richard Goronwy Edwards","EDW",,"MALE","1942-12-30",,"Macclesfield","united-kingdom","united-kingdom",,,14,7,,0,17,11,0,544,0,0,0,0,0,0,0,0,0
+"guy-ligier","Guy Ligier","Guy","Ligier","Guy Camille Ligier","LIG",,"MALE","1930-07-12","2015-08-23","Vichy","france","france",,19,11,8,,0,13,12,0,613,0,1,1,0,0,0,0,0,0
+"guy-mairesse","Guy Mairesse","Guy","Mairesse","Guy Mairesse","MAI",,"MALE","1910-08-10","1954-04-24","Warmeriville","france","france",,,11,9,,0,3,3,0,139,0,0,0,0,0,0,0,0,0
+"guy-tunmer","Guy Tunmer","Guy","Tunmer","Percival Guy Tunmer","TUN",,"MALE","1948-12-01","1999-06-22","Ficksburg","south-africa","south-africa",,,25,11,,0,1,1,0,76,0,0,0,0,0,0,0,0,0
+"hans-binder","Hans Binder","Hans","Binder","Hans Binder","BIN",,"MALE","1948-06-12",,"Zell am Ziller","austria","austria",,,18,8,,0,15,13,0,629,0,0,0,0,0,0,0,0,0
+"hans-herrmann","Hans Herrmann","Hans","Herrmann","Hans Herrmann","HER",,"MALE","1928-02-23","2026-01-09","Stuttgart","germany","germany",,7,4,3,,0,21,18,0,719,1,10,10,0,1,0,0,0,0
+"hans-heyer","Hans Heyer","Hans","Heyer","Hans Heyer","HEY",,"MALE","1943-03-16",,"Mönchengladbach","germany","germany",,,,,,0,1,1,0,9,0,0,0,0,0,0,0,0,0
+"hans-joachim-stuck","Hans-Joachim Stuck","Hans-Joachim","Stuck","Hans-Joachim Stuck","STU",,"MALE","1951-01-01",,"Garmisch-Partenkirchen","germany","germany",,11,2,3,,0,81,74,0,2760,2,29,29,0,0,0,0,0,0
+"hans-klenk","Hans Klenk","Hans","Klenk","Hans Klenk","KLE",,"MALE","1919-10-28","2009-03-24","Künzelsau","germany","germany",,,8,11,,0,1,1,0,14,0,0,0,0,0,0,0,0,0
+"hans-stuck","Hans Stuck","Hans","Stuck","Hans Stuck","STU",,"MALE","1900-12-27","1978-02-09","Warsaw","poland","germany",,,14,14,,0,5,3,0,71,0,0,0,0,0,0,0,0,0
+"hap-sharp","Hap Sharp","Hap","Sharp","James Sharp","SHA",,"MALE","1928-01-01","1993-05-07","Tulsa","united-states-of-america","united-states-of-america",,,14,7,,0,6,6,0,376,0,0,0,0,0,0,0,0,0
+"harald-ertl","Harald Ertl","Harald","Ertl","Harald Ertl","ERT",,"MALE","1948-08-31","1982-04-07","Zell am See","austria","austria",,,17,7,,0,28,19,0,814,0,0,0,0,0,0,0,0,0
+"harry-blanchard","Harry Blanchard","Harry","Blanchard","Harry Cutler Blanchard","BLA",,"MALE","1929-06-13","1960-01-31","Burlington","united-states-of-america","united-states-of-america",,,16,7,,0,1,1,0,38,0,0,0,0,0,0,0,0,0
+"harry-merkel","Harry Merkel","Harry","Merkel","Harry Erich Merkel","MER",,"MALE","1918-01-10","1995-02-11","Taucha","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"harry-schell","Harry Schell","Harry","Schell","Henry O'Reilly Schell","SCH",,"MALE","1921-06-29","1960-05-13","Paris","france","united-states-of-america",,6,2,2,,0,57,56,0,2272,2,32,32,0,0,0,0,0,0
+"hector-rebaque","Héctor Rebaque","Héctor","Rebaque","Héctor Alonso Rebaque","REB",,"MALE","1956-02-05",,"Mexico City","mexico","mexico",,10,6,4,,0,58,41,0,1719,0,13,13,0,0,0,0,0,0
+"heikki-kovalainen","Heikki Kovalainen","Heikki","Kovalainen","Heikki Johannes Kovalainen","KOV",,"MALE","1981-10-19",,"Suomussalmi","finland","finland",,7,1,1,,0,112,111,1,5975,4,105,105,1,2,0,0,0,0
+"heini-walter","Heini Walter","Heini","Walter","Heini Walter","WAL",,"MALE","1927-07-28","2009-05-12","Alpthal","switzerland","switzerland",,,14,14,,0,1,1,0,14,0,0,0,0,0,0,0,0,0
+"heinz-harald-frentzen","Heinz-Harald Frentzen","Heinz-Harald","Frentzen","Heinz-Harald Frentzen","FRE",,"MALE","1967-05-18",,"Mönchengladbach","germany","germany",,2,1,1,,0,159,156,3,7345,18,174,174,2,6,0,0,0,0
+"heinz-schiller","Heinz Schiller","Heinz","Schiller","Heinz Schiller","SCH",,"MALE","1930-01-25","2007-03-26","Frauenfeld","switzerland","switzerland",,,20,,,0,1,1,0,4,0,0,0,0,0,0,0,0,0
+"helm-glockler","Helm Glöckler","Helm","Glöckler","Helm Glöckler","GLO",,"MALE","1909-01-13","1993-12-18","Frankfurt am Main","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"helmut-marko","Helmut Marko","Helmut","Marko","Helmut Marko","MAR",,"MALE","1943-04-27",,"Graz","austria","austria",,,6,8,,0,10,9,0,509,0,0,0,0,0,0,0,0,0
+"helmut-niedermayr","Helmut Niedermayr","Helmut","Niedermayr","Helmut Niedermayr","NIE",,"MALE","1915-11-29","1985-04-03","Munich","germany","germany",,,22,9,,0,1,1,0,15,0,0,0,0,0,0,0,0,0
+"helmuth-koinigg","Helmuth Koinigg","Helmuth","Koinigg","Helmuth Koinigg","KOI",,"MALE","1948-11-03","1974-10-06","Vienna","austria","austria",,,22,10,,0,3,2,0,87,0,0,0,0,0,0,0,0,0
+"henri-louveau","Henri Louveau","Henri","Louveau","Henri Louveau","LOU",,"MALE","1910-01-25","1991-01-07","Suresnes","france","france",,,11,,,0,2,2,0,46,0,0,0,0,0,0,0,0,0
+"henri-pescarolo","Henri Pescarolo","Henri","Pescarolo","Henri Jacques William Pescarolo","PES",,"MALE","1942-09-25",,"Montfermeil","france","france",,12,5,3,,0,64,57,0,2743,1,12,12,0,1,0,0,0,0
+"henry-banks","Henry Banks","Henry","Banks","Henry Banks","BAN",,"MALE","1913-06-14","1994-12-18","Croydon","united-kingdom","united-states-of-america",,,12,6,,0,3,3,0,496,0,0,0,0,0,0,0,0,0
+"henry-taylor","Henry Taylor","Henry","Taylor","Henry Taylor","TAY",,"MALE","1932-12-16","2013-10-24","Shefford","united-kingdom","united-kingdom",,19,13,4,,0,11,8,0,423,0,3,3,0,0,0,0,0,0
+"herbert-mackay-fraser","Herbert MacKay-Fraser","Herbert","MacKay-Fraser","Herbert MacKay-Fraser","MAC",,"MALE","1927-06-23","1957-07-14","Recife","brazil","united-states-of-america",,,12,,,0,1,1,0,24,0,0,0,0,0,0,0,0,0
+"hermann-lang","Hermann Lang","Hermann","Lang","Hermann Lang","LAN",,"MALE","1909-04-06","1987-10-19","Cannstatt","germany","germany",,15,11,5,,0,2,2,0,72,0,2,2,0,0,0,0,0,0
+"hermano-da-silva-ramos","Hermano da Silva Ramos","Hermano","Da Silva Ramos","Hermano João da Silva Ramos","DAS",,"MALE","1925-12-07","2026-05-04","Paris","france","brazil",,19,14,5,,0,7,7,0,365,0,2,2,0,0,0,0,0,0
+"hideki-noda","Hideki Noda","Hideki","Noda","Hideki Noda","NOD",,"MALE","1969-03-07",,"Osaka","japan","japan",,,23,,,0,3,3,0,28,0,0,0,0,0,0,0,0,0
+"hiroshi-fushida","Hiroshi Fushida","Hiroshi","Fushida","Hiroshi Fushida","FUS",,"MALE","1946-03-10",,"Kyoto","japan","japan",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"horace-gould","Horace Gould","Horace","Gould","Horace Harry Twigg","GOU",,"MALE","1921-09-20","1968-11-04","Bristol","united-kingdom","united-kingdom",,19,10,5,,0,18,14,0,472,0,2,2,0,0,0,0,0,0
+"howden-ganley","Howden Ganley","Howden","Ganley","James Howden Ganley","GAN",,"MALE","1941-12-24",,"Hamilton","new-zealand","new-zealand",,12,4,4,,0,41,35,0,1851,0,10,10,0,0,0,0,0,0
+"hubert-hahne","Hubert Hahne","Hubert","Hahne","Hubert Hahne","HAH",,"MALE","1935-03-28","2019-04-24","Moers","germany","germany",,,14,9,,0,5,3,0,34,0,0,0,0,0,0,0,0,0
+"huub-rothengatter","Huub Rothengatter","Huub","Rothengatter","Hubertus Rothengatter","ROT",,"MALE","1954-10-08",,"Bussum","netherlands","netherlands",,,20,7,,0,30,25,0,853,0,0,0,0,0,0,0,0,0
+"ian-ashley","Ian Ashley","Ian","Ashley","Ian Hugh Gordon Ashley","ASH",,"MALE","1947-10-26",,"Wuppertal","germany","united-kingdom",,,20,14,,0,11,4,0,116,0,0,0,0,0,0,0,0,0
+"ian-burgess","Ian Burgess","Ian","Burgess","Ian Burgess","BUR",,"MALE","1930-07-06","2012-05-19","London","united-kingdom","united-kingdom",,,11,6,,0,20,16,0,595,0,0,0,0,0,0,0,0,0
+"ian-raby","Ian Raby","Ian","Raby","Ian Ewart Raby","RAB",,"MALE","1921-09-22","1967-11-07","Woolwich","united-kingdom","united-kingdom",,,17,11,,0,7,3,0,169,0,0,0,0,0,0,0,0,0
+"ian-scheckter","Ian Scheckter","Ian","Scheckter","Ian Scheckter","SCH",,"MALE","1947-08-22",,"East London","south-africa","south-africa",,,16,10,,0,20,18,0,676,0,0,0,0,0,0,0,0,0
+"ian-stewart","Ian Stewart","Ian","Stewart","Ian Macpherson M. Stewart","STE",,"MALE","1929-07-15",,"Edinburgh","united-kingdom","united-kingdom",,,20,,,0,1,1,0,26,0,0,0,0,0,0,0,0,0
+"ignazio-giunti","Ignazio Giunti","Ignazio","Giunti","Ignazio Giunti","GIU",,"MALE","1941-08-30","1971-01-10","Rome","italy","italy",,17,5,4,,0,4,4,0,136,0,3,3,0,0,0,0,0,0
+"ingo-hoffmann","Ingo Hoffmann","Ingo","Hoffmann","Ingo Hoffmann","HOF",,"MALE","1953-02-28",,"São Paulo","brazil","brazil",,,19,7,,0,6,3,0,99,0,0,0,0,0,0,0,0,0
+"innes-ireland","Innes Ireland","Innes","Ireland","Robert McGregor Innes Ireland","IRE",,"MALE","1930-06-12","1993-10-22","Mytholmroyd","united-kingdom","united-kingdom",,4,2,1,,0,53,50,1,2311,4,47,47,0,1,0,0,0,0
+"isack-hadjar","Isack Hadjar","Isack","Hadjar","Isack Alexandre Hadjar","HAD","6","MALE","2004-09-28",,"Paris","france","france",,12,3,3,8,0,29,29,0,1532,1,65,65,0,0,9,0,1,0
+"ivan-capelli","Ivan Capelli","Ivan","Capelli","Ivan Franco Capelli","CAP",,"MALE","1963-05-24",,"Milan","italy","italy",,7,3,2,,0,98,93,0,3387,3,31,31,0,0,0,0,0,0
+"ivor-bueb","Ivor Bueb","Ivor","Bueb","Ivor Léon John Bueb","BUE",,"MALE","1923-06-06","1959-08-01","East Ham","united-kingdom","united-kingdom",,,16,8,,0,6,5,0,219,0,0,0,0,0,0,0,0,0
+"jac-nellemann","Jac Nellemann","Jac","Nellemann","Jacob Nellemann","NEL",,"MALE","1944-04-19",,"Copenhagen","denmark","denmark",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"jack-aitken","Jack Aitken","Jack","Aitken","Jack Aitken","AIT",,"MALE","1995-09-23",,"London","united-kingdom","united-kingdom",,22,17,16,,0,1,1,0,87,0,0,0,0,0,0,0,0,0
+"jack-brabham","Jack Brabham","Jack","Brabham","Sir John Arthur Brabham","BRA",,"MALE","1926-04-02","2014-05-19","Hurstville","australia","australia",,1,1,1,,3,128,126,14,6124,31,261,253,13,12,0,0,0,2
+"jack-doohan","Jack Doohan","Jack","Doohan","Jack Doohan","DOO","7","MALE","2003-01-20",,"Gold Coast","australia","australia",,21,11,13,16,0,7,7,0,272,0,0,0,0,0,2,0,0,0
+"jack-fairman","Jack Fairman","Jack","Fairman","Jack Fairman","FAI",,"MALE","1913-03-15","2002-02-07","Horley","united-kingdom","united-kingdom",,10,11,4,,0,13,12,0,525,0,5,5,0,0,0,0,0,0
+"jack-mcgrath","Jack McGrath","Jack","McGrath","John James McGrath","MCG",,"MALE","1919-10-08","1955-11-06","Los Angeles","united-states-of-america","united-states-of-america",,12,1,3,,0,6,6,0,985,2,9,9,1,1,0,0,0,0
+"jack-turner","Jack Turner","Jack","Turner","Jack Turner","TUR",,"MALE","1920-02-12","2004-09-12","Seattle","united-states-of-america","united-states-of-america",,,10,11,,0,4,4,0,399,0,0,0,0,0,0,0,0,0
+"jackie-holmes","Jackie Holmes","Jackie","Holmes","Jackie Holmes","HOL",,"MALE","1920-09-04","1995-03-01","Indianapolis","united-states-of-america","united-states-of-america",,,30,19,,0,2,2,0,123,0,0,0,0,0,0,0,0,0
+"jackie-lewis","Jackie Lewis","Jackie","Lewis","Jackie Lewis","LEW",,"MALE","1936-11-01",,"Stroud","united-kingdom","united-kingdom",,13,13,4,,0,10,9,0,277,0,3,3,0,0,0,0,0,0
+"jackie-oliver","Jackie Oliver","Jackie","Oliver","Keith Jack Oliver","OLI",,"MALE","1942-08-14",,"Chadwell Heath","united-kingdom","united-kingdom",,14,2,3,,0,52,50,0,1547,2,13,13,0,1,0,0,0,0
+"jackie-pretorius","Jackie Pretorius","Jackie","Pretorius","Jacobus Pretorius","PRE",,"MALE","1934-11-22","2009-03-30","Potchefstroom","south-africa","south-africa",,,20,,,0,4,3,0,127,0,0,0,0,0,0,0,0,0
+"jackie-stewart","Jackie Stewart","Jackie","Stewart","Sir John Young Stewart","STE",,"MALE","1939-06-11",,"Milton","united-kingdom","united-kingdom",,1,1,1,,3,100,99,27,5225,43,360,359,17,15,0,0,0,4
+"jacky-ickx","Jacky Ickx","Jacky","Ickx","Jacques Bernard Ickx","ICK",,"MALE","1945-01-01",,"Brussels","belgium","belgium",,2,1,1,,0,122,116,8,5665,25,181,181,13,14,0,0,0,1
+"jacques-laffite","Jacques Laffite","Jacques","Laffite","Jacques-Henri Laffite","LAF",,"MALE","1943-11-21",,"Paris","france","france",,4,1,1,,0,180,176,6,7997,32,228,228,7,7,0,0,0,1
+"jacques-pollet","Jacques Pollet","Jacques","Pollet","Jacques Pollet","POL",,"MALE","1922-07-02","1997-08-16","Roubaix","france","france",,,12,7,,0,5,5,0,252,0,0,0,0,0,0,0,0,0
+"jacques-swaters","Jacques Swaters","Jacques","Swaters","Jacques Swaters","SWA",,"MALE","1926-10-30","2010-12-10","Brussels","belgium","belgium",,,13,7,,0,8,7,0,117,0,0,0,0,0,0,0,0,0
+"jacques-villeneuve-sr","Jacques Villeneuve, Sr.","Jacques","Villeneuve, Sr.","Jacques-Joseph Villeneuve","VIL",,"MALE","1953-11-04",,"Berthierville","canada","canada",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"jacques-villeneuve","Jacques Villeneuve","Jacques","Villeneuve","Jacques Joseph Charles Villeneuve","VIL",,"MALE","1971-04-09",,"Saint-Jean-sur-Richelieu","canada","canada",,1,1,1,,1,165,163,11,8314,23,235,235,13,9,0,0,0,0
+"jaime-alguersuari","Jaime Alguersuari","Jaime","Alguersuari","Jaime Víctor Alguersuari Escudero","ALG",,"MALE","1990-03-23",,"Barcelona","spain","spain",,14,6,7,,0,46,46,0,2380,0,31,31,0,0,0,0,0,0
+"jak-crawford","Jak Crawford","Carlton","Crawford","Carlton Jakston Crawford","CRA",,"MALE","2005-05-02",,"Charlotte","united-states-of-america","united-states-of-america",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"jake-dennis","Jake Dennis","Jake","Dennis","Jake Dennis","DEN",,"MALE","1995-06-16",,"Nuneaton","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"james-calado","James Calado","James","Calado","James John Calado","CAL",,"MALE","1989-06-13",,"Cropthorne","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"james-hunt","James Hunt","James","Hunt","James Simon Wallis Hunt","HUN",,"MALE","1947-08-29","1993-06-15","Belmont","united-kingdom","united-kingdom",,1,1,1,,1,93,92,10,3927,23,179,179,14,8,0,0,0,0
+"jan-charouz","Jan Charouz","Jan","Charouz","Jan Charouz","CHA",,"MALE","1987-07-17",,"Prague","czechia","czechia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"jan-flinterman","Jan Flinterman","Jan","Flinterman","Johannes Leonardus Flinterman","FLI",,"MALE","1919-10-02","1992-12-26","The Hague","netherlands","netherlands",,,15,9,,0,1,1,0,7,0,0,0,0,0,0,0,0,0
+"jan-lammers","Jan Lammers","Jan","Lammers","Johannes Lammers","LAM",,"MALE","1956-06-02",,"Zandvoort","netherlands","netherlands",,,4,9,,0,41,23,0,1027,0,0,0,0,0,0,0,0,0
+"jan-magnussen","Jan Magnussen","Jan","Magnussen","Jan Ellegaard Magnussen","MAG",,"MALE","1973-07-04",,"Roskilde","denmark","denmark",,16,6,6,,0,25,24,0,925,0,1,1,0,0,0,0,0,0
+"jarno-trulli","Jarno Trulli","Jarno","Trulli","Jarno Trulli","TRU",,"MALE","1974-07-13",,"Pescara","italy","italy",,6,1,1,,0,256,252,1,12368,11,246.5,246.5,4,1,0,0,0,0
+"jay-chamberlain","Jay Chamberlain","Jay","Chamberlain","Jay Chamberlain","CHA",,"MALE","1925-12-29","2001-08-01","Los Angeles","united-states-of-america","united-states-of-america",,,20,15,,0,3,1,0,64,0,0,0,0,0,0,0,0,0
+"jean-alesi","Jean Alesi","Jean","Alesi","Giovanni Alesi","ALE",,"MALE","1964-06-11",,"Avignon","france","france",,4,1,1,,0,202,201,1,9645,32,241,241,2,4,0,0,0,0
+"jean-behra","Jean Behra","Jean","Behra","Jean Marie Behra","BEH",,"MALE","1921-02-16","1959-08-01","Nice","france","france",,4,2,2,,0,53,52,0,2183,9,51.14,51.14,0,1,0,0,0,0
+"jean-christophe-boullion","Jean-Christophe Boullion","Jean-Christophe","Boullion","Jean-Christophe Boullion","BOU",,"MALE","1969-12-27",,"Saint-Brieuc","france","france",,16,13,5,,0,11,11,0,535,0,3,3,0,0,0,0,0,0
+"jean-claude-rudaz","Jean-Claude Rudaz","Jean-Claude","Rudaz","Jean-Claude Rudaz","RUD",,"MALE","1942-07-23",,"Sion","switzerland","switzerland",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"jean-denis-deletraz","Jean-Denis Délétraz","Jean-Denis","Délétraz","Jean-Denis Délétraz","DEL",,"MALE","1963-10-01",,"Geneva","switzerland","switzerland",,,24,15,,0,3,3,0,130,0,0,0,0,0,0,0,0,0
+"jean-eric-vergne","Jean-Éric Vergne","Jean-Éric","Vergne","Jean-Éric Vergne","VER",,"MALE","1990-04-25",,"Pontoise","france","france",,13,6,6,,0,58,58,0,2993,0,51,51,0,0,0,0,0,0
+"jean-louis-schlesser","Jean-Louis Schlesser","Jean-Louis","Schlesser","Jean-Louis Schlesser","SCH",,"MALE","1948-09-12",,"Nancy","france","france",,,22,11,,0,2,1,0,49,0,0,0,0,0,0,0,0,0
+"jean-lucas","Jean Lucas","Jean","Lucas","Jean Lucas","LUC",,"MALE","1917-04-25","2003-09-27","Le Mans","france","france",,,22,,,0,1,1,0,7,0,0,0,0,0,0,0,0,0
+"jean-lucienbonnet","Jean Lucienbonnet","Jean","Lucienbonnet","Lucien Jean Bonnet","LUC",,"MALE","1923-01-07","1962-08-19","Nice","france","france",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"jean-marc-gounon","Jean-Marc Gounon","Jean-Marc","Gounon","Jean-Marc Gounon","GOU",,"MALE","1963-01-01",,"Aubenas","france","france",,,22,9,,0,9,9,0,362,0,0,0,0,0,0,0,0,0
+"jean-pierre-beltoise","Jean-Pierre Beltoise","Jean-Pierre","Beltoise","Jean-Pierre Maurice Georges Beltoise","BEL",,"MALE","1937-04-26","2015-01-05","Paris","france","france",,5,2,1,,0,88,86,1,4083,8,77,77,0,4,0,0,0,0
+"jean-pierre-jabouille","Jean-Pierre Jabouille","Jean-Pierre","Jabouille","Jean-Pierre Alain Jabouille","JAB",,"MALE","1942-10-01","2023-02-02","Paris","france","france",,8,1,1,,0,56,49,2,1669,2,21,21,6,0,0,0,0,0
+"jean-pierre-jarier","Jean-Pierre Jarier","Jean-Pierre","Jarier","Jean-Pierre Jacques Jarier","JAR",,"MALE","1946-07-10",,"Charenton-le-Pont","france","france",,11,1,3,,0,143,135,0,5743,3,31.5,31.5,3,3,0,0,0,0
+"jenson-button","Jenson Button","Jenson","Button","Jenson Alexander Lyons Button","BUT",,"MALE","1980-01-19",,"Frome","united-kingdom","united-kingdom",,1,1,1,,1,309,306,15,16271,50,1235,1235,8,8,0,0,0,0
+"jerome-dambrosio","Jérôme d'Ambrosio","Jérôme","D'Ambrosio","Jérôme d'Ambrosio","DAM",,"MALE","1985-12-27",,"Etterbeek","belgium","belgium",,23,15,13,,0,20,20,0,1043,0,0,0,0,0,0,0,0,0
+"jerry-hoyt","Jerry Hoyt","Jerry","Hoyt","Gerald F. Hoyt","HOY",,"MALE","1929-01-29","1955-07-10","Chicago","united-states-of-america","united-states-of-america",,,1,8,,0,4,4,0,402,0,0,0,1,0,0,0,0,0
+"jerry-unser-jr","Jerry Unser Jr.","Jerry","Unser Jr.","Jeremy Michael Unser Jr.","UNS",,"MALE","1932-11-15","1959-05-17","Colorado Springs","united-states-of-america","united-states-of-america",,,24,31,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"jesus-iglesias","Jesús Iglesias","Jesús","Iglesias","Jesús Ricardo Iglesias","IGL",,"MALE","1922-02-22","2005-07-11","Pergamino","argentina","argentina",,,17,,,0,1,1,0,38,0,0,0,0,0,0,0,0,0
+"jim-clark","Jim Clark","Jim","Clark","James Clark, Jr.","CLA",,"MALE","1936-03-04","1968-04-07","Kilmany","united-kingdom","united-kingdom",,1,1,1,,2,73,72,25,3878,32,274,255,33,28,0,0,0,8
+"jim-crawford","Jim Crawford","Jim","Crawford","Jim Crawford","CRA",,"MALE","1948-02-13","2002-08-06","Dunfermline","united-kingdom","united-kingdom",,,25,13,,0,2,2,0,74,0,0,0,0,0,0,0,0,0
+"jim-hall","Jim Hall","Jim","Hall","Jim Hall","HAL",,"MALE","1935-07-23",,"Abilene","united-states-of-america","united-states-of-america",,13,12,5,,0,12,11,0,621,0,3,3,0,0,0,0,0,0
+"jim-hurtubise","Jim Hurtubise","Jim","Hurtubise","James Hurtubise","HUR",,"MALE","1932-12-05","1989-01-06","North Tonawanda","united-states-of-america","united-states-of-america",,,23,18,,0,1,1,0,185,0,0,0,0,0,0,0,0,0
+"jim-mcwithey","Jim McWithey","Jim","McWithey","Jim McWithey","MCW",,"MALE","1927-07-04","2009-02-01","Grammer","united-states-of-america","united-states-of-america",,,32,16,,0,2,2,0,260,0,0,0,0,0,0,0,0,0
+"jim-rathmann","Jim Rathmann","Jim","Rathmann","Royal Richard Rathmann","RAT",,"MALE","1928-07-16","2011-11-23","Alhambra","united-states-of-america","united-states-of-america",,8,2,1,,0,10,10,1,1798,4,29,29,0,2,0,0,0,0
+"jim-rigsby","Jim Rigsby","Jim","Rigsby","Jim Rigsby","RIG",,"MALE","1923-06-06","1952-08-31","Spadra","united-states-of-america","united-states-of-america",,,26,12,,0,1,1,0,200,0,0,0,0,0,0,0,0,0
+"jimmy-bryan","Jimmy Bryan","Jimmy","Bryan","James Ernest Bryan","BRY",,"MALE","1926-01-28","1960-06-19","Phoenix","united-states-of-america","united-states-of-america",,8,3,1,,0,9,9,1,1411,3,18,18,0,0,0,0,0,0
+"jimmy-davies","Jimmy Davies","Jimmy","Davies","James Richard Davies","DAV",,"MALE","1929-08-08","1966-06-11","Glendale","united-states-of-america","united-states-of-america",,12,10,3,,0,5,5,0,631,1,4,4,0,0,0,0,0,0
+"jimmy-daywalt","Jimmy Daywalt","Jimmy","Daywalt","Jimmy Daywalt","DAY",,"MALE","1924-08-28","1966-04-04","Wabash","united-states-of-america","united-states-of-america",,,2,6,,0,6,6,0,898,0,0,0,0,0,0,0,0,0
+"jimmy-jackson","Jimmy Jackson","Jimmy","Jackson","Jimmy Jackson","JAC",,"MALE","1910-07-25","1984-11-25","Indianapolis","united-states-of-america","united-states-of-america",,,32,15,,0,2,2,0,52,0,0,0,0,0,0,0,0,0
+"jimmy-reece","Jimmy Reece","Jimmy","Reece","Jimmy Reece","REE",,"MALE","1929-11-17","1958-09-28","Oklahoma City","united-states-of-america","united-states-of-america",,,3,6,,0,6,6,0,986,0,0,0,0,0,0,0,0,0
+"jimmy-stewart","Jimmy Stewart","Jimmy","Stewart","James Robert Stewart","STE",,"MALE","1931-03-06","2008-01-03","Milton","united-kingdom","united-kingdom",,,15,,,0,1,1,0,79,0,0,0,0,0,0,0,0,0
+"jj-lehto","JJ Lehto","JJ","Lehto","Jyrki Juhani Järvilehto","JAR",,"MALE","1966-01-31",,"Espoo","finland","finland",,12,4,3,,0,70,62,0,2797,1,10,10,0,0,0,0,0,0
+"jo-bonnier","Jo Bonnier","Jo","Bonnier","Joakim Bonnier","BON",,"MALE","1930-01-31","1972-06-11","Stockholm","sweden","sweden",,8,1,1,,0,108,104,1,4757,1,39,39,1,0,0,0,0,0
+"jo-gartner","Jo Gartner","Jo","Gartner","Josef Gartner","GAR",,"MALE","1954-01-24","1986-06-01","Vienna","austria","austria",,,22,5,,0,8,8,0,305,0,0,0,0,0,0,0,0,0
+"jo-schlesser","Jo Schlesser","Jo","Schlesser","Joseph Schlesser","SCH",,"MALE","1928-05-18","1968-07-07","Liouville","france","france",,,16,10,,0,3,3,0,18,0,0,0,0,0,0,0,0,0
+"jo-siffert","Jo Siffert","Jo","Siffert","Joseph Siffert","SIF",,"MALE","1936-07-07","1971-10-24","Freiburg","switzerland","switzerland",,5,1,1,,0,100,96,2,4496,6,68,68,2,4,0,0,0,1
+"jo-vonlanthen","Jo Vonlanthen","Jo","Vonlanthen","Joseph Vonlanthen","VON",,"MALE","1942-05-31",,"St. Ursen","switzerland","switzerland",,,28,,,0,1,1,0,14,0,0,0,0,0,0,0,0,0
+"joachim-winkelhock","Joachim Winkelhock","Joachim","Winkelhock","Joachim Winkelhock","WIN",,"MALE","1960-10-24",,"Waiblingen","germany","germany",,,,,,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+"jochen-mass","Jochen Mass","Jochen","Mass","Jochen Richard Mass","MAS",,"MALE","1946-09-30","2025-05-04","Dorfen","germany","germany",,6,4,1,,0,114,105,1,4925,8,71.0,71,0,2,0,0,0,0
+"jochen-rindt","Jochen Rindt","Jochen","Rindt","Karl Jochen Rindt","RIN",,"MALE","1942-04-18","1970-09-05","Mainz","germany","austria",,1,1,1,,1,62,60,6,2521,13,109,107,10,3,0,0,0,0
+"jody-scheckter","Jody Scheckter","Jody","Scheckter","Jody David Scheckter","SCH",,"MALE","1950-01-29",,"East London","south-africa","south-africa",,1,1,1,,1,113,112,10,6035,33,255,246,3,5,0,0,0,0
+"joe-fry","Joe Fry","Joe","Fry","Joseph Gibson Fry","FRY",,"MALE","1915-10-26","1950-07-29","Winterbourne","united-kingdom","united-kingdom",,,20,10,,0,1,1,0,64,0,0,0,0,0,0,0,0,0
+"joe-james","Joe James","Joe","James","Joe James","JAM",,"MALE","1925-05-23","1952-11-05","Saucier","united-states-of-america","united-states-of-america",,,16,13,,0,2,2,0,208,0,0,0,0,0,0,0,0,0
+"joe-kelly","Joe Kelly","Joe","Kelly","Joe Kelly","KEL",,"MALE","1913-03-13","1993-11-28","Dublin","ireland","ireland",,,18,,,0,2,2,0,132,0,0,0,0,0,0,0,0,0
+"john-barber","John Barber","John","Barber","John David Barber","BAR",,"MALE","1929-07-22","2015-02-04","Little Marlow","united-kingdom","united-kingdom",,,16,8,,0,1,1,0,90,0,0,0,0,0,0,0,0,0
+"john-campbell-jones","John Campbell-Jones","John","Campbell-Jones","Michael John Churchill Campbell-Jones","CAM",,"MALE","1930-01-21","2020-03-24","Leatherhead","united-kingdom","united-kingdom",,,19,11,,0,2,2,0,90,0,0,0,0,0,0,0,0,0
+"john-cannon","John Cannon","John","Cannon","John Cannon","CAN",,"MALE","1933-06-21","1999-10-18","London","united-kingdom","canada",,,24,14,,0,1,1,0,56,0,0,0,0,0,0,0,0,0
+"john-cordts","John Cordts","John","Cordts","John Cordts","COR",,"MALE","1935-07-23",,"Hamburg","germany","canada",,,19,,,0,1,1,0,10,0,0,0,0,0,0,0,0,0
+"john-fitch","John Fitch","John","Fitch","John Cooper Fitch","FIT",,"MALE","1917-08-04","2012-10-31","Indianapolis","united-states-of-america","united-states-of-america",,,20,9,,0,2,2,0,60,0,0,0,0,0,0,0,0,0
+"john-james","John James","John","James","John James","JAM",,"MALE","1914-05-10","2002-01-27","Packwood","united-kingdom","united-kingdom",,,17,,,0,1,1,0,23,0,0,0,0,0,0,0,0,0
+"john-love","John Love","John","Love","John Maxwell Lineham Love","LOV",,"MALE","1924-12-07","2005-04-25","Bulawayo","zimbabwe","zimbabwe",,11,5,2,,0,10,9,0,545,1,6,6,0,0,0,0,0,0
+"john-miles","John Miles","John","Miles","John Miles","MIL",,"MALE","1943-06-14","2018-04-08","London","united-kingdom","united-kingdom",,19,7,5,,0,15,12,0,373,0,2,2,0,0,0,0,0,0
+"john-nicholson","John Nicholson","John","Nicholson","John Nicholson","NIC",,"MALE","1941-10-06",,"Auckland","new-zealand","new-zealand",,,26,17,,0,2,1,0,51,0,0,0,0,0,0,0,0,0
+"john-rhodes","John Rhodes","John","Rhodes","John Rhodes","RHO",,"MALE","1927-08-18",,"Wolverhampton","united-kingdom","united-kingdom",,,21,,,0,1,1,0,38,0,0,0,0,0,0,0,0,0
+"john-riseley-prichard","John Riseley-Prichard","John","Riseley-Prichard","John Henry Augustin Riseley-Prichard","RIS",,"MALE","1924-01-17","1993-07-08","Hereford","united-kingdom","united-kingdom",,,21,,,0,1,1,0,40,0,0,0,0,0,0,0,0,0
+"john-surtees","John Surtees","John","Surtees","John Surtees","SUR",,"MALE","1934-02-11","2017-03-10","Tatsfield","united-kingdom","united-kingdom",,1,1,1,,1,113,111,6,4988,24,180,180,8,11,0,0,0,0
+"john-taylor","John Taylor","John","Taylor","John Malcolm Taylor","TAY",,"MALE","1933-03-23","1966-09-08","Anstey","united-kingdom","united-kingdom",,17,15,6,,0,5,5,0,261,0,1,1,0,0,0,0,0,0
+"john-watson","John Watson","John","Watson","John Marshall Watson","WAT",,"MALE","1946-05-04",,"Belfast","united-kingdom","united-kingdom",,3,1,1,,0,154,152,5,7391,20,169,169,2,5,0,0,0,0
+"johnnie-parsons","Johnnie Parsons","Johnnie","Parsons","Johnnie Woodrow Parsons","PAR",,"MALE","1918-07-04","1984-09-08","Los Angeles","united-states-of-america","united-states-of-america",,6,5,1,,0,9,9,1,1304,1,12,12,0,1,0,0,0,0
+"johnnie-tolan","Johnnie Tolan","Johnnie","Tolan","Johnnie Tolan","TOL",,"MALE","1917-10-22","1986-06-06","Victor","united-states-of-america","united-states-of-america",,,30,13,,0,3,3,0,511,0,0,0,0,0,0,0,0,0
+"johnny-boyd","Johnny Boyd","Johnny","Boyd","Johnny Boyd","BOY",,"MALE","1926-08-19","2003-10-26","Fresno","united-states-of-america","united-states-of-america",,16,5,3,,0,6,6,0,765,1,4,4,0,0,0,0,0,0
+"johnny-cecotto","Johnny Cecotto","Johnny","Cecotto","Alberto Cecotto","CEC",,"MALE","1956-01-25",,"Caracas","venezuela","venezuela",,19,15,6,,0,23,18,0,617,0,1,1,0,0,0,0,0,0
+"johnny-claes","Johnny Claes","Johnny","Claes","Octave John Claes","CLA",,"MALE","1916-08-11","1956-02-03","Fulham","united-kingdom","belgium",,,10,7,,0,25,23,0,912,0,0,0,0,0,0,0,0,0
+"johnny-dumfries","Johnny Dumfries","Johnny","Dumfries","John Colum Crichton-Stuart","DUM",,"MALE","1958-04-26","2021-03-22","Rothesay","united-kingdom","united-kingdom",,13,8,5,,0,16,15,0,661,0,3,3,0,0,0,0,0,0
+"johnny-herbert","Johnny Herbert","Johnny","Herbert","John Paul Herbert","HER",,"MALE","1964-06-25",,"Brentwood","united-kingdom","united-kingdom",,4,4,1,,0,165,160,3,7346,7,98,98,0,0,0,0,0,0
+"johnny-mantz","Johnny Mantz","Johnny","Mantz","Johnny Mantz","MAN",,"MALE","1918-09-18","1972-10-25","Hebron","united-states-of-america","united-states-of-america",,,,17,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"johnny-mcdowell","Johnny McDowell","Johnny","McDowell","Johnny McDowell","MCD",,"MALE","1915-01-29","1952-06-08","Delavan","united-states-of-america","united-states-of-america",,,26,18,,0,3,3,0,325,0,0,0,0,0,0,0,0,0
+"johnny-servoz-gavin","Johnny Servoz-Gavin","Johnny","Servoz-Gavin","Georges-Francis Servoz-Gavin","SER",,"MALE","1942-01-18","2006-05-29","Grenoble","france","france",,13,2,2,,0,13,12,0,607,1,9,9,0,0,0,0,0,0
+"johnny-thomson","Johnny Thomson","Johnny","Thomson","Johnny Thomson","THO",,"MALE","1922-04-09","1960-09-24","Lowell","united-states-of-america","united-states-of-america",,12,1,3,,0,8,8,0,1044,1,10,10,1,1,0,0,0,0
+"joie-chitwood","Joie Chitwood","Joie","Chitwood","George Rice Chitwood","CHI",,"MALE","1912-04-14","1988-01-03","Denison","united-states-of-america","united-states-of-america",,20,9,5,,0,1,1,0,136,0,1,1,0,0,0,0,0,0
+"jolyon-palmer","Jolyon Palmer","Jolyon","Palmer","Jolyon Carlyle Palmer","PAL",,"MALE","1991-01-20",,"Horsham","united-kingdom","united-kingdom",,17,10,6,,0,37,35,0,1682,0,9,9,0,0,0,0,0,0
+"jonathan-palmer","Jonathan Palmer","Jonathan","Palmer","Jonathan Charles Palmer","PAL",,"MALE","1956-11-07",,"Lewisham","united-kingdom","united-kingdom",,11,9,4,,0,88,83,0,3649,0,14,14,0,1,0,0,0,0
+"jonathan-williams","Jonathan Williams","Jonathan","Williams","Jonathan Williams","WIL",,"MALE","1942-10-26","2014-08-31","Cairo","egypt","united-kingdom",,,16,8,,0,1,1,0,63,0,0,0,0,0,0,0,0,0
+"jordan-king","Jordan King","Jordan","King","Jordan King","KIN",,"MALE","1994-02-26",,"Harbury","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"jorge-daponte","Jorge Daponte","Jorge","Daponte","Jorge Alberto Daponte","DAP",,"MALE","1923-06-05","1963-03-09","Buenos Aires","argentina","argentina",,,18,11,,0,2,2,0,89,0,0,0,0,0,0,0,0,0
+"jos-verstappen","Jos Verstappen","Jos","Verstappen","Johannes Franciscus Verstappen","VER",,"MALE","1972-03-04",,"Montfort","netherlands","netherlands",,10,6,3,,0,107,106,0,4497,2,17,17,0,0,0,0,0,0
+"jose-dolhem","José Dolhem","José","Dolhem","Louis José Lucien Dolhem","DOL",,"MALE","1944-04-26","1988-04-16","Paris","france","france",,,26,,,0,3,1,0,25,0,0,0,0,0,0,0,0,0
+"jose-froilan-gonzalez","José Froilán González","José Froilán","González","José Froilán González","GON",,"MALE","1922-10-05","2013-06-15","Arrecifes","argentina","argentina",,2,1,1,,0,26,26,2,1201,15,77.64,72.14,3,6,0,0,0,0
+"josef-peters","Josef Peters","Josef","Peters","Josef Peters","PET",,"MALE","1914-09-16","2001-04-24","Düsseldorf","germany","germany",,,20,,,0,1,1,0,1,0,0,0,0,0,0,0,0,0
+"juan-jover","Juan Jover","Juan","Jover","Juan Jover Sañes","JOV",,"MALE","1903-11-23","1960-06-28","Barcelona","spain","spain",,,18,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"juan-manuel-bordeu","Juan Manuel Bordeu","Juan Manuel","Bordeu","Juan Manuel Bordeu","BOR",,"MALE","1934-01-28","1990-11-24","Balcarce","argentina","argentina",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"juan-manuel-fangio","Juan Manuel Fangio","Juan Manuel","Fangio","Juan Manuel Fangio Déramo","FAN",,"MALE","1911-06-24","1995-07-17","Balcarce","argentina","argentina",,1,1,1,,5,51,51,24,2960,35,277.64,245,29,23,0,0,0,2
+"juan-pablo-montoya","Juan Pablo Montoya","Juan Pablo","Montoya","Juan Pablo Montoya Roldán","MOY",,"MALE","1975-09-20",,"Bogotá","colombia","colombia",,3,1,1,,0,95,94,7,4917,30,307,307,13,12,0,0,0,0
+"jud-larson","Jud Larson","Jud","Larson","Eugene Wesley Larson","LAR",,"MALE","1923-01-21","1966-06-11","Grand Prairie","united-states-of-america","united-states-of-america",,,19,8,,0,2,2,0,245,0,0,0,0,0,0,0,0,0
+"jules-bianchi","Jules Bianchi","Jules","Bianchi","Jules Lucien André Bianchi","BIA","17","MALE","1989-08-03","2015-07-17","Nice","france","france",,17,12,9,,0,34,34,0,1752,0,2,2,0,0,0,0,0,0
+"julian-bailey","Julian Bailey","Julian","Bailey","Julian Bailey","BAI",,"MALE","1961-10-09",,"Woolwich","united-kingdom","united-kingdom",,18,21,6,,0,20,7,0,326,0,1,1,0,0,0,0,0,0
+"juri-vips","Jüri Vips","Jüri","Vips","Jüri Vips","VIP",,"MALE","2000-08-10",,"Tallinn","estonia","estonia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"justin-wilson","Justin Wilson","Justin","Wilson","Justin Boyd Wilson","WIL",,"MALE","1978-07-31","2015-08-24","Rotherham","united-kingdom","united-kingdom",,20,10,8,,0,16,16,0,670,0,1,1,0,0,0,0,0,0
+"kamui-kobayashi","Kamui Kobayashi","Kamui","Kobayashi","Kamui Kobayashi","KOB",,"MALE","1986-09-13",,"Amagasaki","japan","japan",,12,2,3,,0,76,75,0,3555,1,125,125,0,1,0,0,0,0
+"karl-gunther-bechem","Karl-Günther Bechem","Karl-Günther","Bechem","Karl-Günther Bechem","BEC",,"MALE","1921-12-21","2011-05-03","Hagen","germany","germany",,,30,,,0,2,2,0,7,0,0,0,0,0,0,0,0,0
+"karl-kling","Karl Kling","Karl","Kling","Karl Kling","KLI",,"MALE","1910-09-16","2003-03-18","Giessen","germany","germany",,5,2,2,,0,11,11,0,489,2,17,17,0,1,0,0,0,0
+"karl-wendlinger","Karl Wendlinger","Karl","Wendlinger","Karl Wendlinger","WEN",,"MALE","1968-12-20",,"Kufstein","austria","austria",,12,5,4,,0,42,41,0,1670,0,14,14,0,0,0,0,0,0
+"karun-chandhok","Karun Chandhok","Karun","Chandhok","Karun Chandhok","CHD",,"MALE","1984-01-19",,"Madras","india","india",,22,20,14,,0,11,11,0,535,0,0,0,0,0,0,0,0,0
+"kazuki-nakajima","Kazuki Nakajima","Kazuki","Nakajima","Kazuki Nakajima","NAK",,"MALE","1985-01-11",,"Okazaki","japan","japan",,15,5,6,,0,36,36,0,1972,0,9,9,0,0,0,0,0,0
+"kazuyoshi-hoshino","Kazuyoshi Hoshino","Kazuyoshi","Hoshino","Kazuyoshi Hoshino","HOS",,"MALE","1947-07-01",,"Shizuoka","japan","japan",,,11,11,,0,2,2,0,98,0,0,0,0,0,0,0,0,0
+"keith-andrews","Keith Andrews","Keith","Andrews","Keith Andrews","AND",,"MALE","1920-06-15","1957-05-15","Denver","united-states-of-america","united-states-of-america",,,20,20,,0,2,2,0,214,0,0,0,0,0,0,0,0,0
+"keith-greene","Keith Greene","Keith","Greene","Keith Greene","GRE",,"MALE","1938-01-05",,"Leytonstone","united-kingdom","united-kingdom",,,19,15,,0,5,3,0,88,0,0,0,0,0,0,0,0,0
+"keke-rosberg","Keke Rosberg","Keke","Rosberg","Keijo Erik Rosberg","ROS",,"MALE","1948-12-06",,"Solna","sweden","finland",,1,1,1,,1,128,114,5,5306,17,159.5,159.5,5,3,0,0,0,0
+"ken-downing","Ken Downing","Ken","Downing","Kenneth Henry Downing","DOW",,"MALE","1917-12-05","2004-05-03","Chesterton","united-kingdom","united-kingdom",,,5,9,,0,2,2,0,109,0,0,0,0,0,0,0,0,0
+"ken-kavanagh","Ken Kavanagh","Ken","Kavanagh","Thomas Kenrick Kavanagh","KAV",,"MALE","1923-12-12","2019-11-26","Melbourne","australia","australia",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"ken-richardson","Ken Richardson","Ken","Richardson","William Kenneth Richardson","RIC",,"MALE","1911-08-21","1997-06-27","Bourne","united-kingdom","united-kingdom",,,10,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"ken-wharton","Ken Wharton","Ken","Wharton","Ken Wharton","WHA",,"MALE","1916-03-21","1957-01-12","Smethwick","united-kingdom","united-kingdom",,13,7,4,,0,16,15,0,772,0,3,3,0,0,0,0,0,0
+"kenneth-mcalpine","Kenneth McAlpine","Kenneth","McAlpine","Kenneth McAlpine","MCA",,"MALE","1920-09-21","2023-04-08","Cobham","united-kingdom","united-kingdom",,,13,13,,0,7,7,0,248,0,0,0,0,0,0,0,0,0
+"kenny-acheson","Kenny Acheson","Kenny","Acheson","Kenneth Henry Acheson","ACH",,"MALE","1957-11-27",,"Cookstown","united-kingdom","united-kingdom",,,23,12,,0,10,3,0,101,0,0,0,0,0,0,0,0,0
+"kevin-cogan","Kevin Cogan","Kevin","Cogan","John Cogan","COG",,"MALE","1956-03-31",,"Culver City","united-states-of-america","united-states-of-america",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"kevin-magnussen","Kevin Magnussen","Kevin","Magnussen","Kevin Jan Magnussen","MAG","20","MALE","1992-10-05",,"Roskilde","denmark","denmark",,9,4,2,7,0,186,185,0,9898,1,202,202,1,3,14,0,1,0
+"kimi-antonelli","Kimi Antonelli","Kimi","Antonelli","Andrea Kimi Antonelli","ANT","12","MALE","2006-08-25",,"Bologna","italy","italy",,7,1,1,2,0,29,29,4,1601,8,281,281,3,6,9,0,3,0
+"kimi-raikkonen","Kimi Räikkönen","Kimi","Räikkönen","Kimi-Matias Räikkönen","RAI",,"MALE","1979-10-17",,"Espoo","finland","finland",,1,1,1,13,1,352,350,21,18621,103,1873,1873,18,46,2,0,5,0
+"kunimitsu-takahashi","Kunimitsu Takahashi","Kunimitsu","Takahashi","Kunimitsu Takahashi","TAK",,"MALE","1940-01-29","2022-03-16","Tokyo","japan","japan",,,22,9,,0,1,1,0,71,0,0,0,0,0,0,0,0,0
+"kurt-adolff","Kurt Adolff","Kurt","Adolff","Kurt Adolff","ADO",,"MALE","1921-11-05","2012-01-24","Stuttgart","germany","germany",,,27,,,0,1,1,0,3,0,0,0,0,0,0,0,0,0
+"kurt-ahrens-jr","Kurt Ahrens, Jr.","Kurt","Ahrens, Jr.","Kurt Karl-Heinrich Ahrens","AHR",,"MALE","1940-04-19",,"Braunschweig","germany","germany",,,17,7,,0,4,4,0,33,0,0,0,0,0,0,0,0,0
+"kurt-kuhnke","Kurt Kuhnke","Kurt","Kuhnke","Kurt Kuhnke","KUH",,"MALE","1910-04-30","1969-02-08","Stettin","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"lamberto-leoni","Lamberto Leoni","Lamberto","Leoni","Lamberto Leoni","LEO",,"MALE","1953-05-24",,"Argenta","italy","italy",,,17,,,0,5,1,0,28,0,0,0,0,0,0,0,0,0
+"lance-macklin","Lance Macklin","Lance","Macklin","Lance Noel Macklin","MAC",,"MALE","1919-09-02","2002-08-29","Kensington","united-kingdom","united-kingdom",,,9,8,,0,15,13,0,479,0,0,0,0,0,0,0,0,0
+"lance-reventlow","Lance Reventlow","Lance","Reventlow","Lawrence Graf von Haugwitz-Hardenberg-Reventlow","REV",,"MALE","1936-02-24","1972-07-24","London","united-kingdom","united-states-of-america",,,15,,,0,4,1,0,1,0,0,0,0,0,0,0,0,0
+"lance-stroll","Lance Stroll","Lance","Stroll","Lance Stroll","STR","18","MALE","1998-10-29",,"Montreal","canada","canada",,10,1,3,4,0,197,194,0,10553,3,325,325,1,0,27,0,1,0
+"lando-norris","Lando Norris","Lando","Norris","Lando Norris","NOR","4","MALE","1999-11-13",,"Bristol","united-kingdom","united-kingdom",,1,1,1,1,1,157,156,11,8891,45,1488,1488,16,19,27,4,18,0
+"larry-crockett","Larry Crockett","Larry","Crockett","Larry Crockett","CRO",,"MALE","1926-10-23","1955-03-20","Cambridge City","united-states-of-america","united-states-of-america",,,25,9,,0,1,1,0,200,0,0,0,0,0,0,0,0,0
+"larry-perkins","Larry Perkins","Larry","Perkins","Larry Clifton Perkins","PER",,"MALE","1950-03-18",,"Murrayville","australia","australia",,,13,8,,0,15,11,0,461,0,0,0,0,0,0,0,0,0
+"lee-wallard","Lee Wallard","Lee","Wallard","Lee Wallard","WAL",,"MALE","1910-09-07","1963-11-29","Schenectady","united-states-of-america","united-states-of-america",,7,2,1,,0,2,2,1,336,1,9,9,0,1,0,0,0,0
+"lella-lombardi","Lella Lombardi","Lella","Lombardi","Maria Grazia Lombardi","LOM",,"FEMALE","1941-03-26","1992-03-03","Frugarolo","italy","italy",,21,21,6,,0,17,12,0,363,0,0.5,0.5,0,0,0,0,0,0
+"len-duncan","Len Duncan","Len","Duncan","Len Duncan","DUN",,"MALE","1911-07-25","1998-08-01","Brooklyn","united-states-of-america","united-states-of-america",,,26,31,,0,1,1,0,101,0,0,0,0,0,0,0,0,0
+"len-sutton","Len Sutton","Len","Sutton","Len Sutton","SUT",,"MALE","1925-08-09","2006-12-04","Portland","united-states-of-america","united-states-of-america",,,5,30,,0,3,3,0,81,0,0,0,0,0,0,0,0,0
+"leo-kinnunen","Leo Kinnunen","Leo","Kinnunen","Leo Juhani Kinnunen","KIN",,"MALE","1943-08-05","2017-07-26","Tampere","finland","finland",,,25,,,0,6,1,0,8,0,0,0,0,0,0,0,0,0
+"les-leston","Les Leston","Les","Leston","Alfred Lazarus Fingleston","LES",,"MALE","1920-12-16","2012-05-13","Bulwell","united-kingdom","united-kingdom",,,12,,,0,3,2,0,50,0,0,0,0,0,0,0,0,0
+"leslie-johnson","Leslie Johnson","Leslie","Johnson","Leslie George Johnson","JOH",,"MALE","1912-03-22","1959-06-08","Walthamstow","united-kingdom","united-kingdom",,,12,,,0,1,1,0,2,0,0,0,0,0,0,0,0,0
+"leslie-marr","Leslie Marr","Leslie","Marr","Leslie Marr","MAR",,"MALE","1922-08-14","2021-05-04","Durham","united-kingdom","united-kingdom",,,19,13,,0,2,2,0,100,0,0,0,0,0,0,0,0,0
+"leslie-thorne","Leslie Thorne","Leslie","Thorne","Leslie Thorne","THO",,"MALE","1916-06-23","1993-07-13","Greenock","united-kingdom","united-kingdom",,,23,14,,0,1,1,0,78,0,0,0,0,0,0,0,0,0
+"lewis-hamilton","Lewis Hamilton","Lewis","Hamilton","Lewis Carl Davidson Hamilton","HAM","44","MALE","1985-01-07",,"Stevenage","united-kingdom","united-kingdom",,1,1,1,1,7,385,385,105,21946,204,5090.5,5090.5,104,68,27,1,20,6
+"liam-lawson","Liam Lawson","Liam","Lawson","Liam Lawson","LAW","30","MALE","2002-02-11",,"Hastings","new-zealand","new-zealand",,14,3,5,7,0,40,40,0,2162,0,60,60,0,0,13,0,0,0
+"lloyd-ruby","Lloyd Ruby","Lloyd","Ruby","Lloyd Ruby","RUB",,"MALE","1928-01-12","2009-03-23","Wichita Falls","united-states-of-america","united-states-of-america",,,12,7,,0,2,2,0,276,0,0,0,0,0,0,0,0,0
+"logan-sargeant","Logan Sargeant","Logan","Sargeant","Logan Hunter Sargeant","SAR","2","MALE","2000-12-31",,"Fort Lauderdale","united-states-of-america","united-states-of-america",,21,6,10,10,0,36,36,0,1911,0,1,1,0,0,8,0,0,0
+"lorenzo-bandini","Lorenzo Bandini","Lorenzo","Bandini","Lorenzo Bandini","BAN",,"MALE","1935-12-21","1967-05-10","Barce","libya","italy",,4,1,1,,0,42,42,1,2264,8,58,58,1,2,0,0,0,0
+"loris-kessel","Loris Kessel","Loris","Kessel","Loris Kessel","KES",,"MALE","1950-04-01","2010-05-15","Lugano","switzerland","switzerland",,,23,12,,0,6,3,0,112,0,0,0,0,0,0,0,0,0
+"louis-chiron","Louis Chiron","Louis","Chiron","Louis Alexandre Chiron","CHI",,"MALE","1899-08-03","1979-06-22","Monte Carlo","monaco","monaco",,9,8,3,,0,19,15,0,601,1,4,4,0,0,0,0,0,0
+"louis-rosier","Louis Rosier","Louis","Rosier","Louis Rosier","ROS",,"MALE","1905-11-05","1956-10-29","Chapdes-Beaufort","france","france",,4,6,3,,0,38,38,0,1558,2,18,18,0,0,0,0,0,0
+"luca-badoer","Luca Badoer","Luca","Badoer","Luca Badoer","BAD",,"MALE","1971-01-25",,"Montebelluna","italy","italy",,25,12,7,,0,58,50,0,2364,0,0,0,0,0,0,0,0,0
+"lucas-di-grassi","Lucas di Grassi","Lucas","Di Grassi","Lucas Tucci di Grassi","DIG",,"MALE","1984-08-11",,"São Paulo","brazil","brazil",,24,20,14,,0,19,18,0,769,0,0,0,0,0,0,0,0,0
+"luciano-burti","Luciano Burti","Luciano","Burti","Luciano Pucci Burti","BUR",,"MALE","1975-03-05",,"São Paulo","brazil","brazil",,20,14,8,,0,15,15,0,668,0,0,0,0,0,0,0,0,0
+"lucien-bianchi","Lucien Bianchi","Lucien","Bianchi","Luciano Bianchi","BIA",,"MALE","1934-11-10","1969-03-30","Milan","italy","belgium",,17,12,3,,0,19,17,0,552,1,6,6,0,0,0,0,0,0
+"ludovico-scarfiotti","Ludovico Scarfiotti","Ludovico","Scarfiotti","Ludovico Scarfiotti","SCA",,"MALE","1933-10-18","1968-06-08","Turin","italy","italy",,10,2,1,,0,12,10,1,517,1,17,17,0,1,0,0,0,0
+"ludwig-fischer","Ludwig Fischer","Ludwig","Fischer","Ludwig Fischer","FIS",,"MALE","1915-12-17","1991-03-08","Straubing","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"luigi-fagioli","Luigi Fagioli","Luigi","Fagioli","Luigi Cristiano Fagioli","FAG",,"MALE","1898-06-09","1952-06-20","Osimo","italy","italy",,3,2,1,,0,7,7,1,368,6,32,28,0,0,0,0,0,0
+"luigi-musso","Luigi Musso","Luigi","Musso","Luigi Musso","MUS",,"MALE","1924-07-28","1958-07-06","Rome","italy","italy",,3,2,1,,0,25,24,1,1193,7,44,44,0,1,0,0,0,0
+"luigi-piotti","Luigi Piotti","Luigi","Piotti","Luigi Piotti","PIO",,"MALE","1913-10-27","1971-04-19","Milan","italy","italy",,,12,6,,0,9,5,0,198,0,0,0,0,0,0,0,0,0
+"luigi-taramazzo","Luigi Taramazzo","Luigi","Taramazzo","Luigi Taramazzo","TAR",,"MALE","1932-05-05","2004-02-15","Ceva","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"luigi-villoresi","Luigi Villoresi","Luigi","Villoresi","Luigi Villoresi","VIL",,"MALE","1909-05-16","1997-08-24","Milan","italy","italy",,5,2,2,,0,33,31,0,1530,8,49,46,0,1,0,0,0,0
+"luis-perez-sala","Luis Pérez-Sala","Luis","Pérez-Sala","Luis Pérez-Sala Valls-Taberner","PER",,"MALE","1959-05-15",,"Barcelona","spain","spain",,26,9,6,,0,32,26,0,1179,0,1,1,0,0,0,0,0,0
+"luiz-bueno","Luiz Bueno","Luiz","Bueno","Luiz Pereira Bueno","BUE",,"MALE","1937-01-16","2011-02-08","São Paulo","brazil","brazil",,,20,12,,0,1,1,0,36,0,0,0,0,0,0,0,0,0
+"luiz-razia","Luiz Razia","Luiz","Razia","Luiz Tadeu Razia Filho","RAZ",,"MALE","1989-04-04",,"Barreiras","brazil","brazil",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"luke-browning","Luke Browning","Luke","Browning","Luke Browning","BRO",,"MALE","2002-01-31",,"Kingsley","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"luki-botha","Luki Botha","Luki","Botha","Lukas Botha","BOT",,"MALE","1930-01-16","2006-10-01","Pretoria","south-africa","south-africa",,,17,,,0,1,1,0,60,0,0,0,0,0,0,0,0,0
+"ma-qinghua","Qing Hua Ma","Qing Hua","Ma","Qing Hua Ma","QIN",,"MALE","1987-12-25",,"Shanghai","china","china",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"mack-hellings","Mack Hellings","Mack","Hellings","Ronald Hellings","HEL",,"MALE","1915-09-14","1951-11-11","Fort Dodge","united-states-of-america","united-states-of-america",,,23,13,,0,2,2,0,150,0,0,0,0,0,0,0,0,0
+"manfred-winkelhock","Manfred Winkelhock","Manfred","Winkelhock","Manfred Winkelhock","WIN",,"MALE","1951-10-06","1985-08-12","Waiblingen","germany","germany",,22,5,5,,0,56,47,0,1633,0,2,2,0,0,0,0,0,0
+"manny-ayulo","Manny Ayulo","Manny","Ayulo","Manuel Leaonedas Ayulo","AYU",,"MALE","1921-10-20","1955-05-17","Burbank","united-states-of-america","united-states-of-america",,15,4,3,,0,4,4,0,565,1,2,2,0,0,0,0,0,0
+"marc-gene","Marc Gené","Marc","Gené","Marc Gené i Guerrero","GEN",,"MALE","1974-03-29",,"Sabadell","spain","spain",,17,5,5,,0,36,36,0,1738,0,5,5,0,0,0,0,0,0
+"marc-surer","Marc Surer","Marc","Surer","Marc Surer","SUR",,"MALE","1951-09-18",,"Arisdorf","switzerland","switzerland",,13,5,4,,0,88,82,0,3955,0,17,17,0,1,0,0,0,0
+"marcel-balsa","Marcel Balsa","Marcel","Balsa","Marcel Lucien Balsa","BAL",,"MALE","1909-01-01","1984-08-11","Creuse","france","france",,,25,,,0,1,1,0,5,0,0,0,0,0,0,0,0,0
+"marco-apicella","Marco Apicella","Marco","Apicella","Marco Apicella","API",,"MALE","1965-10-07",,"near Bologna","italy","italy",,,23,,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"marcus-ericsson","Marcus Ericsson","Marcus","Ericsson","Marcus Ericsson","ERI",,"MALE","1990-09-02",,"Kumla","sweden","sweden",,17,6,8,,0,97,97,0,4899,0,18,18,0,0,0,0,0,0
+"maria-teresa-de-filippis","Maria Teresa de Filippis","Maria Teresa","De Filippis","Maria Teresa de Filippis","DEF",,"FEMALE","1926-11-11","2016-01-09","Naples","italy","italy",,,15,10,,0,5,3,0,85,0,0,0,0,0,0,0,0,0
+"mario-andretti","Mario Andretti","Mario","Andretti","Mario Gabriele Andretti","AND",,"MALE","1940-02-28",,"Montona","croatia","united-states-of-america",,1,1,1,,1,131,128,12,5279,19,180,180,18,10,0,0,0,0
+"mario-de-araujo-cabral","Mário de Araújo Cabral","Mário de Araújo","Cabral","Mário Veloso de Araújo Cabral","DEA",,"MALE","1934-01-15","2020-08-17","Cedofeita","portugal","portugal",,,14,10,,0,5,4,0,123,0,0,0,0,0,0,0,0,0
+"mark-blundell","Mark Blundell","Mark","Blundell","Mark Blundell","BLU",,"MALE","1966-04-08",,"London","united-kingdom","united-kingdom",,10,4,3,,0,63,61,0,2777,3,32,32,0,0,0,0,0,0
+"mark-donohue","Mark Donohue","Mark","Donohue","Mark Neary Donohue Jr.","DON",,"MALE","1937-03-18","1975-08-19","Haddon Township","united-states-of-america","united-states-of-america",,15,8,3,,0,16,14,0,672,1,8,8,0,0,0,0,0,0
+"mark-webber","Mark Webber","Mark","Webber","Mark Alan Webber","WEB",,"MALE","1976-08-27",,"Queanbeyan","australia","australia",,3,1,1,,0,217,215,9,10976,42,1047.5,1047.5,13,19,0,0,0,0
+"markus-winkelhock","Markus Winkelhock","Markus","Winkelhock","Markus Winkelhock","WIN",,"MALE","1980-06-13",,"Stuttgart","germany","germany",,,22,,,0,1,1,0,13,0,0,0,0,0,0,0,0,0
+"marshall-teague","Marshall Teague","Marshall","Teague","Marshall Pleasant Teague","TEA",,"MALE","1921-02-22","1959-02-11","Daytona Beach","united-states-of-america","united-states-of-america",,,22,7,,0,3,3,0,369,0,0,0,0,0,0,0,0,0
+"martin-brundle","Martin Brundle","Martin","Brundle","Martin John Brundle","BRU",,"MALE","1959-06-01",,"King's Lynn","united-kingdom","united-kingdom",,6,3,2,,0,165,160,0,7078,9,98,98,0,0,0,0,0,0
+"martin-donnelly","Martin Donnelly","Martin","Donnelly","Hugh Peter Martin Donnelly","DON",,"MALE","1964-03-26",,"Belfast","united-kingdom","united-kingdom",,,11,7,,0,15,14,0,586,0,0,0,0,0,0,0,0,0
+"masahiro-hasemi","Masahiro Hasemi","Masahiro","Hasemi","Masahiro Hasemi","HAS",,"MALE","1945-11-13",,"Tokyo","japan","japan",,,10,11,,0,1,1,0,66,0,0,0,0,0,0,0,0,0
+"masami-kuwashima","Masami Kuwashima","Masami","Kuwashima","Masami Kuwashima","KUW",,"MALE","1950-09-14",,"Kumagaya","japan","japan",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"massimo-natili","Massimo Natili","Massimo","Natili","Massimo Natili","NAT",,"MALE","1935-07-28",,"Ronciglione","italy","italy",,,28,,,0,2,1,0,0,0,0,0,0,0,0,0,0,0
+"masten-gregory","Masten Gregory","Masten","Gregory","Masten Gregory","GRE",,"MALE","1932-02-29","1985-11-08","Kansas City","united-states-of-america","united-states-of-america",,6,3,2,,0,43,38,0,1608,3,21,21,0,0,0,0,0,0
+"matteo-bobbi","Matteo Bobbi","Matteo","Bobbi","Matteo Bobbi","BOB",,"MALE","1978-07-02",,"Milan","italy","italy",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"mauri-rose","Mauri Rose","Mauri","Rose","Maurice Rose","ROS",,"MALE","1906-05-26","1981-01-01","Columbus","united-states-of-america","united-states-of-america",,9,3,3,,0,2,2,0,263,1,4,4,0,0,0,0,0,0
+"maurice-trintignant","Maurice Trintignant","Maurice","Trintignant","Maurice Bienvenu Jean Paul Trintignant","TRI",,"MALE","1917-10-30","2005-02-13","Sainte-Cécile-les-Vignes","france","france",,4,3,1,,0,84,82,2,3555,9,72.33,72.33,0,1,0,0,0,0
+"mauricio-gugelmin","Maurício Gugelmin","Maurício","Gugelmin","Maurício Gugelmin","GUG",,"MALE","1963-04-20",,"Joinville","brazil","brazil",,13,5,3,,0,80,74,0,3040,1,10,10,0,1,0,0,0,0
+"mauro-baldi","Mauro Baldi","Mauro","Baldi","Mauro Baldi","BAL",,"MALE","1954-01-31",,"Reggio Emilia","italy","italy",,16,7,5,,0,41,36,0,1489,0,5,5,0,0,0,0,0,0
+"max-chilton","Max Chilton","Max","Chilton","Maximilian Alexander Chilton","CHI",,"MALE","1991-04-21",,"Redhill","united-kingdom","united-kingdom",,21,16,13,,0,35,35,0,1872,0,0,0,0,0,0,0,0,0
+"max-de-terra","Max de Terra","Max","De Terra","Max de Terra","DET",,"MALE","1918-10-06","1982-12-29","Zurich","switzerland","switzerland",,,19,8,,0,2,2,0,52,0,0,0,0,0,0,0,0,0
+"max-jean","Max Jean","Max","Jean","Max Jean","JEA",,"MALE","1943-07-27",,"Marseille","france","france",,,22,,,0,1,1,0,46,0,0,0,0,0,0,0,0,0
+"max-papis","Max Papis","Max","Papis","Massimiliano Papis","PAP",,"MALE","1969-10-03",,"Como","italy","italy",,,15,7,,0,7,7,0,209,0,0,0,0,0,0,0,0,0
+"max-verstappen","Max Verstappen","Max","Verstappen","Max Emilian Verstappen","VER","3","MALE","1997-09-30",,"Hasselt","belgium","netherlands",,1,1,1,1,4,238,238,71,12973,128,3487.5,3487.5,48,37,27,13,50,6
+"michael-ammermuller","Michael Ammermüller","Michael","Ammermüller","Michael Ammermüller","AMM",,"MALE","1986-02-14",,"Pocking","germany","germany",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"michael-andretti","Michael Andretti","Michael","Andretti","Michael Mario Andretti","AND",,"MALE","1962-10-05",,"Bethlehem","united-states-of-america","united-states-of-america",,11,5,3,,0,13,13,0,427,1,7,7,0,0,0,0,0,0
+"michael-bartels","Michael Bartels","Michael","Bartels","Michael Bartels","BAR",,"MALE","1968-03-08",,"Plettenberg","germany","germany",,,,,,0,4,0,0,0,0,0,0,0,0,0,0,0,0
+"michael-bleekemolen","Michael Bleekemolen","Michael","Bleekemolen","Michael Bleekemolen","BLE",,"MALE","1949-10-02",,"Amsterdam","netherlands","netherlands",,,25,,,0,5,1,0,43,0,0,0,0,0,0,0,0,0
+"michael-may","Michael May","Michael","May","Michael May","MAY",,"MALE","1934-08-18",,"Stuttgart","germany","switzerland",,,13,11,,0,3,2,0,90,0,0,0,0,0,0,0,0,0
+"michael-schumacher","Michael Schumacher","Michael","Schumacher","Michael Schumacher","MSC",,"MALE","1969-01-03",,"Hürth","germany","germany",,1,1,1,,7,308,306,91,16825,155,1566,1566,68,77,0,0,0,5
+"michel-leclere","Michel Leclère","Michel","Leclère","Michel Leclère","LEC",,"MALE","1946-03-18",,"Mantes-la-Jolie","france","france",,,18,10,,0,8,7,0,371,0,0,0,0,0,0,0,0,0
+"michele-alboreto","Michele Alboreto","Michele","Alboreto","Michele Alboreto","ALB",,"MALE","1956-12-23","2001-04-25","Milan","italy","italy",,2,1,1,,0,215,194,5,8771,23,186.5,186.5,2,4,0,0,0,0
+"mick-schumacher","Mick Schumacher","Mick","Schumacher","Mick Schumacher","MSC",,"MALE","1999-03-22",,"Vufflens-le-Château","switzerland","germany",,16,6,6,9,0,44,43,0,2277,0,12,12,0,0,6,0,1,0
+"miguel-angel-guerra","Miguel Ángel Guerra","Miguel Ángel","Guerra","Miguel Ángel Guerra","GUE",,"MALE","1953-08-31",,"Buenos Aires","argentina","argentina",,,22,,,0,4,1,0,0,0,0,0,0,0,0,0,0,0
+"mika-hakkinen","Mika Häkkinen","Mika","Häkkinen","Mika Pauli Häkkinen","HAK",,"MALE","1968-09-28",,"Vantaa","finland","finland",,1,1,1,,2,165,161,20,7719,51,420,420,26,25,0,0,0,2
+"mika-salo","Mika Salo","Mika","Salo","Mika Juhani Salo","SAL",,"MALE","1966-11-30",,"Helsinki","finland","finland",,10,4,2,,0,111,109,0,5442,2,33,33,0,0,0,0,0,0
+"mike-beuttler","Mike Beuttler","Mike","Beuttler","Michael Simon Brindley Bream Beuttler","BEU",,"MALE","1940-04-13","1988-12-29","Cairo","egypt","united-kingdom",,,11,7,,0,29,28,0,1167,0,0,0,0,0,0,0,0,0
+"mike-fisher","Mike Fisher","Mike","Fisher","Michael J. Fisher","FIS",,"MALE","1943-03-13",,"Hollywood","united-states-of-america","united-states-of-america",,,17,11,,0,2,2,0,82,0,0,0,0,0,0,0,0,0
+"mike-hailwood","Mike Hailwood","Mike","Hailwood","Stanley Michael Bailey Hailwood","HAI",,"MALE","1940-04-02","1981-03-23","Great Milton","united-kingdom","united-kingdom",,8,4,2,,0,50,50,0,2178,2,29,29,0,1,0,0,0,0
+"mike-harris","Mike Harris","Mike","Harris","Mike Harris","HAR",,"MALE","1939-05-25","2021-11-08","Mufulira","zambia","south-africa",,,15,,,0,1,1,0,31,0,0,0,0,0,0,0,0,0
+"mike-hawthorn","Mike Hawthorn","Mike","Hawthorn","John Michael Hawthorn","HAW",,"MALE","1929-04-10","1959-01-22","Mexborough","united-kingdom","united-kingdom",,1,1,1,,1,47,45,3,2474,18,127.64,112.64,4,6,0,0,0,1
+"mike-macdowel","Mike MacDowel","Mike","MacDowel","Michael George Hartwell MacDowel","MAC",,"MALE","1932-09-13","2016-01-19","Great Yarmouth","united-kingdom","united-kingdom",,,15,7,,0,1,1,0,68,0,0,0,0,0,0,0,0,0
+"mike-magill","Mike Magill","Mike","Magill","Charles Michael Magill","MAG",,"MALE","1920-02-08","2006-08-31","Haddonfield","united-states-of-america","united-states-of-america",,,18,17,,0,3,3,0,282,0,0,0,0,0,0,0,0,0
+"mike-nazaruk","Mike Nazaruk","Mike","Nazaruk","Mike Nazaruk","NAZ",,"MALE","1921-10-02","1955-05-01","Newark","united-states-of-america","united-states-of-america",,9,7,2,,0,3,3,0,546,1,8,8,0,0,0,0,0,0
+"mike-parkes","Mike Parkes","Mike","Parkes","Michael Johnson Parkes","PAR",,"MALE","1931-09-24","1977-08-28","Richmond","united-kingdom","united-kingdom",,8,1,2,,0,7,6,0,224,2,14,14,1,0,0,0,0,0
+"mike-sparken","Mike Sparken","Mike","Sparken","Michel Poberejsky","SPA",,"MALE","1930-06-16","2012-09-21","Neuilly-sur-Seine","france","france",,,23,7,,0,1,1,0,81,0,0,0,0,0,0,0,0,0
+"mike-spence","Mike Spence","Mike","Spence","Michael Henderson Spence","SPE",,"MALE","1936-12-30","1968-05-07","Purley","united-kingdom","united-kingdom",,8,4,3,,0,37,36,0,1761,1,27,27,0,0,0,0,0,0
+"mike-taylor","Mike Taylor","Mike","Taylor","Mike Taylor","TAY",,"MALE","1934-04-24","2017-04-04","London","united-kingdom","united-kingdom",,,24,,,0,2,1,0,17,0,0,0,0,0,0,0,0,0
+"mike-thackwell","Mike Thackwell","Mike","Thackwell","Mike Thackwell","THA",,"MALE","1961-03-30",,"Papakura","new-zealand","new-zealand",,,23,,,0,5,3,0,29,0,0,0,0,0,0,0,0,0
+"mike-wilds","Mike Wilds","Mike","Wilds","Mike Wilds","WIL",,"MALE","1946-01-07",,"Chiswick","united-kingdom","united-kingdom",,,22,,,0,8,3,0,96,0,0,0,0,0,0,0,0,0
+"mikko-kozarowitzky","Mikko Kozarowitzky","Mikko","Kozarowitzky","Michael Kozarowitzky","KOZ",,"MALE","1948-05-17",,"Helsinki","finland","finland",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"moises-solana","Moisés Solana","Moisés","Solana","Moisés Solana Arciniega","SOL",,"MALE","1935-12-26","1969-07-27","Mexico City","mexico","mexico",,,7,10,,0,8,8,0,312,0,0,0,0,0,0,0,0,0
+"myron-fohr","Myron Fohr","Myron","Fohr","Myron W. Fohr","FOH",,"MALE","1912-06-17","1994-01-14","Racine","united-states-of-america","united-states-of-america",,,16,11,,0,1,1,0,133,0,0,0,0,0,0,0,0,0
+"nanni-galli","Nanni Galli","Nanni","Galli","Giovanni Giuseppe Gilberto Galli","GAL",,"MALE","1940-10-02","2019-10-12","Bologna","italy","italy",,,15,9,,0,20,17,0,506,0,0,0,0,0,0,0,0,0
+"naoki-hattori","Naoki Hattori","Naoki","Hattori","Naoki Hattori","HAT",,"MALE","1966-06-13",,"Yokkaichi","japan","japan",,,,,,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+"naoki-yamamoto","Naoki Yamamoto","Naoki","Yamamoto","Naoki Yamamoto","YAM",,"MALE","1988-07-11",,"Utsunomiya","japan","japan",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"narain-karthikeyan","Narain Karthikeyan","Narain","Karthikeyan","Kumar Ram Narain Karthikeyan","KAR",,"MALE","1977-01-14",,"Coimbatore","india","india",,18,11,4,,0,47,46,0,2244,0,5,5,0,0,0,0,0,0
+"nasif-estefano","Nasif Estéfano","Nasif","Estéfano","Nasif Moisés Estéfano","EST",,"MALE","1932-11-18","1973-10-21","Concepción","argentina","argentina",,,20,14,,0,2,1,0,70,0,0,0,0,0,0,0,0,0
+"neel-jani","Neel Jani","Neel","Jani","Neel Jani","JAN",,"MALE","1983-12-08",,"Rorschach","switzerland","switzerland",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"nello-pagani","Nello Pagani","Nello","Pagani","Cirillo Pagani","PAG",,"MALE","1911-10-11","2003-10-19","Milan","italy","italy",,,15,7,,0,1,1,0,39,0,0,0,0,0,0,0,0,0
+"nelson-piquet-jr","Nelson Piquet Jr.","Nelson","Piquet Jr.","Nelson Ângelo Tamsma Piquet Souto Maior","PIQ",,"MALE","1985-07-25",,"Heidelberg","germany","brazil",,12,7,2,,0,28,28,0,1263,1,19,19,0,0,0,0,0,0
+"nelson-piquet","Nelson Piquet","Nelson","Piquet","Nelson Piquet Souto Maior","PIQ",,"MALE","1952-08-17",,"Rio de Janeiro","brazil","brazil",,1,1,1,,3,207,203,23,9870,60,485.5,481.5,24,23,0,0,0,3
+"neville-lederle","Neville Lederle","Neville","Lederle","Neville Lederle","LED",,"MALE","1938-09-25","2019-05-17","Theunissen","south-africa","south-africa",,18,10,6,,0,2,1,0,78,0,1,1,0,0,0,0,0,0
+"nicholas-latifi","Nicholas Latifi","Nicholas","Latifi","Nicholas Latifi","LAT",,"MALE","1995-06-29",,"Montreal","canada","canada",,17,10,7,14,0,61,61,0,3261,0,9,9,0,0,6,0,0,0
+"nick-heidfeld","Nick Heidfeld","Nick","Heidfeld","Nick Lars Heidfeld","HEI",,"MALE","1977-05-10",,"Mönchengladbach","germany","germany",,5,1,2,,0,185,183,0,9701,13,259,259,1,2,0,0,0,0
+"nico-hulkenberg","Nico Hülkenberg","Nico","Hülkenberg","Nicolas Hülkenberg","HUL","27","MALE","1987-08-19",,"Emmerich am Rhein","germany","germany",,7,1,3,6,0,259,254,0,13257,1,622,622,1,2,20,0,3,0
+"nico-rosberg","Nico Rosberg","Nico","Rosberg","Nico Erik Rosberg","ROS",,"MALE","1985-06-27",,"Wiesbaden","germany","germany",,1,1,1,,1,206,206,23,11159,57,1594.5,1594.5,30,20,0,0,1,2
+"nicola-larini","Nicola Larini","Nicola","Larini","Nicola Larini","LAR",,"MALE","1964-03-19",,"Lido di Camaiore","italy","italy",,14,6,2,,0,75,49,0,2029,1,7,7,0,0,0,0,0,0
+"nicolas-kiesa","Nicolas Kiesa","Nicolas","Kiesa","Nicolas Kiesa","KIE",,"MALE","1978-03-03",,"Copenhagen","denmark","denmark",,23,18,11,,0,5,5,0,298,0,0,0,0,0,0,0,0,0
+"nigel-mansell","Nigel Mansell","Nigel","Mansell","Nigel Ernest James Mansell","MAN",,"MALE","1953-08-08",,"Upton-upon-Severn","united-kingdom","united-kingdom",,1,1,1,,1,191,187,31,8750,59,482,480,32,30,0,0,0,4
+"niki-lauda","Niki Lauda","Niki","Lauda","Andreas Nikolaus Lauda","LAU",,"MALE","1949-02-22","2019-05-20","Vienna","austria","austria",,1,1,1,,3,176,171,25,8213,54,420.5,420.5,24,24,0,0,0,1
+"nikita-mazepin","Nikita Mazepin","Nikita","Mazepin","Nikita Dmitryevich Mazepin","MAZ",,"MALE","1999-03-02",,"Moscow","russia","russia",,21,15,14,17,0,22,21,0,1008,0,0,0,0,0,3,0,0,0
+"nino-farina","Nino Farina","Nino","Farina","Giuseppe Antonio Farina","FAR",,"MALE","1906-10-30","1966-06-30","Turin","italy","italy",,1,1,1,,1,34,33,5,1767,19,127.33,115.33,5,5,0,0,0,0
+"nino-vaccarella","Nino Vaccarella","Nino","Vaccarella","Nino Vaccarella","VAC",,"MALE","1933-03-04","2021-09-23","Palermo","italy","italy",,,14,9,,0,5,4,0,169,0,0,0,0,0,0,0,0,0
+"norberto-fontana","Norberto Fontana","Norberto","Fontana","Norberto Edgardo Fontana","FON",,"MALE","1975-01-20",,"Arrecifes","argentina","argentina",,,18,9,,0,4,4,0,210,0,0,0,0,0,0,0,0,0
+"noritake-takahara","Noritake Takahara","Noritake","Takahara","Noritake Takahara","TAK",,"MALE","1951-06-06",,"Tokyo","japan","japan",,,19,9,,0,2,2,0,71,0,0,0,0,0,0,0,0,0
+"nyck-de-vries","Nyck de Vries","Nyck","De Vries","Nyck de Vries","DEV",,"MALE","1995-02-06",,"Uitwellingerga","netherlands","netherlands",,21,8,9,14,0,11,11,0,614,0,2,2,0,0,2,0,1,0
+"oliver-bearman","Oliver Bearman","Oliver","Bearman","Oliver James Bearman","BEA","87","MALE","2005-05-08",,"Havering","united-kingdom","united-kingdom",,13,8,4,7,0,32,32,0,1798,0,66,66,0,0,10,0,2,0
+"olivier-beretta","Olivier Beretta","Olivier","Beretta","Olivier Beretta","BER",,"MALE","1969-11-23",,"Monte Carlo","monaco","monaco",,,17,7,,0,10,10,0,379,0,0,0,0,0,0,0,0,0
+"olivier-gendebien","Olivier Gendebien","Olivier","Gendebien","Olivier Gendebien","GEN",,"MALE","1924-01-12","1998-10-02","Brussels","belgium","belgium",,6,3,2,,0,15,14,0,701,2,18,18,0,0,0,0,0,0
+"olivier-grouillard","Olivier Grouillard","Olivier","Grouillard","Olivier Grouillard","GRO",,"MALE","1958-09-02",,"Fenouillet","france","france",,26,8,6,,0,62,41,0,1493,0,1,1,0,0,0,0,0,0
+"olivier-panis","Olivier Panis","Olivier","Panis","Olivier Panis","PAN",,"MALE","1966-09-02",,"Oullins","france","france",,8,3,1,,0,158,157,1,7716,5,76,76,0,0,0,0,0,0
+"onofre-marimon","Onofre Marimón","Onofre","Marimón","Onofre Agustín Marimón","MAR",,"MALE","1923-12-19","1954-07-31","Zárate","argentina","argentina",,11,4,3,,0,12,11,0,417,2,8.14,8.14,0,1,0,0,0,0
+"oscar-alfredo-galvez","Oscar Alfredo Gálvez","Oscar Alfredo","Gálvez","Oscar Alfredo Gálvez","GAL",,"MALE","1913-08-17","1989-12-16","Buenos Aires","argentina","argentina",,15,9,5,,0,1,1,0,96,0,2,2,0,0,0,0,0,0
+"oscar-gonzalez","Óscar González","Óscar","González","Óscar Mario González","GON",,"MALE","1923-11-10","2006-11-05","Montevideo","uruguay","uruguay",,,,6,,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"oscar-larrauri","Oscar Larrauri","Oscar","Larrauri","Oscar Rubén Larrauri","LAR",,"MALE","1954-08-19",,"Rosario","argentina","argentina",,,18,13,,0,21,8,0,229,0,0,0,0,0,0,0,0,0
+"oscar-piastri","Oscar Piastri","Oscar","Piastri","Oscar Piastri","PIA","81","MALE","2001-04-06",,"Melbourne","australia","australia",,3,1,1,1,0,75,73,9,4148,28,847,847,6,9,21,3,6,1
+"oswald-karch","Oswald Karch","Oswald","Karch","Oswald Karch","KAR",,"MALE","1917-03-06","2009-01-28","Ludwigshafen","germany","germany",,,34,,,0,1,1,0,10,0,0,0,0,0,0,0,0,0
+"otto-stuppacher","Otto Stuppacher","Otto","Stuppacher","Otto Stuppacher","STU",,"MALE","1947-03-03","2001-08-13","Vienna","austria","austria",,,,,,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+"ottorino-volonterio","Ottorino Volonterio","Ottorino","Volonterio","Ottorino Volonterio","VOL",,"MALE","1917-12-07","2003-03-10","Orselina","switzerland","switzerland",,,19,11,,0,3,3,0,16,0,0,0,0,0,0,0,0,0
+"pablo-birger","Pablo Birger","Pablo","Birger","Pablo Birger","BIR",,"MALE","1924-01-07","1966-03-09","Buenos Aires","argentina","argentina",,,9,,,0,2,2,0,22,0,0,0,0,0,0,0,0,0
+"paco-godia","Paco Godia","Paco","Godia","Francisco Godia Sales","GOD",,"MALE","1921-03-21","1990-11-28","Barcelona","spain","spain",,9,9,4,,0,14,13,0,583,0,6,6,0,0,0,0,0,0
+"paddy-driver","Paddy Driver","Paddy","Driver","Paddy Driver","DRI",,"MALE","1934-05-13",,"Johannesburg","south-africa","south-africa",,,26,,,0,2,1,0,6,0,0,0,0,0,0,0,0,0
+"paolo-barilla","Paolo Barilla","Paolo","Barilla","Paolo Barilla","BAR",,"MALE","1961-04-20",,"Milan","italy","italy",,,14,11,,0,15,9,0,406,0,0,0,0,0,0,0,0,0
+"pascal-fabre","Pascal Fabre","Pascal","Fabre","Pascal Fabre","FAB",,"MALE","1960-01-09",,"Lyon","france","france",,,22,9,,0,14,11,0,544,0,0,0,0,0,0,0,0,0
+"pascal-wehrlein","Pascal Wehrlein","Pascal","Wehrlein","Pascal Wehrlein","WEH",,"MALE","1994-10-18",,"Sigmaringen","germany","germany","mauritania",18,12,8,,0,39,39,0,1996,0,6,6,0,0,0,0,0,0
+"pastor-maldonado","Pastor Maldonado","Pastor","Maldonado","Pastor Rafael Maldonado Motta","MAL",,"MALE","1985-03-09",,"Maracay","venezuela","venezuela",,14,1,1,,0,96,95,1,4505,1,76,76,1,0,0,0,0,0
+"pat-flaherty","Pat Flaherty","Pat","Flaherty","George Francis Flaherty, Jr.","FLA",,"MALE","1926-01-06","2002-04-09","Glendale","united-states-of-america","united-states-of-america",,5,1,1,,0,6,6,1,812,1,8,8,1,0,0,0,0,0
+"pat-oconnor","Pat O'Connor","Pat","O'Connor","Pat O'Connor","O'C",,"MALE","1928-10-09","1958-05-30","North Vernon","united-states-of-america","united-states-of-america",,,1,8,,0,5,5,0,768,0,0,0,1,0,0,0,0,0
+"patricio-oward","Patricio O'Ward","Patricio","O'Ward","Patricio O'Ward Junco","OWA",,"MALE","1999-05-06",,"Monterrey","mexico","mexico",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"patrick-depailler","Patrick Depailler","Patrick","Depailler","Patrick André Eugène Joseph Depailler","DEP",,"MALE","1944-08-09","1980-08-01","Clermont-Ferrand","france","france",,4,1,1,,0,95,95,2,4635,19,141,139,1,4,0,0,0,0
+"patrick-friesacher","Patrick Friesacher","Patrick","Friesacher","Patrick Friesacher","FRI",,"MALE","1980-09-26",,"Wolfsberg","austria","austria",,21,13,6,,0,11,11,0,412,0,3,3,0,0,0,0,0,0
+"patrick-gaillard","Patrick Gaillard","Patrick","Gaillard","Patrick Gaillard","GAI",,"MALE","1952-02-12",,"Paris","france","france",,,23,13,,0,5,2,0,107,0,0,0,0,0,0,0,0,0
+"patrick-neve","Patrick Nève","Patrick","Nève","Patrick Marie Ghislain Pierre Simon Stanislas Nève de Mévergnies","NEV",,"MALE","1949-10-13","2017-03-12","Liège","belgium","belgium",,,19,7,,0,14,10,0,565,0,0,0,0,0,0,0,0,0
+"patrick-tambay","Patrick Tambay","Patrick","Tambay","Patrick Daniel Tambay","TAM",,"MALE","1949-06-25","2022-12-04","Paris","france","france",,4,1,1,,0,123,113,2,4978,11,103,103,5,2,0,0,0,0
+"paul-aron","Paul Aron","Paul","Aron","Paul Aron","ARO",,"MALE","2004-02-04",,"Tallinn","estonia","estonia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"paul-belmondo","Paul Belmondo","Paul","Belmondo","Paul Alexandre Belmondo","BEL",,"MALE","1963-04-23",,"Boulogne-Billancourt","france","france",,,17,9,,0,27,7,0,355,0,0,0,0,0,0,0,0,0
+"paul-di-resta","Paul di Resta","Paul","Di Resta","Paul di Resta","DIR",,"MALE","1986-04-16",,"Uphall","united-kingdom","united-kingdom",,12,5,4,,0,59,59,0,3284,0,121,121,0,0,0,0,0,0
+"paul-emery","Paul Emery","Paul","Emery","Paul Emery","EME",,"MALE","1916-11-12","1993-02-03","Chiswick","united-kingdom","united-kingdom",,,23,,,0,2,1,0,12,0,0,0,0,0,0,0,0,0
+"paul-england","Paul England","Paul","England","Paul England","ENG",,"MALE","1929-03-28","2014-06-17","Melbourne","australia","australia",,,23,,,0,1,1,0,4,0,0,0,0,0,0,0,0,0
+"paul-frere","Paul Frère","Paul","Frère","Paul Frère","FRE",,"MALE","1917-01-30","2008-02-23","Le Havre","france","belgium",,7,6,2,,0,11,11,0,221,1,11,11,0,0,0,0,0,0
+"paul-goldsmith","Paul Goldsmith","Paul","Goldsmith","Paul Goldsmith","GOL",,"MALE","1925-10-02",,"Parkersburg","united-states-of-america","united-states-of-america",,15,16,3,,0,3,3,0,400,1,6,6,0,0,0,0,0,0
+"paul-hawkins","Paul Hawkins","Paul","Hawkins","Robert Paul Hawkins","HAW",,"MALE","1937-10-12","1969-05-26","Richmond","australia","australia",,,14,9,,0,3,3,0,164,0,0,0,0,0,0,0,0,0
+"paul-pietsch","Paul Pietsch","Paul","Pietsch","Paul Pietsch","PIE",,"MALE","1911-06-20","2012-05-31","Freiburg im Breisgau","germany","germany",,,7,,,0,3,3,0,12,0,0,0,0,0,0,0,0,0
+"paul-russo","Paul Russo","Paul","Russo","Paul Russo","RUS",,"MALE","1914-04-10","1976-02-13","Kenosha","united-states-of-america","united-states-of-america",,13,8,2,,0,8,8,0,967,1,8.5,8.5,0,1,0,0,0,0
+"pedro-chaves","Pedro Chaves","Pedro","Chaves","Pedro António Matos Chaves","CHA",,"MALE","1965-02-27",,"Porto","portugal","portugal",,,,,,0,13,0,0,0,0,0,0,0,0,0,0,0,0
+"pedro-de-la-rosa","Pedro de la Rosa","Pedro","De la Rosa","Pedro Martínez de la Rosa","DLR",,"MALE","1971-02-24",,"Barcelona","spain","spain",,11,4,2,,0,107,104,0,4517,1,35,35,0,1,0,0,0,0
+"pedro-diniz","Pedro Diniz","Pedro","Diniz","Pedro Paulo Falleiros dos Santos Diniz","DIN",,"MALE","1970-05-22",,"São Paulo","brazil","brazil",,14,8,5,,0,99,98,0,3839,0,10,10,0,0,0,0,0,0
+"pedro-lamy","Pedro Lamy","Pedro","Lamy","José Pedro Mourão Lamy Viçoso","LAM",,"MALE","1972-03-20",,"Aldeia Galega da Merceana","portugal","portugal",,18,14,6,,0,32,32,0,1423,0,1,1,0,0,0,0,0,0
+"pedro-rodriguez","Pedro Rodríguez","Pedro","Rodríguez","Pedro Rodríguez de la Vega","ROD",,"MALE","1940-01-18","1971-07-11","Mexico City","mexico","mexico",,6,2,1,,0,55,55,2,2819,7,71,71,0,1,0,0,0,0
+"perry-mccarthy","Perry McCarthy","Perry","McCarthy","Perry McCarthy","MCC",,"MALE","1961-03-03",,"Stepney","united-kingdom","united-kingdom",,,,,,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+"pete-lovely","Pete Lovely","Pete","Lovely","Gerard Carlton Lovely","LOV",,"MALE","1926-04-11","2011-05-15","Livingston","united-states-of-america","united-states-of-america",,,16,7,,0,11,7,0,410,0,0,0,0,0,0,0,0,0
+"peter-arundell","Peter Arundell","Peter","Arundell","Peter Arundell","ARU",,"MALE","1933-11-08","2009-06-16","Ilford","united-kingdom","united-kingdom",,8,4,3,,0,13,11,0,563,2,12,12,0,0,0,0,0,0
+"peter-ashdown","Peter Ashdown","Peter","Ashdown","Peter Hawthorn Ashdown","ASH",,"MALE","1934-10-16",,"Danbury","united-kingdom","united-kingdom",,,23,12,,0,1,1,0,69,0,0,0,0,0,0,0,0,0
+"peter-broeker","Peter Broeker","Peter","Broeker","Peter Broeker","BRO",,"MALE","1926-05-15","1980-11-04","Hamilton","canada","canada",,,21,7,,0,1,1,0,88,0,0,0,0,0,0,0,0,0
+"peter-collins","Peter Collins","Peter","Collins","Peter John Collins","COL",,"MALE","1931-11-06","1958-08-03","Kidderminster","united-kingdom","united-kingdom",,3,2,1,,0,35,32,3,1388,9,47,47,0,0,0,0,0,0
+"peter-de-klerk","Peter de Klerk","Peter","De Klerk","Peter de Klerk","DEK",,"MALE","1935-03-16","2015-07-11","Pilgrim's Rest","south-africa","south-africa",,,16,10,,0,4,4,0,274,0,0,0,0,0,0,0,0,0
+"peter-gethin","Peter Gethin","Peter","Gethin","Peter Kenneth Gethin","GET",,"MALE","1940-02-21","2011-12-05","Ewell","united-kingdom","united-kingdom",,9,5,1,,0,31,30,1,1226,1,11,11,0,0,0,0,0,0
+"peter-hirt","Peter Hirt","Peter","Hirt","Peter Hirt","HIR",,"MALE","1910-03-30","1992-06-28","Lenzburg","switzerland","switzerland",,,16,7,,0,5,5,0,76,0,0,0,0,0,0,0,0,0
+"peter-revson","Peter Revson","Peter","Revson","Peter Jeffrey Revson","REV",,"MALE","1939-02-27","1974-03-22","New York","united-states-of-america","united-states-of-america",,5,1,1,,0,32,30,2,1567,8,61,61,1,0,0,0,0,0
+"peter-ryan","Peter Ryan","Peter","Ryan","Peter B. Ryan","RYA",,"MALE","1940-06-10","1962-07-02","Philadelphia","united-states-of-america","canada",,,13,9,,0,1,1,0,96,0,0,0,0,0,0,0,0,0
+"peter-walker","Peter Walker","Peter","Walker","Peter Douglas Conyers Walker","WAL",,"MALE","1912-10-07","1984-03-01","Huby","united-kingdom","united-kingdom",,,10,7,,0,4,4,0,91,0,0,0,0,0,0,0,0,0
+"peter-westbury","Peter Westbury","Peter","Westbury","Peter Westbury","WES",,"MALE","1938-05-26","2015-12-07","Roehampton","united-kingdom","united-kingdom",,,18,9,,0,2,1,0,13,0,0,0,0,0,0,0,0,0
+"peter-whitehead","Peter Whitehead","Peter","Whitehead","Peter Nield Whitehead","WHI",,"MALE","1914-11-12","1958-09-21","Menston","united-kingdom","united-kingdom",,9,8,3,,0,12,10,0,444,1,4,4,0,0,0,0,0,0
+"phil-cade","Phil Cade","Phil","Cade","Phil Cade","CAD",,"MALE","1916-06-12","2001-08-28","Charles City","united-states-of-america","united-states-of-america",,,18,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"phil-hill","Phil Hill","Phil","Hill","Philip Toll Hill, Jr.","HIL",,"MALE","1927-04-20","2008-08-28","Miami","united-states-of-america","united-states-of-america",,1,1,1,,1,52,48,3,2415,16,98,94,6,6,0,0,0,0
+"philip-fotheringham-parker","Philip Fotheringham-Parker","Philip","Fotheringham-Parker","Philip Fotheringham-Parker","FOT",,"MALE","1907-09-22","1981-10-15","Beckenham","united-kingdom","united-kingdom",,,16,,,0,1,1,0,46,0,0,0,0,0,0,0,0,0
+"philippe-adams","Philippe Adams","Philippe","Adams","Philippe Adams","ADA",,"MALE","1969-11-19",,"Mouscron","belgium","belgium",,,25,16,,0,2,2,0,82,0,0,0,0,0,0,0,0,0
+"philippe-alliot","Philippe Alliot","Philippe","Alliot","Philippe Alliot","ALL",,"MALE","1954-07-27",,"Voves","france","france",,17,5,5,,0,116,110,0,4249,0,7,7,0,0,0,0,0,0
+"philippe-etancelin","Philippe Étancelin","Philippe","Étancelin","Philippe Étancelin","ETA",,"MALE","1896-12-28","1981-10-13","Rouen","france","france",,18,4,5,,0,12,12,0,488,0,3,3,0,0,0,0,0,0
+"philippe-streiff","Philippe Streiff","Philippe","Streiff","Philippe Streiff","STR",,"MALE","1955-06-26","2022-12-23","La Tronche","france","france",,13,5,3,,0,54,54,0,2364,1,11,11,0,0,0,0,0,0
+"piercarlo-ghinzani","Piercarlo Ghinzani","Piercarlo","Ghinzani","Piercarlo Ghinzani","GHI",,"MALE","1952-01-16",,"Riviera d'Adda","italy","italy",,19,13,5,,0,111,72,0,2204,0,2,2,0,0,0,0,0,0
+"pierluigi-martini","Pierluigi Martini","Pierluigi","Martini","Pierluigi Martini","MAR",,"MALE","1961-04-23",,"Lugo","italy","italy",,11,2,4,,0,124,117,0,4879,0,18,18,0,0,0,0,0,0
+"piero-carini","Piero Carini","Piero","Carini","Piero Carini","CAR",,"MALE","1921-03-06","1957-05-30","Genoa","italy","italy",,,19,,,0,3,3,0,43,0,0,0,0,0,0,0,0,0
+"piero-drogo","Piero Drogo","Piero","Drogo","Piero Drogo","DRO",,"MALE","1926-08-08","1973-04-28","Vignale Monferrato","italy","italy",,,15,8,,0,1,1,0,45,0,0,0,0,0,0,0,0,0
+"piero-dusio","Piero Dusio","Piero","Dusio","Piero Dusio","DUS",,"MALE","1899-10-13","1975-11-07","Scurzolengo d'Asti","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"piero-scotti","Piero Scotti","Piero","Scotti","Piero Scotti","SCO",,"MALE","1909-11-11","1976-02-14","Florence","italy","italy",,,12,,,0,1,1,0,10,0,0,0,0,0,0,0,0,0
+"piero-taruffi","Piero Taruffi","Piero","Taruffi","Piero Taruffi","TAR",,"MALE","1906-10-12","1988-01-12","Albano Laziale","italy","italy",,3,2,1,,0,19,18,1,838,5,41,41,0,1,0,0,0,0
+"pierre-gasly","Pierre Gasly","Pierre","Gasly","Pierre Gasly","GAS","10","MALE","1996-02-07",,"Rouen","france","france",,7,2,1,3,0,183,182,1,9854,5,478,478,0,3,27,0,3,0
+"pierre-henri-raphanel","Pierre-Henri Raphanel","Pierre-Henri","Raphanel","Pierre-Henri Raphanel","RAP",,"MALE","1961-05-27",,"Algiers","algeria","france",,,18,,,0,17,1,0,19,0,0,0,0,0,0,0,0,0
+"pierre-levegh","Pierre Levegh","Pierre","Levegh","Pierre Eugène Alfred Bouillin","LEV",,"MALE","1905-12-22","1955-06-11","Paris","france","france",,,9,7,,0,6,6,0,158,0,0,0,0,0,0,0,0,0
+"piers-courage","Piers Courage","Piers","Courage","Piers Raymond Courage","COU",,"MALE","1942-05-27","1970-06-21","Colchester","united-kingdom","united-kingdom",,8,4,2,,0,30,28,0,1192,2,20,20,0,0,0,0,0,0
+"pietro-fittipaldi","Pietro Fittipaldi","Pietro","Fittipaldi","Pietro Fittipaldi da Cruz","FIT",,"MALE","1996-06-25",,"Miami","united-states-of-america","brazil",,23,17,17,,0,2,2,0,140,0,0,0,0,0,0,0,0,0
+"raffaele-marciello","Raffaele Marciello","Raffaele","Marciello","Raffaele Marciello","MAR",,"MALE","1994-12-17",,"Zürich","switzerland","italy",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ralf-schumacher","Ralf Schumacher","Ralf","Schumacher","Ralf Schumacher","RSC",,"MALE","1975-06-30",,"Hürth","germany","germany",,4,1,1,,0,180,180,6,9166,27,329,329,6,8,0,0,0,0
+"ralph-firman","Ralph Firman","Ralph","Firman","Ralph David Firman Jr.","FIR",,"MALE","1975-05-20",,"Norwich","united-kingdom","ireland",,19,14,8,,0,14,14,0,639,0,1,1,0,0,0,0,0,0
+"raul-boesel","Raul Boesel","Raul","Boesel","Raul de Mesquita Boesel","BOE",,"MALE","1957-12-04",,"Curitiba","brazil","brazil",,,17,7,,0,30,23,0,1028,0,0,0,0,0,0,0,0,0
+"ray-crawford","Ray Crawford","Ray","Crawford","Ray Crawford","CRA",,"MALE","1915-10-26","1996-02-01","Roswell","united-states-of-america","united-states-of-america",,,17,23,,0,3,3,0,275,0,0,0,0,0,0,0,0,0
+"raymond-sommer","Raymond Sommer","Raymond","Sommer","Raymond Sommer","SOM",,"MALE","1906-08-31","1950-09-10","Mouzon","france","france",,14,5,4,,0,5,5,0,189,0,3,3,0,0,0,0,0,0
+"red-amick","Red Amick","Red","Amick","Richard Amick","AMI",,"MALE","1929-01-19","1995-05-16","Kansas City","united-states-of-america","united-states-of-america",,,22,11,,0,2,2,0,245,0,0,0,0,0,0,0,0,0
+"reg-parnell","Reg Parnell","Reg","Parnell","Reginald Parnell","PAR",,"MALE","1911-07-02","1964-01-07","Derby","united-kingdom","united-kingdom",,9,4,3,,0,7,6,0,345,1,9,9,0,0,0,0,0,0
+"reine-wisell","Reine Wisell","Reine","Wisell","Reine Wisell","WIS",,"MALE","1941-09-30","2022-03-20","Motala","sweden","sweden",,12,6,3,,0,23,22,0,964,1,13,13,0,0,0,0,0,0
+"renato-pirocchi","Renato Pirocchi","Renato","Pirocchi","Renato Pirocchi","PIR",,"MALE","1933-03-26","2002-07-29","Notaresco","italy","italy",,,29,12,,0,1,1,0,38,0,0,0,0,0,0,0,0,0
+"rene-arnoux","René Arnoux","René","Arnoux","René Alexandre Arnoux","ARN",,"MALE","1948-07-04",,"Pontcharra","france","france",,3,1,1,,0,164,149,7,6611,22,181,181,18,12,0,0,0,0
+"renzo-zorzi","Renzo Zorzi","Renzo","Zorzi","Renzo Zorzi","ZOR",,"MALE","1946-12-12","2015-05-15","Ziano di Fiemme","italy","italy",,19,17,6,,0,7,7,0,199,0,1,1,0,0,0,0,0,0
+"ricardo-londono","Ricardo Londoño","Ricardo","Londoño","Ricardo Londoño-Bridge","LON",,"MALE","1949-08-08","2009-07-18","Medellín","colombia","colombia",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"ricardo-rodriguez","Ricardo Rodríguez","Ricardo","Rodríguez","Ricardo Valentín Rodríguez de la Vega","ROD",,"MALE","1942-02-14","1962-11-01","Mexico City","mexico","mexico",,13,2,4,,0,6,5,0,196,0,4,4,0,0,0,0,0,0
+"ricardo-rosset","Ricardo Rosset","Ricardo","Rosset","Ricardo Rosset","ROS",,"MALE","1968-07-27",,"São Paulo","brazil","brazil",,,17,8,,0,33,26,0,1076,0,0,0,0,0,0,0,0,0
+"ricardo-zonta","Ricardo Zonta","Ricardo","Zonta","Ricardo Luiz Zonta","ZON",,"MALE","1976-03-23",,"Curitiba","brazil","brazil",,14,6,6,,0,38,36,0,1716,0,3,3,0,0,0,0,0,0
+"ricardo-zunino","Ricardo Zunino","Ricardo","Zunino","Ricardo Héctor Zunino","ZUN",,"MALE","1949-04-13",,"San Juan","argentina","argentina",,,9,7,,0,11,10,0,373,0,0,0,0,0,0,0,0,0
+"riccardo-paletti","Riccardo Paletti","Riccardo","Paletti","Riccardo Paletti","PAL",,"MALE","1958-06-15","1982-06-13","Milan","italy","italy",,,13,,,0,8,2,0,7,0,0,0,0,0,0,0,0,0
+"riccardo-patrese","Riccardo Patrese","Riccardo","Patrese","Riccardo Gabriele Patrese","PAT",,"MALE","1954-04-17",,"Padua","italy","italy",,2,1,1,,0,257,256,6,11346,37,281,281,8,13,0,0,0,0
+"richard-attwood","Richard Attwood","Richard","Attwood","Richard James David Attwood","ATT",,"MALE","1940-04-04",,"Wolverhampton","united-kingdom","united-kingdom",,13,6,2,,0,18,17,0,884,1,11,11,0,1,0,0,0,0
+"richard-robarts","Richard Robarts","Richard","Robarts","Richard Robarts","ROB",,"MALE","1944-09-22",,"Bicknacre","united-kingdom","united-kingdom",,,22,15,,0,4,3,0,139,0,0,0,0,0,0,0,0,0
+"richie-ginther","Richie Ginther","Richie","Ginther","Paul Richard Ginther","GIN",,"MALE","1930-08-05","1989-09-20","Hollywood","united-states-of-america","united-states-of-america",,3,2,1,,0,54,52,1,2932,14,107,102,0,3,0,0,0,0
+"rikky-von-opel","Rikky von Opel","Rikky","Von Opel","Frederick von Opel","VON",,"MALE","1947-10-14",,"New York City","united-states-of-america","liechtenstein",,,14,9,,0,14,10,0,439,0,0,0,0,0,0,0,0,0
+"rio-haryanto","Rio Haryanto","Rio","Haryanto","Rio Haryanto","HAR",,"MALE","1993-01-22",,"Surakarta","indonesia","indonesia",,24,16,15,,0,12,12,0,611,0,0,0,0,0,0,0,0,0
+"rob-schroeder","Rob Schroeder","Rob","Schroeder","Robert Schroeder","SCH",,"MALE","1926-05-11","2011-12-03","El Dorado","united-states-of-america","united-states-of-america",,,16,10,,0,1,1,0,93,0,0,0,0,0,0,0,0,0
+"robert-doornbos","Robert Doornbos","Robert","Doornbos","Robert Michael Doornbos","DOO",,"MALE","1981-09-23",,"Rotterdam","netherlands","netherlands",,24,10,12,,0,11,11,0,553,0,0,0,0,0,0,0,0,0
+"robert-kubica","Robert Kubica","Robert","Kubica","Robert Józef Kubica","KUB",,"MALE","1984-12-07",,"Kraków","poland","poland",,4,1,1,18,0,99,99,1,5505,12,274,274,1,1,1,0,0,0
+"robert-la-caze","Robert La Caze","Robert","La Caze","Robert La Caze","LAC",,"MALE","1917-02-26","2015-07-01","Paris","france","morocco",,,23,14,,0,1,1,0,48,0,0,0,0,0,0,0,0,0
+"robert-manzon","Robert Manzon","Robert","Manzon","Robert Manzon","MAN",,"MALE","1917-04-12","2015-01-19","Marseille","france","france",,6,3,3,,0,29,28,0,1001,2,16,16,0,0,0,0,0,0
+"robert-obrien","Robert O'Brien","Robert","O'Brien","Robert O'Brien","O'B",,"MALE","1908-04-11","1987-02-10","Lyndhurst","united-states-of-america","united-states-of-america",,,22,14,,0,1,1,0,30,0,0,0,0,0,0,0,0,0
+"robert-shwartzman","Robert Shwartzman","Robert","Shwartzman","Robert Mikhailovich Shwartzman","SHW",,"MALE","1999-09-16",,"Tel Aviv","israel","russia","israel",,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"robert-wickens","Robert Wickens","Robert","Wickens","Robert Tyler Wickens","WIC",,"MALE","1989-03-13",,"Toronto","canada","canada",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"roberto-bonomi","Roberto Bonomi","Roberto","Bonomi","Roberto Wenceslao Bonomi Oliva","BON",,"MALE","1919-09-30","1992-01-10","Buenos Aires","argentina","argentina",,,17,11,,0,1,1,0,76,0,0,0,0,0,0,0,0,0
+"roberto-bussinello","Roberto Bussinello","Roberto","Bussinello","Roberto Bussinello","BUS",,"MALE","1927-10-04","1999-08-24","Pistoia","italy","italy",,,21,13,,0,3,2,0,59,0,0,0,0,0,0,0,0,0
+"roberto-guerrero","Roberto Guerrero","Roberto","Guerrero","Roberto José Guerrero Isaza","GUE",,"MALE","1958-11-16",,"Medellín","colombia","colombia",,,11,8,,0,28,21,0,608,0,0,0,0,0,0,0,0,0
+"roberto-lippi","Roberto Lippi","Roberto","Lippi","Roberto Lippi","LIP",,"MALE","1926-10-17","2011-10-31","Rome","italy","italy",,,32,,,0,3,1,0,1,0,0,0,0,0,0,0,0,0
+"roberto-merhi","Roberto Merhi","Roberto","Merhi","Roberto Merhi Muntan","MER",,"MALE","1991-03-22",,"Castellón de la Plana","spain","spain",,19,14,12,,0,14,13,0,737,0,0,0,0,0,0,0,0,0
+"roberto-mieres","Roberto Mieres","Roberto","Mieres","Roberto Casimiro Mieres","MIE",,"MALE","1924-12-03","2012-01-26","Mar del Plata","argentina","argentina",,8,6,4,,0,17,17,0,820,0,13,13,0,1,0,0,0,0
+"roberto-moreno","Roberto Moreno","Roberto","Moreno","Roberto Pupo Moreno","MOR",,"MALE","1959-02-11",,"Rio de Janeiro","brazil","brazil",,10,5,2,,0,75,42,0,1746,1,15,15,0,1,0,0,0,0
+"robin-frijns","Robin Frijns","Robin","Frijns","Robin Frijns","FRI",,"MALE","1991-08-07",,"Maastricht","netherlands","netherlands",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"robin-montgomerie-charrington","Robin Montgomerie-Charrington","Robin","Montgomerie-Charrington","Robert Victor Campbell Montgomerie","MON",,"MALE","1915-06-23","2007-04-03","London","united-kingdom","united-kingdom",,,15,,,0,1,1,0,17,0,0,0,0,0,0,0,0,0
+"robin-widdows","Robin Widdows","Robin","Widdows","Robin Michael Widdows","WID",,"MALE","1942-05-27",,"Cowley","united-kingdom","united-kingdom",,,18,,,0,1,1,0,34,0,0,0,0,0,0,0,0,0
+"rodger-ward","Rodger Ward","Rodger","Ward","Rodger M. Ward","WAR",,"MALE","1921-01-10","2004-07-05","Beloit","united-states-of-america","united-states-of-america",,10,3,1,,0,12,12,1,1350,2,14,14,0,0,0,0,0,0
+"rodney-nuckey","Rodney Nuckey","Rodney","Nuckey","Rodney Nuckey","NUC",,"MALE","1929-06-26","2000-06-29","Wood Green","united-kingdom","united-kingdom",,,20,11,,0,2,1,0,16,0,0,0,0,0,0,0,0,0
+"rodolfo-gonzalez","Rodolfo González","Rodolfo","González","Rodolfo González","GON",,"MALE","1986-05-14",,"Caracas","venezuela","venezuela",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"roelof-wunderink","Roelof Wunderink","Roelof","Wunderink","Roelof Wunderink","WUN",,"MALE","1948-12-12",,"Eindhoven","netherlands","netherlands",,,19,,,0,6,3,0,86,0,0,0,0,0,0,0,0,0
+"roger-laurent","Roger Laurent","Roger","Laurent","Roger Laurent","LAU",,"MALE","1913-02-21","1997-02-06","Liège","belgium","belgium",,,17,6,,0,2,2,0,48,0,0,0,0,0,0,0,0,0
+"roger-loyer","Roger Loyer","Roger","Loyer","Roger Loyer","LOY",,"MALE","1907-08-05","1988-03-24","Paris","france","france",,,16,,,0,1,1,0,19,0,0,0,0,0,0,0,0,0
+"roger-penske","Roger Penske","Roger","Penske","Roger S. Penske","PEN",,"MALE","1937-02-20",,"Shaker Heights","united-states-of-america","united-states-of-america",,,12,8,,0,2,2,0,192,0,0,0,0,0,0,0,0,0
+"roger-williamson","Roger Williamson","Roger","Williamson","Roger Williamson","WIL",,"MALE","1948-02-02","1973-07-29","Ashby-de-la-Zouch","united-kingdom","united-kingdom",,,18,,,0,2,2,0,7,0,0,0,0,0,0,0,0,0
+"roland-ratzenberger","Roland Ratzenberger","Roland","Ratzenberger","Roland Ratzenberger","RAT",,"MALE","1960-07-04","1994-04-30","Salzburg","austria","austria",,,26,11,,0,3,1,0,78,0,0,0,0,0,0,0,0,0
+"rolf-stommelen","Rolf Stommelen","Rolf","Stommelen","Rolf Johann Stommelen","STO",,"MALE","1943-07-11","1983-04-24","Siegen","germany","germany",,11,7,3,,0,63,54,0,2466,1,14,14,0,0,0,0,0,0
+"romain-grosjean","Romain Grosjean","Romain","Grosjean","Romain Grosjean","GRO",,"MALE","1986-04-17",,"Geneva","switzerland","france","switzerland",7,2,2,,0,181,179,0,8848,10,391,391,0,1,0,0,3,0
+"ron-flockhart","Ron Flockhart","Ron","Flockhart","Ron Flockhart","FLO",,"MALE","1923-06-16","1962-04-12","Edinburgh","united-kingdom","united-kingdom",,12,8,3,,0,14,13,0,481,1,5,5,0,0,0,0,0,0
+"ronnie-bucknum","Ronnie Bucknum","Ronnie","Bucknum","Ronnie Bucknum","BUC",,"MALE","1936-04-05","1992-04-23","Alhambra","united-states-of-america","united-states-of-america",,14,6,5,,0,11,11,0,420,0,2,2,0,0,0,0,0,0
+"ronnie-peterson","Ronnie Peterson","Ronnie","Peterson","Bengt Ronnie Peterson","PET",,"MALE","1944-02-14","1978-09-11","Örebro","sweden","sweden",,2,1,1,,0,123,123,10,5724,26,206,206,14,9,0,0,0,0
+"roy-nissany","Roy Nissany","Roy","Nissany","Roy Nissany","NIS",,"MALE","1994-11-30",,"Tel Aviv","israel","israel",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"roy-salvadori","Roy Salvadori","Roy","Salvadori","Roy Francesco Salvadori","SAL",,"MALE","1922-05-12","2012-06-03","Dovercourt","united-kingdom","united-kingdom",,4,2,2,,0,50,47,0,1880,2,19,19,0,0,0,0,0,0
+"rubens-barrichello","Rubens Barrichello","Rubens","Barrichello","Rubens Gonçalves Barrichello","BAR",,"MALE","1972-05-23",,"São Paulo","brazil","brazil",,2,1,1,,0,326,322,11,16631,68,658,658,14,17,0,0,0,0
+"rudi-fischer","Rudi Fischer","Rudi","Fischer","Rudolf Fischer","FIS",,"MALE","1912-04-19","1976-12-30","Stuttgart","germany","switzerland",,4,5,2,,0,8,7,0,287,2,10,10,0,0,0,0,0,0
+"rudolf-krause","Rudolf Krause","Rudolf","Krause","Rudolf Krause","KRA",,"MALE","1907-03-30","1987-04-11","Reichenbach im Vogtland","germany","germany",,,23,14,,0,2,2,0,19,0,0,0,0,0,0,0,0,0
+"rudolf-schoeller","Rudolf Schoeller","Rudolf","Schoeller","Rudolf Schoeller","SCH",,"MALE","1902-04-27","1978-03-07","Düren","germany","switzerland",,,24,,,0,1,1,0,3,0,0,0,0,0,0,0,0,0
+"rupert-keegan","Rupert Keegan","Rupert","Keegan","Rupert Keegan","KEE",,"MALE","1955-02-26","2024-09-23","Westcliff-on-Sea","united-kingdom","united-kingdom",,,13,7,,0,37,25,0,1028,0,0,0,0,0,0,0,0,0
+"ryan-briscoe","Ryan Briscoe","Ryan","Briscoe","Ryan Briscoe","BRI",,"MALE","1981-09-24",,"Sydney","australia","australia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ryo-hirakawa","Ryō Hirakawa","Ryō","Hirakawa","Ryō Hirakawa","HIR",,"MALE","1994-03-07",,"Kure","japan","japan",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"sakon-yamamoto","Sakon Yamamoto","Sakon","Yamamoto","Sakon Yamamoto","YAM",,"MALE","1982-07-09",,"Toyohashi","japan","japan",,24,19,12,,0,21,21,0,820,0,0,0,0,0,0,0,0,0
+"sam-hanks","Sam Hanks","Sam","Hanks","Sam Hanks","HAN",,"MALE","1914-07-13","1994-06-27","Columbus","united-states-of-america","united-states-of-america",,7,5,1,,0,8,8,1,1302,4,20,20,0,0,0,0,0,0
+"sam-posey","Sam Posey","Sam","Posey","Sam Posey","POS",,"MALE","1944-05-26",,"New York City","united-states-of-america","united-states-of-america",,,17,12,,0,2,2,0,72,0,0,0,0,0,0,0,0,0
+"sam-tingle","Sam Tingle","Sam","Tingle","Samuel Tingle","TIN",,"MALE","1921-08-24","2008-12-19","Manchester","united-kingdom","zimbabwe",,,14,8,,0,5,5,0,239,0,0,0,0,0,0,0,0,0
+"satoru-nakajima","Satoru Nakajima","Satoru","Nakajima","Satoru Nakajima","NAK",,"MALE","1953-02-23",,"Okazaki","japan","japan",,12,6,4,,0,80,74,0,3078,0,16,16,0,1,0,0,0,0
+"satoshi-motoyama","Satoshi Motoyama","Satoshi","Motoyama","Satoshi Motoyama","MOT",,"MALE","1971-03-04",,"Tokyo","japan","japan",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"scott-speed","Scott Speed","Scott","Speed","Scott Andrew Speed","SPE",,"MALE","1983-01-24",,"Manteca","united-states-of-america","united-states-of-america",,20,11,9,,0,28,28,0,1285,0,0,0,0,0,0,0,0,0
+"sean-gelael","Sean Gelael","Sean","Gelael","Muhammad Sean Ricardo Gelael","GEL",,"MALE","1996-11-01",,"Jakarta","indonesia","indonesia",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"sebastian-vettel","Sebastian Vettel","Sebastian","Vettel","Sebastian Vettel","VET",,"MALE","1987-07-03",,"Heppenheim","germany","germany",,1,1,1,8,4,300,299,53,16426,122,3098,3098,57,38,6,0,23,4
+"sebastien-bourdais","Sébastien Bourdais","Sébastien","Bourdais","Sébastien Olivier Bourdais","BOU",,"MALE","1979-02-28",,"Le Mans","france","france",,17,4,7,,0,27,27,0,1279,0,6,6,0,0,0,0,0,0
+"sebastien-buemi","Sébastien Buemi","Sébastien","Buemi","Sébastien Olivier Buemi","BUE",,"MALE","1988-10-31",,"Aigle","switzerland","switzerland",,15,6,7,,0,55,55,0,2612,0,29,29,0,0,0,0,0,0
+"sergey-sirotkin","Sergey Sirotkin","Sergey","Sirotkin","Sergey Olegovich Sirotkin","SIR",,"MALE","1995-08-27",,"Moscow","russia","russia",,20,11,10,,0,21,21,0,1118,0,1,1,0,0,0,0,0,0
+"sergio-mantovani","Sergio Mantovani","Sergio","Mantovani","Sergio Mantovani","MAN",,"MALE","1929-05-22","2001-02-23","Cusano Milanino","italy","italy",,16,9,5,,0,8,7,0,382,0,4,4,0,0,0,0,0,0
+"sergio-perez","Sergio Pérez","Sergio","Pérez","Sergio Pérez Mendoza","PER","11","MALE","1990-01-26",,"Guadalajara","mexico","mexico",,2,1,1,1,0,288,286,6,15747,39,1638,1638,3,12,21,1,14,0
+"shinji-nakano","Shinji Nakano","Shinji","Nakano","Shinji Nakano","NAK",,"MALE","1971-04-01",,"Takatsuki","japan","japan",,18,12,6,,0,33,33,0,1493,0,2,2,0,0,0,0,0,0
+"shorty-templeman","Shorty Templeman","Shorty","Templeman","Clark Thomas Templeman","TEM",,"MALE","1919-08-12","1962-08-24","Pueblo","united-states-of-america","united-states-of-america",,,19,17,,0,3,3,0,449,0,0,0,0,0,0,0,0,0
+"siegfried-stohr","Siegfried Stohr","Siegfried","Stohr","Siegfried Stohr","STO",,"MALE","1952-10-10",,"Rimini","italy","italy",,,13,7,,0,13,9,0,270,0,0,0,0,0,0,0,0,0
+"silvio-moser","Silvio Moser","Silvio","Moser","Silvio Moser","MOS",,"MALE","1941-04-24","1974-05-26","Zürich","switzerland","switzerland",,16,13,5,,0,20,12,0,458,0,3,3,0,0,0,0,0,0
+"skip-barber","Skip Barber","Skip","Barber","John Barber III","BAR",,"MALE","1936-11-16",,"Philadelphia","united-states-of-america","united-states-of-america",,,20,16,,0,6,5,0,206,0,0,0,0,0,0,0,0,0
+"slim-borgudd","Slim Borgudd","Slim","Borgudd","Karl Edward Tommy Borgudd","BOR",,"MALE","1946-11-25","2023-02-23","Borgholm","sweden","sweden",,18,20,6,,0,15,10,0,521,0,1,1,0,0,0,0,0,0
+"spider-webb","Spider Webb","Spider","Webb","Travis Webb","WEB",,"MALE","1910-10-08","1990-01-27","Joplin","united-states-of-america","united-states-of-america",,,14,19,,0,4,4,0,558,0,0,0,0,0,0,0,0,0
+"stefan-bellof","Stefan Bellof","Stefan","Bellof","Stefan Bellof","BEL",,"MALE","1957-11-20","1985-09-01","Gießen","germany","germany",,16,19,4,,0,22,21,0,464,0,4,4,0,0,0,0,0,0
+"stefan-johansson","Stefan Johansson","Stefan","Johansson","Stefan Nils Edwin Johansson","JOH",,"MALE","1956-09-08",,"Växjö","sweden","sweden",,5,2,2,,0,103,80,0,3348,12,88,88,0,0,0,0,0,0
+"stefano-modena","Stefano Modena","Stefano","Modena","Stefano Modena","MOD",,"MALE","1963-05-12",,"Modena","italy","italy",,8,2,2,,0,81,70,0,3019,2,17,17,0,0,0,0,0,0
+"stephane-sarrazin","Stéphane Sarrazin","Stéphane","Sarrazin","Stéphane Jean-Marc Sarrazin","SAR",,"MALE","1975-11-02",,"Barjac","france","france",,,17,,,0,1,1,0,31,0,0,0,0,0,0,0,0,0
+"stephen-south","Stephen South","Stephen","South","Stephen South","SOU",,"MALE","1952-02-19",,"Harrow","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"stirling-moss","Stirling Moss","Stirling","Moss","Sir Stirling Moss","MOS",,"MALE","1929-09-17","2020-04-12","West Kensington","united-kingdom","united-kingdom",,2,1,1,,0,67,66,16,3197,24,186.64,185.64,16,19,0,0,0,1
+"stoffel-vandoorne","Stoffel Vandoorne","Stoffel","Vandoorne","Stoffel Vandoorne","VAN",,"MALE","1992-03-26",,"Kortrijk","belgium","belgium",,16,7,7,,0,42,41,0,2207,0,26,26,0,0,0,0,0,0
+"stuart-lewis-evans","Stuart Lewis-Evans","Stuart","Lewis-Evans","Stuart Nigel Lewis-Evans","LEW",,"MALE","1930-04-20","1958-10-25","Luton","united-kingdom","united-kingdom",,9,1,3,,0,14,14,0,601,2,16,16,2,0,0,0,0,0
+"susie-wolff","Susie Wolff","Susie","Wolff","Suzanne Wolff","WOL",,"FEMALE","1982-12-06",,"Oban","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"taki-inoue","Taki Inoue","Taki","Inoue","Takachiho Inoue","INO",,"MALE","1963-09-05",,"Kobe","japan","japan",,,18,8,,0,18,18,0,544,0,0,0,0,0,0,0,0,0
+"takuma-sato","Takuma Sato","Takuma","Sato","Takuma Sato","SAT",,"MALE","1977-01-28",,"Tokyo","japan","japan",,8,2,3,,0,91,90,0,4484,1,44,44,0,0,0,0,0,0
+"tarso-marques","Tarso Marques","Tarso","Marques","Tarso Anibal Santanna Marques","MAR",,"MALE","1976-01-19",,"Curitiba","brazil","brazil",,22,14,9,,0,26,24,0,932,0,0,0,0,0,0,0,0,0
+"ted-whiteaway","Ted Whiteaway","Ted","Whiteaway","Edward N. Whiteaway","WHI",,"MALE","1928-11-01","1995-10-18","Feltham","united-kingdom","united-kingdom",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"teddy-pilette","Teddy Pilette","Theodore","Pilette","Theodore Pilette","PIL",,"MALE","1942-07-26",,"Brussels","belgium","belgium",,,27,17,,0,4,1,0,81,0,0,0,0,0,0,0,0,0
+"teo-fabi","Teo Fabi","Teo","Fabi","Teodorico Fabi","FAB",,"MALE","1955-03-09",,"Milan","italy","italy",,9,1,3,,0,71,64,0,2194,2,23,23,3,2,0,0,0,0
+"theo-fitzau","Theo Fitzau","Theo","Fitzau","Theodor Fitzau","FIT",,"MALE","1923-02-10","1982-03-18","Köthen","germany","germany",,,21,,,0,1,1,0,3,0,0,0,0,0,0,0,0,0
+"theo-helfrich","Theo Helfrich","Theo","Helfrich","Theodor Helfrich","HEL",,"MALE","1913-05-13","1978-04-29","Frankfurt am Main","germany","germany",,,18,12,,0,3,3,0,25,0,0,0,0,0,0,0,0,0
+"theo-pourchaire","Théo Pourchaire","Théo","Pourchaire","Théo Jérôme Julien Pourchaire","POU",,"MALE","2003-08-20",,"Grasse","france","france",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"thierry-boutsen","Thierry Boutsen","Thierry","Boutsen","Thierry Marc Boutsen","BOU",,"MALE","1957-07-13",,"Brussels","belgium","belgium",,4,1,1,,0,164,163,3,8046,15,132,132,1,1,0,0,0,0
+"tiago-monteiro","Tiago Monteiro","Tiago","Monteiro","Tiago da Costa Monteiro","MON",,"MALE","1976-07-24",,"Porto","portugal","portugal",,16,11,3,,0,37,37,0,2008,1,7,7,0,0,0,0,0,0
+"tiff-needell","Tiff Needell","Tiff","Needell","Timothy Needell","NEE",,"MALE","1951-10-29",,"Havant","united-kingdom","united-kingdom",,,23,,,0,2,1,0,12,0,0,0,0,0,0,0,0,0
+"tim-parnell","Tim Parnell","Tim","Parnell","Reginald Harold Haslam Parnell","PAR",,"MALE","1932-06-25",,"Derby","united-kingdom","united-kingdom",,,27,10,,0,4,2,0,52,0,0,0,0,0,0,0,0,0
+"tim-schenken","Tim Schenken","Tim","Schenken","Timothy Theodore Schenken","SCH",,"MALE","1943-09-26",,"Gordon","australia","australia",,14,5,3,,0,36,34,0,1426,1,7,7,0,0,0,0,0,0
+"timmy-mayer","Timmy Mayer","Timmy","Mayer","Timothy Andrew Mayer","MAY",,"MALE","1938-02-22","1964-02-28","Dalton","united-states-of-america","united-states-of-america",,,11,,,0,1,1,0,31,0,0,0,0,0,0,0,0,0
+"timo-glock","Timo Glock","Timo","Glock","Timo Glock","GLO",,"MALE","1982-03-18",,"Lindenfels","germany","germany",,10,2,2,,0,95,91,0,4751,3,51,51,0,1,0,0,0,0
+"tom-belso","Tom Belsø","Tom","Belsø","Tom Belsø","BEL",,"MALE","1942-08-27","2020-01-12","Gladsaxe","denmark","denmark",,,21,8,,0,5,2,0,79,0,0,0,0,0,0,0,0,0
+"tom-bridger","Tom Bridger","Tom","Bridger","Thomas Bridger","BRI",,"MALE","1934-06-24","1991-07-30","Woolmer Green","united-kingdom","united-kingdom",,,22,,,0,1,1,0,30,0,0,0,0,0,0,0,0,0
+"tom-jones","Tom Jones","Tom","Jones","Tom Jones","JON",,"MALE","1943-04-26","2015-05-29","Dallas","united-states-of-america","united-states-of-america",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"tom-pryce","Tom Pryce","Tom","Pryce","Thomas Maldwyn Pryce","PRY",,"MALE","1949-06-11","1977-03-05","Ruthin","united-kingdom","united-kingdom",,10,1,3,,0,42,42,0,1919,2,19,19,1,0,0,0,0,0
+"tomas-enge","Tomáš Enge","Tomáš","Enge","Tomáš Enge","ENG",,"MALE","1976-09-11",,"Liberec","ireland","czechia",,24,19,12,,0,3,3,0,166,0,0,0,0,0,0,0,0,0
+"tommy-byrne","Tommy Byrne","Tommy","Byrne","Thomas Byrne","BYR",,"MALE","1958-05-06",,"Dundalk","ireland","ireland",,,26,,,0,5,2,0,67,0,0,0,0,0,0,0,0,0
+"toni-branca","Toni Branca","Toni","Branca","Antonio Branca","BRA",,"MALE","1916-09-15","1985-05-10","Sion","switzerland","switzerland",,,13,10,,0,3,3,0,67,0,0,0,0,0,0,0,0,0
+"toni-ulmen","Toni Ulmen","Toni","Ulmen","Anton Ulmen","ULM",,"MALE","1906-01-25","1976-11-04","Düsseldorf","germany","germany",,,15,8,,0,2,2,0,20,0,0,0,0,0,0,0,0,0
+"tony-bettenhausen","Tony Bettenhausen","Tony","Bettenhausen","Melvin Eugene Bettenhausen","BET",,"MALE","1916-09-12","1961-05-12","Tinley Park","united-states-of-america","united-states-of-america",,13,2,2,,0,11,11,0,1682,1,11,11,0,1,0,0,0,0
+"tony-brise","Tony Brise","Tony","Brise","Anthony William Brise","BRI",,"MALE","1952-03-28","1975-11-29","Erith","united-kingdom","united-kingdom",,19,6,6,,0,10,10,0,347,0,1,1,0,0,0,0,0,0
+"tony-brooks","Tony Brooks","Tony","Brooks","Charles Anthony Standish Brooks","BRO",,"MALE","1932-02-25","2022-05-03","Dukinfield","united-kingdom","united-kingdom",,2,1,1,,0,39,38,6,1622,10,75,75,3,3,0,0,0,0
+"tony-crook","Tony Crook","Tony","Crook","Anthony Crook","CRO",,"MALE","1920-02-16","2014-01-21","Manchester","united-kingdom","united-kingdom",,,25,21,,0,2,2,0,75,0,0,0,0,0,0,0,0,0
+"tony-gaze","Tony Gaze","Tony","Gaze","Frederick Anthony Owen Gaze","GAZ",,"MALE","1920-02-03","2013-07-29","Prahran","australia","australia",,,14,15,,0,4,3,0,56,0,0,0,0,0,0,0,0,0
+"tony-maggs","Tony Maggs","Tony","Maggs","Anthony Francis O'Connell Maggs","MAG",,"MALE","1937-02-09","2009-06-02","Pretoria","south-africa","south-africa",,7,4,2,,0,27,25,0,1356,3,26,26,0,0,0,0,0,0
+"tony-marsh","Tony Marsh","Tony","Marsh","Anthony Ernest Marsh","MAR",,"MALE","1931-07-20","2009-05-07","Stourbridge","united-kingdom","united-kingdom",,,14,8,,0,5,4,0,70,0,0,0,0,0,0,0,0,0
+"tony-rolt","Tony Rolt","Tony","Rolt","Anthony Peter Roylance Rolt","ROL",,"MALE","1918-10-16","2008-02-06","Bordon","united-kingdom","united-kingdom",,,10,,,0,3,3,0,90,0,0,0,0,0,0,0,0,0
+"tony-settember","Tony Settember","Tony","Settember","Anthony Frank Settember","SET",,"MALE","1926-07-10","2014-05-04","Manila","philippines","united-states-of-america",,,18,8,,0,7,6,0,144,0,0,0,0,0,0,0,0,0
+"tony-shelly","Tony Shelly","Tony","Shelly","Anthony Lionel Shelly","SHE",,"MALE","1937-02-02","1998-10-04","Wellington","new-zealand","new-zealand",,,18,,,0,3,1,0,5,0,0,0,0,0,0,0,0,0
+"tony-trimmer","Tony Trimmer","Tony","Trimmer","Tony Trimmer","TRI",,"MALE","1943-01-24",,"Maidenhead","united-kingdom","united-kingdom",,,,,,0,6,0,0,0,0,0,0,0,0,0,0,0,0
+"toranosuke-takagi","Toranosuke Takagi","Toranosuke","Takagi","Toranosuke Takagi","TAK",,"MALE","1974-02-12",,"Shizuoka","japan","japan",,,13,7,,0,32,32,0,1274,0,0,0,0,0,0,0,0,0
+"torsten-palm","Torsten Palm","Torsten","Palm","Torsten Palm","PAL",,"MALE","1947-07-23",,"Kristinehamn","sweden","sweden",,,21,10,,0,2,1,0,78,0,0,0,0,0,0,0,0,0
+"toshio-suzuki","Toshio Suzuki","Toshio","Suzuki","Toshio Suzuki","SUZ",,"MALE","1955-03-10",,"Saitama Prefecture","japan","japan",,,23,12,,0,2,2,0,125,0,0,0,0,0,0,0,0,0
+"trevor-blokdyk","Trevor Blokdyk","Trevor","Blokdyk","John Trevor Blokdyk","BLO",,"MALE","1935-11-30","1995-03-19","Krugersdorp","south-africa","south-africa",,,19,12,,0,2,1,0,77,0,0,0,0,0,0,0,0,0
+"trevor-taylor","Trevor Taylor","Trevor","Taylor","Trevor Taylor","TAY",,"MALE","1936-12-26","2010-09-27","Sheffield","united-kingdom","united-kingdom",,10,3,2,,0,29,27,0,1014,1,8,8,0,0,0,0,0,0
+"troy-ruttman","Troy Ruttman","Troy","Ruttman","Troy Ruttman","RUT",,"MALE","1930-03-11","1997-05-19","Mooreland","united-states-of-america","united-states-of-america",,7,3,1,,0,9,8,1,822,1,9.5,9.5,0,0,0,0,0,0
+"ukyo-katayama","Ukyo Katayama","Ukyo","Katayama","Ukyo Katayama","KAT",,"MALE","1963-05-29",,"Tokyo","japan","japan",,17,5,5,,0,97,95,0,3509,0,5,5,0,0,0,0,0,0
+"umberto-maglioli","Umberto Maglioli","Umberto","Maglioli","Umberto Maglioli","MAG",,"MALE","1928-06-05","1999-02-07","Bioglio","italy","italy",,18,7,3,,0,10,10,0,424,2,3.33,3.33,0,0,0,0,0,0
+"valtteri-bottas","Valtteri Bottas","Valtteri","Bottas","Valtteri Bottas","BOT","77","MALE","1989-08-28",,"Nastola","finland","finland",,2,1,1,1,0,252,251,10,14100,67,1797,1797,20,19,21,2,5,0
+"vern-schuppan","Vern Schuppan","Vern","Schuppan","Vernon Schuppan","SCH",,"MALE","1943-03-19",,"Booleroo Centre","australia","australia",,,14,7,,0,13,9,0,447,0,0,0,0,0,0,0,0,0
+"vic-elford","Vic Elford","Vic","Elford","Victor Henry Elford","ELF",,"MALE","1935-06-10","2022-03-13","London","united-kingdom","united-kingdom",,14,5,4,,0,13,13,0,594,0,8,8,0,0,0,0,0,0
+"vic-wilson","Vic Wilson","Vic","Wilson","Victor Arthur Wilson","WIL",,"MALE","1931-04-14","2001-01-14","Drypool","united-kingdom","united-kingdom",,,16,,,0,2,1,0,23,0,0,0,0,0,0,0,0,0
+"victor-martins","Victor Martins","Victor","Martins","Victor Martins","MAR",,"MALE","2001-06-16",,"Quincy-sous-Sénart","france","france",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"vincenzo-sospiri","Vincenzo Sospiri","Vincenzo","Sospiri","Vincenzo Sospiri","SOS",,"MALE","1966-10-09",,"Forlì","italy","italy",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"vitaly-petrov","Vitaly Petrov","Vitaly","Petrov","Vitaly Aleksandrovich Petrov","PET",,"MALE","1984-09-08",,"Vyborg","russia","russia",,10,6,3,,0,58,57,0,2992,1,64,64,0,1,0,0,0,0
+"vitantonio-liuzzi","Vitantonio Liuzzi","Vitantonio","Liuzzi","Vitantonio Liuzzi","LIU",,"MALE","1980-08-06",,"Locorotondo","italy","italy",,15,5,6,,0,80,80,0,3800,0,26,26,0,0,0,0,0,0
+"vittorio-brambilla","Vittorio Brambilla","Vittorio","Brambilla","Vittorio Brambilla","BRA",,"MALE","1937-11-11","2001-05-26","Monza","italy","italy",,11,1,1,,0,79,74,1,3021,1,15.5,15.5,1,1,0,0,0,0
+"volker-weidler","Volker Weidler","Volker","Weidler","Volker Weidler","WEI",,"MALE","1962-03-18",,"Heidelberg","germany","germany",,,,,,0,10,0,0,0,0,0,0,0,0,0,0,0,0
+"walt-ader","Walt Ader","Walt","Ader","Walt Ader","ADE",,"MALE","1913-12-15","1982-11-25","Long Valley","united-states-of-america","united-states-of-america",,,29,22,,0,1,1,0,123,0,0,0,0,0,0,0,0,0
+"walt-brown","Walt Brown","Walt","Brown","Walt Brown","BRO",,"MALE","1910-12-30","1951-07-29","Springfield","united-states-of-america","united-states-of-america",,,13,19,,0,2,2,0,182,0,0,0,0,0,0,0,0,0
+"walt-faulkner","Walt Faulkner","Walt","Faulkner","Walt Faulkner","FAU",,"MALE","1918-02-16","1956-04-22","Tell","united-states-of-america","united-states-of-america",,23,1,5,,0,5,5,0,634,0,1,1,1,0,0,0,0,0
+"walt-hansgen","Walt Hansgen","Walt","Hansgen","Walter Edwin Hansgen","HAN",,"MALE","1919-10-28","1966-04-07","Westfield","united-states-of-america","united-states-of-america",,16,14,5,,0,2,2,0,121,0,2,2,0,0,0,0,0,0
+"warwick-brown","Warwick Brown","Warwick","Brown","Warwick Brown","BRO",,"MALE","1949-12-24",,"Sydney","australia","australia",,,23,14,,0,1,1,0,54,0,0,0,0,0,0,0,0,0
+"wayne-weiler","Wayne Weiler","Wayne","Weiler","Wayne Weiler","WEI",,"MALE","1934-12-09","2005-10-13","Phoenix","united-states-of-america","united-states-of-america",,,15,24,,0,1,1,0,103,0,0,0,0,0,0,0,0,0
+"will-stevens","Will Stevens","Will","Stevens","William Stevens","STE",,"MALE","1991-06-28",,"Rochford","united-kingdom","united-kingdom",,21,13,13,,0,20,18,0,926,0,0,0,0,0,0,0,0,0
+"willi-heeks","Willi Heeks","Willi","Heeks","Willi Heeks","HEE",,"MALE","1922-02-13","1996-08-13","Moorlage","germany","germany",,,9,,,0,2,2,0,15,0,0,0,0,0,0,0,0,0
+"willi-krakau","Willi Krakau","Willi","Krakau","Willi Krakau","KRA",,"MALE","1911-12-04","1995-04-26","Felgeleben","germany","germany",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"william-ferguson","William Ferguson","William","Ferguson","William Ferguson","FER",,"MALE","1940-03-06","2007-05-19","Johannesburg","south-africa","south-africa",,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"willy-mairesse","Willy Mairesse","Willy","Mairesse","Willy Mairesse","MAI",,"MALE","1928-10-01","1969-09-02","Momignies","belgium","belgium",,14,3,3,,0,13,12,0,379,1,7,7,0,0,0,0,0,0
+"wilson-fittipaldi","Wilson Fittipaldi","Wilson","Fittipaldi","Wilson Fittipaldi Júnior","FIT",,"MALE","1943-12-25","2024-02-23","São Paulo","brazil","brazil",,16,9,5,,0,38,35,0,1439,0,3,3,0,0,0,0,0,0
+"wolfgang-seidel","Wolfgang Seidel","Wolfgang","Seidel","Wolfgang Seidel","SEI",,"MALE","1926-07-04","1987-03-01","Dresden","germany","germany",,,13,9,,0,13,10,0,210,0,0,0,0,0,0,0,0,0
+"wolfgang-von-trips","Wolfgang von Trips","Wolfgang","Von Trips","Wolfgang Alexander Albert Eduard Maximilian Reichsgraf Berghe von Trips","VON",,"MALE","1928-05-04","1961-09-10","Cologne","germany","germany",,2,1,1,,0,29,27,2,1312,6,56,56,1,0,0,0,0,0
+"xavier-perrot","Xavier Perrot","Xavier","Perrot","Xavier Roger Perrot","PER",,"MALE","1932-02-01","2008-12-08","Zurich","switzerland","switzerland",,,22,10,,0,1,1,0,13,0,0,0,0,0,0,0,0,0
+"yannick-dalmas","Yannick Dalmas","Yannick","Dalmas","Yannick Dalmas","DAL",,"MALE","1961-07-28",,"Le Beausset","france","france",,,15,5,,0,50,24,0,1157,0,0,0,0,0,0,0,0,0
+"yuji-ide","Yuji Ide","Yuji","Ide","Yuji Ide","IDE",,"MALE","1975-01-21",,"Saitama","japan","japan",,25,18,13,,0,4,4,0,145,0,0,0,0,0,0,0,0,0
+"yuki-tsunoda","Yuki Tsunoda","Yuki","Tsunoda","Yuki Tsunoda","TSU","22","MALE","2000-05-11",,"Sagamihara","japan","japan",,12,3,4,5,0,114,111,0,6016,0,124,124,0,1,24,0,2,0
+"yves-giraud-cabantous","Yves Giraud-Cabantous","Yves","Giraud-Cabantous","Marius Aristide Yves Giraud-Cabantous","CAB",,"MALE","1904-10-08","1973-03-30","Saint-Gaudens","france","france",,14,5,4,,0,13,13,0,522,0,5,5,0,0,0,0,0,0
+"zak-osullivan","Zak O'Sullivan","Zak","O'Sullivan","Zak O'Sullivan","OSU",,"MALE","2005-02-06",,"Cheltenham","united-kingdom","united-kingdom",,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"zsolt-baumgartner","Zsolt Baumgartner","Zsolt","Baumgartner","Zsolt Baumgartner","BAU",,"MALE","1981-01-01",,"Debrecen","hungary","hungary",,20,17,8,,0,20,20,0,959,0,1,1,0,0,0,0,0,0
