@@ -1,0 +1,64 @@
+{
+  "$id": "https://www.f1db.com/schema/v6.4.0/splitted/f1db-drivers-family-relationships.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "F1DB",
+  "description": "F1DB Drivers Family Relationships JSON Schema",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/DriverFamilyRelationship"
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "DriverFamilyRelationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parentDriverId": {
+          "type": "string",
+          "description": "The identifier of the parent driver in the relationship."
+        },
+        "positionDisplayOrder": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The display order of the family relationship relative to other relationships of the parent driver."
+        },
+        "driverId": {
+          "type": "string",
+          "description": "The identifier of the related driver."
+        },
+        "type": {
+          "$ref": "#/definitions/FamilyRelationshipType",
+          "description": "The type of the family relationship."
+        }
+      },
+      "required": [
+        "parentDriverId",
+        "positionDisplayOrder",
+        "driverId",
+        "type"
+      ]
+    },
+    "FamilyRelationshipType": {
+      "type": "string",
+      "enum": [
+        "PARENT",
+        "PARENT_IN_LAW",
+        "CHILD",
+        "CHILD_IN_LAW",
+        "SPOUSE",
+        "SIBLING",
+        "SIBLING_IN_LAW",
+        "HALF_SIBLING",
+        "GRANDPARENT",
+        "GRANDCHILD",
+        "PARENTS_SIBLING",
+        "PARENTS_SIBLINGS_CHILD",
+        "SIBLINGS_CHILD",
+        "SIBLINGS_CHILD_IN_LAW",
+        "SIBLINGS_GRANDCHILD",
+        "GRANDPARENTS_SIBLING"
+      ],
+      "description": "The family relationship type."
+    }
+  }
+}

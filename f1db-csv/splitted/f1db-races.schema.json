@@ -1,0 +1,332 @@
+{
+  "$id": "https://www.f1db.com/schema/v6.4.0/splitted/f1db-races.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "F1DB",
+  "description": "F1DB Races JSON Schema",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Race"
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "Race": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "The unique identifier of the race."
+        },
+        "year": {
+          "type": "integer",
+          "description": "The year of the season."
+        },
+        "round": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The round number of the race in the season."
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "The date of the race in UTC."
+        },
+        "time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the race in UTC."
+        },
+        "grandPrixId": {
+          "type": "string",
+          "description": "The identifier of the Grand Prix associated with the race."
+        },
+        "officialName": {
+          "type": "string",
+          "description": "The official name of the race."
+        },
+        "qualifyingFormat": {
+          "$ref": "#/definitions/QualifyingFormat",
+          "description": "The qualifying format of the race."
+        },
+        "sprintQualifyingFormat": {
+          "$ref": "#/definitions/SprintQualifyingFormat",
+          "description": "The sprint qualifying format of the race."
+        },
+        "circuitId": {
+          "type": "string",
+          "description": "The identifier of the circuit where the race takes place."
+        },
+        "circuitLayoutId": {
+          "type": "string",
+          "description": "The identifier of the circuit layout."
+        },
+        "circuitType": {
+          "$ref": "#/definitions/CircuitType",
+          "description": "The type of the circuit."
+        },
+        "direction": {
+          "$ref": "#/definitions/Direction",
+          "description": "The direction of the circuit."
+        },
+        "courseLength": {
+          "type": "number",
+          "minimum": 0,
+          "description": "The length of the circuit (race course) in kilometers."
+        },
+        "turns": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The number of turns (corners) in the configuration of the circuit."
+        },
+        "laps": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The total number of laps of the race."
+        },
+        "distance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "The total distance of the race in kilometers."
+        },
+        "scheduledLaps": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "The scheduled number of laps of the race."
+        },
+        "scheduledDistance": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "The scheduled distance of the race in kilometers."
+        },
+        "driversChampionshipDecider": {
+          "type": "boolean",
+          "default": "false",
+          "description": "Whether the race was the decider of the World Drivers' Championship."
+        },
+        "constructorsChampionshipDecider": {
+          "type": "boolean",
+          "default": "false",
+          "description": "Whether the race was the decider of the World Constructors' Championship."
+        },
+        "preQualifyingDate": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the pre-qualifying session in UTC."
+        },
+        "preQualifyingTime": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the pre-qualifying session in UTC."
+        },
+        "freePractice1Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 1st free practice session in UTC."
+        },
+        "freePractice1Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 1st free practice session in UTC."
+        },
+        "freePractice2Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 2nd free practice session in UTC."
+        },
+        "freePractice2Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 2nd free practice session in UTC."
+        },
+        "freePractice3Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 3rd free practice session in UTC."
+        },
+        "freePractice3Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 3rd free practice session in UTC."
+        },
+        "freePractice4Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 4th free practice session UTC."
+        },
+        "freePractice4Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 4th free practice session in UTC."
+        },
+        "qualifying1Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 1st qualifying session in UTC."
+        },
+        "qualifying1Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 1st qualifying session in UTC."
+        },
+        "qualifying2Date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the 2nd qualifying session UTC."
+        },
+        "qualifying2Time": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the 2nd qualifying session UTC."
+        },
+        "qualifyingDate": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the qualifying session UTC."
+        },
+        "qualifyingTime": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the qualifying session UTC."
+        },
+        "sprintQualifyingDate": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the sprint qualifying session in UTC."
+        },
+        "sprintQualifyingTime": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the sprint qualifying session in UTC."
+        },
+        "sprintRaceDate": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the sprint race in UTC."
+        },
+        "sprintRaceTime": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the sprint race in UTC."
+        },
+        "warmingUpDate": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date of the warming-up session in UTC."
+        },
+        "warmingUpTime": {
+          "type": ["string", "null"],
+          "minLength": 5,
+          "maxLength": 5,
+          "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+          "description": "The start time of the warming-up session in UTC."
+        }
+      },
+      "required": [
+        "id",
+        "year",
+        "round",
+        "date",
+        "time",
+        "grandPrixId",
+        "officialName",
+        "qualifyingFormat",
+        "sprintQualifyingFormat",
+        "circuitId",
+        "circuitLayoutId",
+        "circuitType",
+        "direction",
+        "courseLength",
+        "turns",
+        "laps",
+        "distance",
+        "scheduledLaps",
+        "scheduledDistance",
+        "driversChampionshipDecider",
+        "constructorsChampionshipDecider",
+        "preQualifyingDate",
+        "preQualifyingTime",
+        "freePractice1Date",
+        "freePractice1Time",
+        "freePractice2Date",
+        "freePractice2Time",
+        "freePractice3Date",
+        "freePractice3Time",
+        "freePractice4Date",
+        "freePractice4Time",
+        "qualifying1Date",
+        "qualifying1Time",
+        "qualifying2Date",
+        "qualifying2Time",
+        "qualifyingDate",
+        "qualifyingTime",
+        "sprintQualifyingDate",
+        "sprintQualifyingTime",
+        "sprintRaceDate",
+        "sprintRaceTime",
+        "warmingUpDate",
+        "warmingUpTime"
+      ]
+    },
+    "CircuitType": {
+      "type": "string",
+      "enum": [
+        "RACE",
+        "ROAD",
+        "STREET"
+      ],
+      "description": "The circuit type."
+    },
+    "Direction": {
+      "type": "string",
+      "enum": [
+        "CLOCKWISE",
+        "ANTI_CLOCKWISE"
+      ],
+      "description": "The circuit direction."
+    },
+    "QualifyingFormat": {
+      "type": "string",
+      "enum": [
+        "FOUR_LAPS",
+        "TWO_SESSION",
+        "ONE_SESSION",
+        "ONE_LAP",
+        "AGGREGATE",
+        "KNOCKOUT",
+        "ELIMINATION",
+        "SPRINT_RACE"
+      ],
+      "description": "The qualifying format."
+    },
+    "SprintQualifyingFormat": {
+      "type": ["string", "null"],
+      "enum": [
+        "SPRINT_SHOOTOUT",
+        null
+      ],
+      "description": "The sprint qualifying format."
+    }
+  }
+}

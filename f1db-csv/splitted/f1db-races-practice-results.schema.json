@@ -1,0 +1,117 @@
+{
+  "$id": "https://www.f1db.com/schema/v6.4.0/splitted/f1db-races-practice-results.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "F1DB",
+  "description": "F1DB Races Practice Results JSON Schema",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/PracticeResult"
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "PracticeResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "raceId": {
+          "type": "integer",
+          "description": "The identifier of the race."
+        },
+        "year": {
+          "type": "integer",
+          "description": "The year of the season."
+        },
+        "round": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The round number of the race in the season."
+        },
+        "positionDisplayOrder": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The display order of the driver's position in the practice session."
+        },
+        "positionNumber": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "The numerical position of the driver in the practice session."
+        },
+        "positionText": {
+          "type": "string",
+          "pattern": "^[0-9]+|DNP|DNPQ|DNQ|DNS|DNF|NC|DSQ|EX|PL$",
+          "description": "The textual representation of the driver's position in the practice session, including special statuses."
+        },
+        "driverNumber": {
+          "type": "string",
+          "pattern": "^[0-9]+$",
+          "description": "The car number of the driver."
+        },
+        "driverId": {
+          "type": "string",
+          "description": "The identifier of the driver."
+        },
+        "constructorId": {
+          "type": "string",
+          "description": "The identifier of the constructor."
+        },
+        "engineManufacturerId": {
+          "type": "string",
+          "description": "The identifier of the engine manufacturer."
+        },
+        "tyreManufacturerId": {
+          "type": "string",
+          "description": "The identifier of the tyre manufacturer."
+        },
+        "time": {
+          "type": ["string", "null"],
+          "description": "The lap time recorded for the driver during the practice session."
+        },
+        "timeMillis": {
+          "type": ["integer", "null"],
+          "description": "The lap time in milliseconds."
+        },
+        "gap": {
+          "type": ["string", "null"],
+          "description": "The gap between the driver and the leader."
+        },
+        "gapMillis": {
+          "type": ["integer", "null"],
+          "description": "The gap in milliseconds."
+        },
+        "interval": {
+          "type": ["string", "null"],
+          "description": "The interval between the driver and the car ahead."
+        },
+        "intervalMillis": {
+          "type": ["integer", "null"],
+          "description": "The interval in milliseconds."
+        },
+        "laps": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "The number of laps completed by the driver during the practice session."
+        }
+      },
+      "required": [
+        "raceId",
+        "year",
+        "round",
+        "positionDisplayOrder",
+        "positionNumber",
+        "positionText",
+        "driverNumber",
+        "driverId",
+        "constructorId",
+        "engineManufacturerId",
+        "tyreManufacturerId",
+        "time",
+        "timeMillis",
+        "gap",
+        "gapMillis",
+        "interval",
+        "intervalMillis",
+        "laps"
+      ]
+    }
+  }
+}

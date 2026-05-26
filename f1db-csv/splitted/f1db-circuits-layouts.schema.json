@@ -1,0 +1,49 @@
+{
+  "$id": "https://www.f1db.com/schema/v6.4.0/splitted/f1db-circuits-layouts.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "F1DB",
+  "description": "F1DB Circuits Layouts JSON Schema",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/CircuitLayout"
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "CircuitLayout": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The unique identifier of the circuit layout."
+        },
+        "circuitId": {
+          "type": "string",
+          "description": "The identifier of the circuit associated with the circuit layout."
+        },
+        "effective": {
+          "type": "boolean",
+          "default": "false",
+          "description": "Whether the layout is the current or most recently used layout."
+        },
+        "length": {
+          "type": "number",
+          "minimum": 0,
+          "description": "The length of the circuit layout in kilometers."
+        },
+        "turns": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The number of turns (corners) in the circuit layout."
+        }
+      },
+      "required": [
+        "id",
+        "circuitId",
+        "effective",
+        "length",
+        "turns"
+      ]
+    }
+  }
+}
