@@ -16,6 +16,8 @@ from pathlib import Path
 
 import kagglehub
 
+import convert_vsc
+
 
 def download_dataset(dataset_path: str, target_dir: Path) -> bool:
     """
@@ -149,6 +151,18 @@ def main():
         return 1
 
     print(f"\nFound {len(data_files)} file(s) in data directory")
+
+    # Convert virtual safety car estimates JSON to CSV
+    vsc_json = data_dir / "virtual_safety_car_estimates.json"
+    vsc_csv = data_dir / "virtual_safety_cars.csv"
+    if vsc_json.exists():
+        try:
+            convert_vsc.convert_vsc_json_to_csv(vsc_json, vsc_csv)
+            print(f"✓ Converted {vsc_json.name} -> {vsc_csv.name}")
+        except Exception as e:
+            print(f"✗ Error converting virtual safety car estimates: {e}")
+    else:
+        print(f"ℹ️ {vsc_json.name} not found, skipping VSC conversion")
 
     # Create zip archive
     if create_zip_archive(data_dir, zip_file):

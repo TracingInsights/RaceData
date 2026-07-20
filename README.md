@@ -387,6 +387,17 @@ This file contains information about the finishing status of a driver in a race.
 | `statusId` | Unique identifier for each status |
 | `status` | A description of the finishing status |
 
+### `virtual_safety_cars.csv`
+
+This file contains information about virtual safety car periods during races.
+
+| Column | Description |
+|---|---|
+| `Race` | The name of the race |
+| `Deployed` | The lap number when the virtual safety car was deployed |
+| `Retreated` | The lap number when the virtual safety car retreated |
+| `FullLaps` | The number of full laps the virtual safety car was on track |
+
 ### `virtual_safety_car_estimates.json`
 
 This file contains estimates of virtual safety car periods in races. The keys are the race names and the values are a list of lap numbers where a virtual safety car was active.
