@@ -99,8 +99,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Generate tag name based on current date
-          TAG_NAME="data-$(date -u +%Y-%m-%d)"
+          # Generate tag name based on commit SHA 
+          TAG_NAME="data-$(git rev-parse --short HEAD)"
           RELEASE_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
           # Create release with the zip file
