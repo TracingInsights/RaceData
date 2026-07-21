@@ -1154,7 +1154,7 @@ raceId,year,round,circuitId,name,date,time,url,fp1_date,fp1_time,fp2_date,fp2_ti
 1172,2026,4,79,"Miami Grand Prix","2026-05-03","20:00:00","https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix",2026-05-01,16:30:00,\N,\N,\N,\N,2026-05-02,20:00:00,2026-05-02,16:00:00
 1173,2026,5,7,"Canadian Grand Prix","2026-05-24","20:00:00","https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix",2026-05-22,16:30:00,\N,\N,\N,\N,2026-05-23,20:00:00,2026-05-23,16:00:00
 1174,2026,6,6,"Monaco Grand Prix","2026-06-07","13:00:00","https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix",2026-06-05,11:30:00,2026-06-05,15:00:00,2026-06-06,10:30:00,2026-06-06,14:00:00,\N,\N
-1175,2026,7,4,"Barcelona Grand Prix","2026-06-14","13:00:00","https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya",2026-06-12,11:30:00,2026-06-12,15:00:00,2026-06-13,10:30:00,2026-06-13,14:00:00,\N,\N
+1175,2026,7,4,"Barcelona-Catalunya Grand Prix","2026-06-14","13:00:00","https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya_Grand_Prix",2026-06-12,11:30:00,2026-06-12,15:00:00,2026-06-13,10:30:00,2026-06-13,14:00:00,\N,\N
 1176,2026,8,70,"Austrian Grand Prix","2026-06-28","13:00:00","https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix",2026-06-26,11:30:00,2026-06-26,15:00:00,2026-06-27,10:30:00,2026-06-27,14:00:00,\N,\N
 1177,2026,9,9,"British Grand Prix","2026-07-05","14:00:00","https://en.wikipedia.org/wiki/2026_British_Grand_Prix",2026-07-03,11:30:00,\N,\N,\N,\N,2026-07-04,15:00:00,2026-07-04,11:00:00
 1178,2026,10,13,"Belgian Grand Prix","2026-07-19","13:00:00","https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix",2026-07-17,11:30:00,2026-07-17,15:00:00,2026-07-18,10:30:00,2026-07-18,14:00:00,\N,\N
