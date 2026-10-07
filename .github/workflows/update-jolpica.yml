@@ -1,25 +1,41 @@
-name: Update F1 Datasets
+name: Update F1 Datasets (Jolpica)
+
+# The Kaggle datasets (see update-kaggle.yml) are published with a delay.
+# Jolpica (https://jolpi.ca) — the community successor of the Ergast F1 API —
+# is updated shortly after each session, so this workflow runs on its own
+# (faster) schedule to top up data/ with the latest races.
+#
+# It is also dispatched by update-kaggle.yml (with source=kaggle) right
+# after the Kaggle download is committed: the Kaggle download overwrites
+# data/ wholesale, so this run re-applies the latest results on top and
+# publishes the GitHub Release for the refreshed snapshot.
 
 on:
-  # Run every Sunday at 11 PM IST (5:30 PM UTC)
   schedule:
-    - cron: '30 2 27 10 *'
-
-  # Allow manual trigger
+    # # Daily refresh at 03:00 UTC
+    # - cron: '0 3 * * *'
+    # # Extra evening run on Sundays to catch results shortly after the race
+    # - cron: '0 19 * * 0'
   workflow_dispatch:
+    inputs:
+      source:
+        description: "What initiated this run (a 'kaggle' source publishes a GitHub Release)"
+        type: choice
+        default: manual
+        options:
+          - manual
+          - kaggle
 
 permissions:
   contents: write
 
 jobs:
-  update-datasets:
+  update-from-jolpica:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
 
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.2
@@ -35,25 +51,14 @@ jobs:
         run: |
           uv sync --frozen
 
-      - name: Create Kaggle credentials
-        env:
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      - name: Update recent races from Jolpica API
+        # Refreshes results/qualifying/sprints/lap times/pit stops/standings
+        # for any races missing from the data folder and for races held
+        # within the last JOLPICA_REFRESH_DAYS (default 7) days.
+        # No credentials needed — the public API is rate-limit throttled
+        # inside the script.
         run: |
-          mkdir -p ~/.kaggle
-          echo "{\"username\":\"$KAGGLE_USERNAME\",\"key\":\"$KAGGLE_KEY\"}" > ~/.kaggle/kaggle.json
-          chmod 600 ~/.kaggle/kaggle.json
-
-      - name: Download datasets and create zip
-        run: |
-          uv run python download_datasets.py
-        env:
-          COMMIT_DATE: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-
-      - name: Convert virtual safety car estimates to CSV
-        # Conversion is also performed before the data.zip is built inside
-        # download_datasets.py; this step ensures the CSV is current for commit.
-        run: uv run python convert_vsc.py
+          uv run python update_from_jolpica.py
 
       - name: Check for changes
         id: check_changes
@@ -73,9 +78,9 @@ jobs:
         if: steps.check_changes.outputs.changes == 'true'
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_REPO_ID: "tracinginsights/test"
-          COMMIT_DATE: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          HF_REPO_ID: ${{ vars.HF_REPO_ID || 'tracinginsights/test' }}
         run: |
+          export COMMIT_DATE="$(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           uv run python upload_to_hf.py
 
       - name: Commit and push changes
@@ -87,19 +92,25 @@ jobs:
           # Get current date for commit message
           COMMIT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
-          git commit -m "chore: update F1 datasets - $COMMIT_DATE" \
-                     -m "Automated update of Formula 1 datasets from Kaggle" \
-                     -m "- formula-1-race-data" \
-                     -m "- formula-1-race-events"
+          git commit -m "chore: update F1 datasets from Jolpica - $COMMIT_DATE" \
+                     -m "Automated update of recent Formula 1 races from the Jolpica API (https://jolpi.ca)"
 
+          # Reconcile with anything pushed in the meantime (e.g. the Kaggle
+          # workflow) before pushing
+          git pull --rebase
           git push
 
       - name: Create GitHub Release
-        if: steps.check_changes.outputs.changes == 'true'
+        # Releases are published only when this run is a follow-up to the
+        # Kaggle sync (dispatched with source=kaggle by update-kaggle.yml).
+        # At this point data.zip contains the fresh Kaggle snapshot topped
+        # up with the latest Jolpica results — exactly the artifact the
+        # release should ship.
+        if: github.event_name == 'workflow_dispatch' && inputs.source == 'kaggle'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Generate tag name based on commit SHA 
+          # Generate tag name based on commit SHA
           TAG_NAME="data-$(git rev-parse --short HEAD)"
           RELEASE_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
@@ -113,6 +124,8 @@ jobs:
           This release contains the latest Formula 1 race data from Kaggle datasets:
           - formula-1-race-data (jtrotman/formula-1-race-data)
           - formula-1-race-events (jtrotman/formula-1-race-events)
+
+          Topped up with the latest rounds from the Jolpica API (https://jolpi.ca).
 
           **Download:** Use the \`data.zip\` file below to get all datasets in one archive.
 
