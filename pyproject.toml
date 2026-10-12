@@ -7,5 +7,5 @@ requires-python = ">=3.11,<3.12"
 dependencies = [
     "kagglehub==0.3.13",
     "huggingface-hub==0.35.3",
-    "requests==2.32.5",
+    "requests==2.33.0",
 ]
