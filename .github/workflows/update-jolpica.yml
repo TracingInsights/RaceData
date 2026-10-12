@@ -11,7 +11,9 @@ name: Update F1 Datasets (Jolpica)
 # publishes the GitHub Release for the refreshed snapshot.
 
 on:
-  schedule:
+  # Re-enable the schedule by uncommenting `schedule:` together with at least
+  # one cron entry — an empty `schedule:` key makes the workflow invalid.
+  # schedule:
     # # Daily refresh at 03:00 UTC
     # - cron: '0 3 * * *'
     # # Extra evening run on Sundays to catch results shortly after the race
