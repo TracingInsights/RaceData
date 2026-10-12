@@ -11,7 +11,9 @@ name: Update F1 Datasets (Kaggle)
 
 on:
   # Run every Sunday at 11 PM IST (5:30 PM UTC)
-  schedule:
+  # Re-enable by uncommenting `schedule:` together with the cron entry — an
+  # empty `schedule:` key makes the workflow invalid.
+  # schedule:
     # - cron: '30 17 * * 0'
 
   # Allow manual trigger
