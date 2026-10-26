@@ -15,8 +15,55 @@ import zipfile
 from pathlib import Path
 
 import kagglehub
+import requests
 
 import convert_vsc
+
+KAGGLE_API = "https://www.kaggle.com/api/v1"
+
+# How many older versions to try when the latest one cannot be downloaded
+MAX_FALLBACK_VERSIONS = 3
+
+
+def get_fallback_versions(dataset_path: str) -> list[int]:
+    """
+    Return the dataset's previous version numbers, newest first.
+
+    Kaggle sometimes lists a freshly published version before its files are
+    downloadable (404 "No gcs url found"), so older versions are tried instead.
+    """
+    response = requests.get(f"{KAGGLE_API}/datasets/view/{dataset_path}", timeout=30)
+    response.raise_for_status()
+    info = response.json()
+    current = info.get("currentVersionNumber")
+    versions = sorted(
+        (
+            v["versionNumber"]
+            for v in info.get("versions", [])
+            if v.get("status") == "Ready" and v.get("versionNumber") != current
+        ),
+        reverse=True,
+    )
+    return versions[:MAX_FALLBACK_VERSIONS]
+
+
+def download_with_fallback(dataset_path: str) -> str:
+    """Download the latest dataset version, falling back to older ones."""
+    try:
+        return kagglehub.dataset_download(dataset_path)
+    except Exception as e:
+        print(f"⚠️ Latest version of {dataset_path} unavailable: {e}")
+        last_error = e
+
+    for version in get_fallback_versions(dataset_path):
+        print(f"  Trying {dataset_path} version {version}")
+        try:
+            return kagglehub.dataset_download(f"{dataset_path}/versions/{version}")
+        except Exception as e:
+            print(f"  ⚠️ Version {version} unavailable: {e}")
+            last_error = e
+
+    raise last_error
 
 
 def download_dataset(dataset_path: str, target_dir: Path) -> bool:
@@ -36,7 +83,7 @@ def download_dataset(dataset_path: str, target_dir: Path) -> bool:
 
     try:
         # Download using kagglehub (downloads to cache)
-        download_path = kagglehub.dataset_download(dataset_path)
+        download_path = download_with_fallback(dataset_path)
         print(f"✓ Downloaded to cache: {download_path}")
 
         # Copy files from cache to target directory
