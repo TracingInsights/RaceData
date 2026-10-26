@@ -15,47 +15,102 @@ import zipfile
 from pathlib import Path
 
 import kagglehub
-import requests
+from kagglehub.clients import build_kaggle_client
+from kagglesdk.datasets.types.dataset_api_service import (
+    ApiGetDatasetRequest,
+    ApiListDatasetFilesRequest,
+)
 
 import convert_vsc
-
-KAGGLE_API = "https://www.kaggle.com/api/v1"
 
 # How many older versions to try when the latest one cannot be downloaded
 MAX_FALLBACK_VERSIONS = 3
 
 
-def get_fallback_versions(dataset_path: str) -> list[int]:
-    """
-    Return the dataset's previous version numbers, newest first.
+def get_dataset_versions(dataset_path: str) -> tuple[int, list[int]]:
+    """Return the current version number and older Ready versions, newest first."""
+    owner, slug = dataset_path.split("/")
+    request = ApiGetDatasetRequest()
+    request.owner_slug = owner
+    request.dataset_slug = slug
+    with build_kaggle_client() as client:
+        dataset = client.datasets.dataset_api_client.get_dataset(request)
 
-    Kaggle sometimes lists a freshly published version before its files are
-    downloadable (404 "No gcs url found"), so older versions are tried instead.
-    """
-    response = requests.get(f"{KAGGLE_API}/datasets/view/{dataset_path}", timeout=30)
-    response.raise_for_status()
-    info = response.json()
-    current = info.get("currentVersionNumber")
-    versions = sorted(
+    current = dataset.current_version_number
+    older = sorted(
         (
-            v["versionNumber"]
-            for v in info.get("versions", [])
-            if v.get("status") == "Ready" and v.get("versionNumber") != current
+            v.version_number
+            for v in dataset.versions or []
+            if v.status == "Ready" and v.version_number != current
         ),
         reverse=True,
     )
-    return versions[:MAX_FALLBACK_VERSIONS]
+    return current, older
+
+
+def list_dataset_files(dataset_path: str, version: int) -> list[str]:
+    """Return the names of all files in a dataset version."""
+    owner, slug = dataset_path.split("/")
+    names = []
+    page_token = None
+    with build_kaggle_client() as client:
+        while True:
+            request = ApiListDatasetFilesRequest()
+            request.owner_slug = owner
+            request.dataset_slug = slug
+            request.dataset_version_number = version
+            if page_token:
+                request.page_token = page_token
+            response = client.datasets.dataset_api_client.list_dataset_files(request)
+            names.extend(f.name for f in response.dataset_files or [])
+            page_token = response.next_page_token
+            if not page_token:
+                return names
+
+
+def download_files_individually(dataset_path: str, version: int) -> str:
+    """
+    Download every file of a dataset version one by one.
+
+    Kaggle builds the whole-version zip asynchronously, so a freshly published
+    version can 404 ("No gcs url found") while its individual files are
+    already downloadable.
+    """
+    names = list_dataset_files(dataset_path, version)
+    if not names:
+        raise RuntimeError(f"No files listed for {dataset_path} version {version}")
+
+    version_dir = None
+    for name in names:
+        file_path = Path(
+            kagglehub.dataset_download(f"{dataset_path}/versions/{version}", path=name)
+        )
+        version_dir = file_path.parents[len(Path(name).parts) - 1]
+    return str(version_dir)
 
 
 def download_with_fallback(dataset_path: str) -> str:
-    """Download the latest dataset version, falling back to older ones."""
+    """
+    Download the latest dataset version.
+
+    Falls back to downloading its files individually, then to older versions.
+    """
     try:
         return kagglehub.dataset_download(dataset_path)
     except Exception as e:
-        print(f"⚠️ Latest version of {dataset_path} unavailable: {e}")
+        print(f"⚠️ Latest version of {dataset_path} unavailable as a zip: {e}")
         last_error = e
 
-    for version in get_fallback_versions(dataset_path):
+    current, older = get_dataset_versions(dataset_path)
+
+    print(f"  Downloading {dataset_path} version {current} file by file")
+    try:
+        return download_files_individually(dataset_path, current)
+    except Exception as e:
+        print(f"  ⚠️ Version {current} files unavailable: {e}")
+        last_error = e
+
+    for version in older[:MAX_FALLBACK_VERSIONS]:
         print(f"  Trying {dataset_path} version {version}")
         try:
             return kagglehub.dataset_download(f"{dataset_path}/versions/{version}")

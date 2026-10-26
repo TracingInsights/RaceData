@@ -5,7 +5,8 @@ description = "This dataset contains data from 1950 all the way through the curr
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
-    "kagglehub==0.3.13",
-    "huggingface-hub==0.35.3",
-    "requests==2.32.5",
+    "kagglehub==1.0.3",
+    "kagglesdk==0.1.38",
+    "huggingface-hub==2.3.0",
+    "requests==2.34.2",
 ]
